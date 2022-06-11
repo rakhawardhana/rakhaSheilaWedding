@@ -35,15 +35,15 @@
       <div class="flex flex-wrap -mx-2 mb-8 mt-8">
         <div class="w-full md:w-1/2 lg:w-1/2 px-2 mb-4">
           <div class="text-sm text-grey-dark text-right">
-              <h1>Millia Anita Bob Hernoto, S.H., MBA, LL.M.</h1>
-              <p>Daughter of Bob Hernoto, MBA</p>
+              <h1>Rakha Gusti Wardhana S.Kesos</h1>
+              <p>Son of Agus Wardhana S.E</p>
               <p>&</p>
-              <p>late Umiriyanti Suryohadiprojo</p>
+              <p>Agustina S.E</p>
           </div>
         </div>
         <div class="w-full lg:w-1/2 px-2">
           <div class="flex justify-center text-center">
-          <img data-aos="zoom-in" data-aos-delay="500" class="rounded w-full sm:w-1/2 lg:w-1/2 h-auto shadow-2xl" src="https://images.unsplash.com/photo-1584967918940-a7d51b064268?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="Book on top of a  map. A camera, magnifiying glass and coffee next to the book" />
+          <img data-aos="zoom-in" data-aos-delay="500" class="rounded w-full sm:w-1/2 lg:w-1/2 h-auto shadow-2xl" src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" alt="Book on top of a  map. A camera, magnifiying glass and coffee next to the book" />
           </div>
         </div>
       </div>
@@ -53,15 +53,15 @@
       <div class="flex flex-wrap -mx-2 mb-8 mt-8">
         <div class="w-full lg:w-1/2 px-2">
           <div class="flex justify-center text-center">
-          <img class="rounded w-full sm:w-1/2 lg:w-1/2 h-auto shadow-2xl" src="https://images.unsplash.com/photo-1584967918940-a7d51b064268?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="Book on top of a  map. A camera, magnifiying glass and coffee next to the book" />
+          <img class="rounded w-full sm:w-1/2 lg:w-1/2 h-auto shadow-2xl" src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" alt="Book on top of a  map. A camera, magnifiying glass and coffee next to the book" />
           </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/2 px-2 mb-4">
           <div class="text-sm text-grey-dark text-left">
-              <h1>Millia Anita Bob Hernoto, S.H., MBA, LL.M.</h1>
-              <p>Daughter of Bob Hernoto, MBA</p>
+              <h1>Sheila Jasmine Meutia Azzara S.Sos</h1>
+              <p>Daughter of Ahmad Jani Subhan Maliki</p>
               <p>&</p>
-              <p>late Umiriyanti Suryohadiprojo</p>
+              <p>Dwi Rosaline Febrina</p>
           </div>
         </div>
       </div>
@@ -69,33 +69,33 @@
     <section id="main3" class="w-full p-32 bg-center text-center huhu main-3 hidden">
       <div class="our-story">
         <h1>Our Story</h1>
-        <img class="rounded w-full sm:w-1/2 lg:w-1/2 h-auto shadow-2xl mx-auto" src="https://images.unsplash.com/photo-1584967918940-a7d51b064268?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="Book on top of a  map. A camera, magnifiying glass and coffee next to the book" />
-        <img class="rounded w-full sm:w-1/2 lg:w-1/2 h-auto shadow-2xl mx-auto" src="https://images.unsplash.com/photo-1584967918940-a7d51b064268?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="Book on top of a  map. A camera, magnifiying glass and coffee next to the book" />
+        <img class="rounded w-full sm:w-1/2 lg:w-1/2 h-auto shadow-2xl mx-auto" src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" alt="Book on top of a  map. A camera, magnifiying glass and coffee next to the book" />
+        <img class="rounded w-full sm:w-1/2 lg:w-1/2 h-auto shadow-2xl mx-auto" src="~assets/Timi Self Photo Studio Jakarta - Depok-6.jpg" alt="Book on top of a  map. A camera, magnifiying glass and coffee next to the book" />
         <p>New Years 2000</p>
-        <img class="rounded w-full sm:w-1/2 lg:w-1/2 h-auto shadow-2xl mx-auto" src="https://images.unsplash.com/photo-1584967918940-a7d51b064268?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="Book on top of a  map. A camera, magnifiying glass and coffee next to the book" />
-        <p>Aswin's Family Event 2003</p>
-        <img class="rounded w-full sm:w-1/2 lg:w-1/2 h-auto shadow-2xl mx-auto" src="https://images.unsplash.com/photo-1584967918940-a7d51b064268?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="Book on top of a  map. A camera, magnifiying glass and coffee next to the book" />
-        <p>Groom, Mother of the Groom and Father of the Bride (far right) in a friends and family soiree in 2011</p>
-        <p>We unconsciously met many years ago when our paths crossed through our parents and family. We both know each other’s family very well, too well. Our family bonded through our grandparents, parents, aunts and uncles, cousins and even our siblings. We however, became total strangers growing up until our re-introduction in late 2020 and began dating shortly after. It took us less than a month in to know that this is it. </p>
-        <p>Our love story is one of a kind. The kind of love that finds you when you least expect them. The kind of love that gives you comfort in a blink as if you’ve known this person for years. The kind of love that makes you be a better you. And most importantly, the kind of love that makes you thank God everyday that everything ended up this way.</p>
-        <p>Long story short, we’re glad that we get to connect the missing puzzles that our families have been searching for. And most of all, we’re glad that we can share this very special day with all of you. </p>
-        <p>Love,</p>
-        <p>Aswin & Mia</p>
+        <img class="rounded w-full sm:w-1/2 lg:w-1/2 h-auto shadow-2xl mx-auto" src="~assets/Timi Self Photo Studio Jakarta - Depok.jpg" alt="Book on top of a  map. A camera, magnifiying glass and coffee next to the book" />
+        <p>Rakha Love Sheila</p>
+        <img class="rounded w-full sm:w-1/2 lg:w-1/2 h-auto shadow-2xl mx-auto" src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" alt="Book on top of a  map. A camera, magnifiying glass and coffee next to the book" />
+        <p>Ganteng Beud</p>
+        <p>Ganteng Beud</p>
+        <p>Ganteng Beud</p>
+        <p>Ganteng Beud</p>
+        <p>Ganteng Beud</p>
+        <p>Rakha & Sheila</p>
       </div>
     </section>
     <section id="main4" class="w-full p-32 bg-center text-center hoho main-3 hidden">
       <div class="flex flex-wrap -mx-2 mb-8 mt-8">
         <div class="w-full lg:w-1/2 px-2">
           <div class="flex justify-center text-center">
-          <img @click="toggleModal" class="rounded w-full sm:w-1/2 lg:w-1/2 h-auto shadow-2xl" src="https://images.unsplash.com/photo-1584967918940-a7d51b064268?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="Book on top of a  map. A camera, magnifiying glass and coffee next to the book" />
+          <img @click="toggleModal" class="rounded w-full sm:w-1/2 lg:w-1/2 h-auto shadow-2xl" src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" alt="Book on top of a  map. A camera, magnifiying glass and coffee next to the book" />
           </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/2 px-2 mb-4" style="align-self: center;">
           <div class="text-sm text-grey-dark">
-              <h1>Millia Anita Bob Hernoto, S.H., MBA, LL.M.</h1>
-              <p>Daughter of Bob Hernoto, MBA</p>
+              <h1>Rakha Gusti Wardhana S.Kesos</h1>
+              <p>Son of Agus Wardhana S.E</p>
               <p>&</p>
-              <p>late Umiriyanti Suryohadiprojo</p>
+              <p>Agustina S.E</p>
               <button @click="toggleModal" class="py-3 px-8 bg-gray-400 hover:bg-gray-300 text-gray-800 hover:text-gray-900 rounded-lg hover:shadow-xl transition duration-300">See details</button>
           </div>
         </div>
@@ -195,30 +195,30 @@ export default {
 </script>
 <style>
 .bg-dunes {
-  background-image: url('https://cdn.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:ce/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2JhY2tncm91bmQvNTYwNjk1NjUtNjE0OWYyMmE5N2FkMC0xNjMyMjM2MDc0LmpwZw.webp');
+  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
   background-size: cover;
 }
 
 .bgbg {
-  background-image: url('https://images.unsplash.com/photo-1509315047084-af74f1192bee');
+  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
 }
 .hehe {
-  background-image: url('https://cdn.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:ce/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2JhY2tncm91bmQvOWxuQmoyRTUyS09jeXZGdnhHSXpoRHdOZVZUTWYxUEpQbFZnVXNmNi5qcGVn.webp');
+  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
   background-size: cover;
 }
 
 .huhu{
-  background-image: url('https://cdn.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:ce/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2JhY2tncm91bmQvTmZydDN3aGhwNVdjbHhJTkNiVnY5eVlrWTUzRFg4b3JOTU5qR1dDeC5qcGVn.webp');
+  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
   background-size: cover;
 }
 
 .hoho{
-  background-image: url('https://cdn.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:ce/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2JhY2tncm91bmQvSGd1VFhWdkxsTUtEQWs4aFBDNzZ0Vms0cEx0aDNlTGVtZ29CREtyZi5qcGVn.webp');
+  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
   background-size: cover;
 }
 
 .haha{
-  background-image: url('https://cdn.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:ce/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2JhY2tncm91bmQvSGd1VFhWdkxsTUtEQWs4aFBDNzZ0Vms0cEx0aDNlTGVtZ29CREtyZi5qcGVn.webp');
+  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
   background-size: cover;
 }
 
