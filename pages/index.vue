@@ -282,25 +282,25 @@ export default {
 /* } */
 
 .bg-dunes {
-  background-image: url('https://cdn.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:ce/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2JhY2tncm91bmQvNTYwNjk1NjUtNjE0OWYyMmE5N2FkMC0xNjMyMjM2MDc0LmpwZw.webp');
+  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
   background-size: cover;
 }
 
 .bgbg {
-  background-image: url('https://images.unsplash.com/photo-1509315047084-af74f1192bee');
+  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
 }
 .hehe {
-  background-image: url('https://cdn.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:ce/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2JhY2tncm91bmQvOWxuQmoyRTUyS09jeXZGdnhHSXpoRHdOZVZUTWYxUEpQbFZnVXNmNi5qcGVn.webp');
+  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
   background-size: cover;
 }
 
 .huhu{
-  background-image: url('https://cdn.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:ce/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2JhY2tncm91bmQvTmZydDN3aGhwNVdjbHhJTkNiVnY5eVlrWTUzRFg4b3JOTU5qR1dDeC5qcGVn.webp');
+  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
   background-size: cover;
 }
 
 .hoho{
-  background-image: url('https://cdn.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:ce/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2JhY2tncm91bmQvSGd1VFhWdkxsTUtEQWs4aFBDNzZ0Vms0cEx0aDNlTGVtZ29CREtyZi5qcGVn.webp');
+  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
   background-size: cover;
 }
 
