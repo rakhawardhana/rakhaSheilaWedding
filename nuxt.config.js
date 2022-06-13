@@ -25,6 +25,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     {src: "~/plugins/aos", ssr: false, mode: "client"},
+    {src: "~/plugins/vue-carousel-3d", ssr: false, mode: "client"},
   ],
   purgeCSS: {
     whitelist: ["aos-init", "aos-animate", "data-aos-delay", "data-aos-duration", "fade-up", "zoom-in"],
