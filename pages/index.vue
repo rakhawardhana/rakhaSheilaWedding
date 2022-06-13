@@ -1,6 +1,6 @@
 <template>
   <div class="wedding-invitation-rakha-sheila">
-  <section id="modal" class="relative main-2 h-screen w-full flex items-center justify-center text-center bg-cover bg-center" style="background-image:url(https://cdn.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:ce/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2JhY2tncm91bmQvNTYwNjk1NjUtNjE0OWYyMmE5N2FkMC0xNjMyMjM2MDc0LmpwZw.webp);">
+  <section id="modal" class="relative main-2 h-screen w-full flex items-center justify-center text-center bg-cover bg-center" >
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-800 opacity-75"></div>
     <main class="px-4 sm:px-6 lg:px-8 z-10">
       <div class="text-center">
@@ -30,7 +30,7 @@
     <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1643004937711/k3NMskkSn.png" width="50" alt="Daily Dev Tips Logo" />
   </header> -->
 
-  <section id="main" class="hidden relative main-1 h-screen w-full flex items-center justify-center text-center bg-cover bg-center" style="background-image:url(https://cdn.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:ce/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2JhY2tncm91bmQvNTYwNjk1NjUtNjE0OWYyMmE5N2FkMC0xNjMyMjM2MDc0LmpwZw.webp);">
+  <section id="main" class="hidden relative main-1 h-screen w-full flex items-center justify-center text-center bg-cover bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-800 opacity-75"></div>
       <div class="px-4 sm:px-6 lg:px-8 z-10">
       <div class="text-center">
@@ -43,7 +43,7 @@
           <span class="text-bottom">Sheila</span>
         </div>
         <no-ssr>
-          <flip-countdown deadline="2022-12-25 00:00:00"></flip-countdown>
+          <flip-countdown deadline="2022-08-06 00:00:00"></flip-countdown>
         </no-ssr>
         <div class="mt-5 sm:mt-8 sm:flex justify-center">
           <div class="rounded-md shadow">
@@ -74,16 +74,16 @@
       </div>
       <div class="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none">
           <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
-              Millia Anita Bob Hernoto, S.H., MBA, LL.M.
+              Rakha Gusti Wardhana S.Kesos
           </h2>
           <p class="pt-4 pb-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-              Daughter of Bob Hernoto, MBA
+              Daughter of Agus Wardhana S.E
           </p>
           <p class="p-0 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
               &
           </p>
           <p class="pt-2 pb-4 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-              late Umiriyanti Suryohadiprojo
+              Agustina S.E
           </p>
       </div>
     </div>
@@ -91,16 +91,16 @@
     <div class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
       <div class="box-border w-full text-right text-black border-solid md:w-1/2 md:pl-6 xl:pl-32">
           <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
-              Millia Anita Bob Hernoto, S.H., MBA, LL.M.
+              Sheila Jasmine Meutia Azzara S.Sos
           </h2>
           <p class="pt-4 pb-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
-              Daughter of Bob Hernoto, MBA
+              Daughter of Ahmad Jani Subhan Maliki
           </p>
           <p class="p-0 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
               &
           </p>
           <p class="pt-2 pb-4 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
-              late Umiriyanti Suryohadiprojo
+              Dr. Dwi Rosaline Febrina
           </p>
       </div>
       <div class="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
@@ -173,7 +173,7 @@
         </div>
         <div class="p-4 md:w-1/3">
           <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-              <a href="/rsvp" class="py-2 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto"><i class="fas fa-times"></i> RSVP</a>
+              <nuxt-link to="/rsvp" class="py-2 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto"><i class="fas fa-times"></i> RSVP</nuxt-link>
           </div>
         </div>
       </div>
@@ -271,6 +271,15 @@ export default {
 
 *{
   font-family: 'Merriweather';
+}
+
+#modal{
+  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
+}
+
+#main{
+  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
+  /* background-size: cover; */
 }
 
 /* .carousel-3d-container { */
