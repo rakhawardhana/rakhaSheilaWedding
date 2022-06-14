@@ -4,21 +4,24 @@
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-800 opacity-75"></div>
     <main class="px-4 sm:px-6 lg:px-8 z-10">
       <div class="text-center">
-        <h2 class="text-3xl tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-4xl">
-          WE INVITE YOU TO THE WEDDING OF
+        <h3 class="text-2xl mb-3 tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-3xl">
+          Untuk {Name} 
+        </h3>
+        <h2 class="text-2xl tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-4xl">
+          UNDANGAN PERNIKAHAN 
         </h2>
-        <div class="flex justify-center w-full mt-3 sm:mt-5 sm:text-md sm:max-w-xl sm:mx-auto md:mt-5 text-white">
-          <span class="text-top">Rakha</span>
-          <span class="text-middle">&</span>
-          <span class="text-bottom">Sheila</span>
+        <div class="flex justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:mt-5 text-white">
+          <span class="text-top text-2xl md:text-3xl">Rakha</span>
+          <span class="text-middle text-6xl md:text-8xl">&</span>
+          <span class="text-bottom text-2xl md:text-3xl">Sheila</span>
         </div>
         <div class="mt-5 sm:mt-8 sm:flex justify-center">
           <div class="rounded-md shadow">
             <button
-              class="border-2 hover:bg-white hover:text-black text-white border-white px-8 py-3 rounded-md"
+              class="border-2 text-md md:text-2xl hover:bg-white hover:text-black text-white border-white px-8 py-3 rounded-md"
               @click="onFirst"
             >
-              Open Invitation
+              Buka Undangan
             </button>
           </div>
         </div>
@@ -26,21 +29,17 @@
     </main>
   </section>
 
-  <!-- <header id="head" class="flex justify-center px-4 py-2 bg-transparent">
-    <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1643004937711/k3NMskkSn.png" width="50" alt="Daily Dev Tips Logo" />
-  </header> -->
-
   <section id="main" class="hidden relative main-1 h-screen w-full flex items-center justify-center text-center bg-cover bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-800 opacity-75"></div>
       <div class="px-4 sm:px-6 lg:px-8 z-10">
       <div class="text-center">
-        <h2 class="text-3xl tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-4xl">
-          WE INVITE YOU TO THE WEDDING OF
+        <h2 class="text-2xl tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-4xl">
+          KAMI MENGUNDANG ANDA MENGHADIRI ACARA PERNIKAHAN
         </h2>
         <div class="flex justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-5 text-white">
-          <span class="text-top">Rakha</span>
-          <span class="text-middle">&</span>
-          <span class="text-bottom">Sheila</span>
+          <span class="text-top text-2xl md:text-3xl">Rakha</span>
+          <span class="text-middle text-6xl md:text-8xl">&</span>
+          <span class="text-bottom text-2xl md:text-3xl">Sheila</span>
         </div>
         <no-ssr>
           <flip-countdown deadline="2022-08-06 00:00:00"></flip-countdown>
@@ -48,15 +47,15 @@
         <div class="mt-5 sm:mt-8 sm:flex justify-center">
           <div class="rounded-md shadow">
             <button
-              class="border-2 hover:bg-transparent bg-white hover:text-white text-black border-white px-10 py-3 rounded-md"
+              class="border-2 focus:bg-black bg-second hover:text-white text-black border-white px-8 md:px-10 py-3 rounded-md"
             >
             <div class="flex justify-center items-center relative">
-              <div>
+              <div class="mr-3">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              Remind me
+              Ingatkan Saya
               </div>
             </button>
           </div>
@@ -65,121 +64,94 @@
     </div>
   </section>
 
-  <section id="main2" class="hidden w-full bg-white pt-7 pb-7 md:pt-20 md:pb-24">
-    <h1 class="text-center text-xl leading-tight lg:text-3xl md:text-2xl">Rakha & Sheila</h1>
-    <p class="text-center">It is an honor for us if you would attend our wedding virtually and give blessings to the bride and the groom.</p>   
+  <section id="main2" class="hidden main-1 h-full relative w-full pt-7 pb-7 md:pt-20 md:pb-24 flex items-center justify-center bg-cover bg-center">
+    <p class="max-w-5xl mx-auto text-center text-md md:text-xl mb-5 md:mb-8  text-lato">Dengan kerendahan hati, kami mengundang Bapak/Ibu/Saudara/Saudari untuk menghadiri pernikahan kami dan memberikan restu kepada kedua mempelai</p>   
     <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
       <div class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
-          <img src="https://cdn.devdojo.com/images/december2020/productivity.png" class="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 ">
+          <img src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" class="max-h-96 mx-auto pl-6 pr-5 xl:pl-16 xl:pr-20 ">
       </div>
-      <div class="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none">
+      <div class="box-border order-first w-full text-center md:text-left text-black border-solid md:w-1/2 md:pl-10 md:order-none">
           <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
               Rakha Gusti Wardhana S.Kesos
           </h2>
-          <p class="pt-4 pb-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-              Daughter of Agus Wardhana S.E
+          <p class="pt-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+              Putra pertama dari Bapak Agus Wardhana, S.E.
           </p>
           <p class="p-0 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
               &
           </p>
-          <p class="pt-2 pb-4 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-              Agustina S.E
+          <p class="pb-4 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+              Ibu Agustina, S.E.
           </p>
       </div>
     </div>
-    <p class="text-center text-xl leading-tight lg:text-8xl md:text-1xl">&</p>
+    <p class="text-center text-3xl leading-tight lg:text-8xl md:text-1xl">&</p>
     <div class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
-      <div class="box-border w-full text-right text-black border-solid md:w-1/2 md:pl-6 xl:pl-32">
+      <div class="box-border w-full text-center md:text-right text-black border-solid md:w-1/2 md:pl-6 xl:pl-28">
           <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
               Sheila Jasmine Meutia Azzara S.Sos
           </h2>
-          <p class="pt-4 pb-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
-              Daughter of Ahmad Jani Subhan Maliki
+          <p class="pt-2  m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
+              Putri pertama dari Bapak Achmad Jani Subchan Maliki, S.Sos.
           </p>
           <p class="p-0 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
               &
           </p>
-          <p class="pt-2 pb-4 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
-              Dr. Dwi Rosaline Febrina
+          <p class="pb-4 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
+              Ibu dr. Dwi Rosaline Febrina
           </p>
       </div>
       <div class="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
-          <img src="https://cdn.devdojo.com/images/december2020/settings.png" class="pl-5 sm:pr-6 xl:pl-10 lg:pr-32">
+          <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-2.webp" class="max-h-96 mx-auto sm:pr-6 xl:pl-10 lg:pr-32">
       </div>
     </div>
   </section>
 
-  <section id="main3" class="hidden text-gray-700 body-font">
-    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+  <section id="main3" class="hidden main-1 h-full relative w-full flex items-center justify-center bg-cover bg-center">
+    <h1 class="text-center text-4xl pt-20">Waktu & Tempat</h1>
+    <div class="container mx-auto flex px-5 mt-8 pb-24 md:flex-row flex-col items-center">
       <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">nama
-          <br class="hidden lg:inline-block">tempat
+        <p class="mb-4 text-sm sm:text-xl">Sabtu, 6 Agustus 2022 <br /> 11.00-13.00 WIB</p>
+        <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900">
+          Felfest Faculty Club Universitas Indonesia
         </h1>
-        <p class="mb-8 leading-relaxed">alamat jalan</p>
+        <p class="mb-8 text-sm sm:text-xl">Kampus UI, Jl. Prof. Dr. Miriam Budiardjo <br />
+        Kel. Srengseng Sawah, Kec. Jagakarsa
+        Jakarta Selatan
+        </p>
         <div class="flex justify-center">
-          <a href="https://www.google.com/maps/dir/-6.2488576,106.8007424/universitas+indonesia/@-6.3060792,106.782806,13z/data=!3m1!4b1!4m10!4m9!1m1!4e1!1m5!1m1!1s0x2e69ec1a804e8b85:0xd7bf80e1977cea07!2m2!1d106.8272343!2d-6.3606229!3e0" class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Lihat Map</a>
+          <a href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Lihat Map</a>
         </div>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600/edf2f7/a5afbd">
+        <img class="object-cover object-center rounded" alt="hero" src="https://tempatnikah.net/wp-content/uploads/2020/09/UI1.png">
       </div>
     </div>
   </section>  
 
-  <section class="text-gray-700 body-font border-t border-gray-200">
-    <div class="container px-5 py-24 mx-auto">
-      <no-ssr>
-        <carousel-3d id="main4" class="hidden" :autoplay="true" :autoplay-timeout="3000" :controls-visible="true" :controls-prev-html="'&#x2039; '" :controls-next-html="'&#x203A;'"  :controls-width="10" :controls-height="30" :clickable="false">    
-          <slide  :index="0">
-            <img src="https://d25tv1xepz39hi.cloudfront.net/2017-08-21/files/landscape-photography_1645.jpg">
-          </slide>
-          <slide :index="1">
-            <img src="https://thienha3d.vn/wp-content/uploads/2019/01/hinh-dan-tuong-phong-canh-04.jpg">
-          </slide>
-          <slide  :index="2">    
-           <img src="https://d25tv1xepz39hi.cloudfront.net/2017-08-21/files/landscape-photography_1645.jpg"> 
-          </slide>
-          <slide :index="3">
-            <img src="https://zshop.vn/images/link/63/1045.jpg?t=1474958283">    
-          </slide>
-          <slide :index="4">
-            <img src="https://kenh14cdn.com/thumb_w/660/2019/3/21/photo-1-1553155372658221231913.jpg">
-          </slide>
-          <slide :index="5">
-            <img src="http://product.hstatic.net/1000298822/product/hinh-anh-dep-ve-tinh-yeu-chung-thuy_95129557953643089a963335468f3ec0.jpg"> 
-          </slide>
-          <slide :index="6">
-            <img src="https://i.pinimg.com/originals/53/b0/77/53b077524c0dd34ac0cf92631ab1e9a6.jpg"> 
-          </slide>
-        </carousel-3d>
-      </no-ssr>
-    </div>
-  </section>
-
-  <section class="text-gray-700 body-font border-t border-gray-200">
+  <section id="main4" class="text-gray-700 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-wrap -m-4">
-        <div class="p-4 md:w-1/3">
+        <div class="p-4 w-full md:w-1/3">
           <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-            <button @click="onModalQR" class="without-caption image-link">
+            <button @click="onModalQR" class="without-caption mx-auto image-link">
               <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Anthochaera_chrysoptera.jpg/800px-Anthochaera_chrysoptera.jpg" width="172" height="115" />  
             </button>
           </div>
         </div>
-        <div class="p-4 md:w-1/3">
+        <div class="p-2 md:p-4 w-full md:w-1/3">
           <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-              <button type="button" class="py-2 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto"><i class="fas fa-times"></i> Send Gift</button>
+              <nuxt-link to="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto text-center"><i class="fas fa-times"></i> Send Gift</nuxt-link>
           </div>
         </div>
-        <div class="p-4 md:w-1/3">
+        <div class="p-2 md:p-4 w-full md:w-1/3">
           <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-              <nuxt-link to="/rsvp" class="py-2 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto"><i class="fas fa-times"></i> RSVP</nuxt-link>
+              <nuxt-link to="/rsvp" class="py-2 px-4 bg-gray-500 text-white text-center rounded hover:bg-gray-700 my-auto"><i class="fas fa-times"></i> RSVP</nuxt-link>
           </div>
         </div>
       </div>
     </div>
   </section>
-
   <transition name="fade">
     <div v-if="isModalQR" class="fixed z-10 overflow-y-auto top-0 w-full left-0" id="modal">
       <div class="flex items-center justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
@@ -197,10 +169,39 @@
     </div>
   </transition>
 
-  <section id="main5" class="hidden">
+  <section class="text-gray-700 bg-primer body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <no-ssr>
+        <carousel-3d id="main5" class="hidden" :autoplay="true" :autoplay-timeout="3000" :controls-visible="true" :controls-prev-html="'&#x2039; '" :controls-next-html="'&#x203A;'"  :controls-width="10" :controls-height="30" :clickable="false">    
+          <slide  :index="0">
+            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-5.webp" style="object-fit: cover; height: 100%;">
+          </slide>
+          <slide :index="1">
+            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-6.webp" style="object-fit: cover; height: 100%;">
+          </slide>
+          <slide  :index="2">    
+           <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-7.webp" style="object-fit: cover; height: 100%;"> 
+          </slide>
+          <slide :index="3">
+            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-8.webp" style="object-fit: cover; height: 100%;">    
+          </slide>
+          <slide :index="4">
+            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-9.webp" style="object-fit: cover; height: 100%;">
+          </slide>
+          <slide :index="5">
+            <img src="~assets/Self_Photo_Studio_Jakarta_-_Depok-10.webp" style="object-fit: cover; height: 100%;"> 
+          </slide>
+          <slide :index="6">
+            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-3.webp" style="object-fit: cover; height: 100%;"> 
+          </slide>
+        </carousel-3d>
+      </no-ssr>
+    </div>
+  </section>
+  <section id="main6" class="hidden bg-primer">
     <div class="container mx-auto px-6 text-center py-20">
-      <h2 class="mb-6 text-4xl font-bold text-center text-black">Thank You</h2>
-      <p class="my-4 text-2xl text-black">Thank you for virtually attending our wedding.</p>
+      <h2 class="mb-6 text-4xl font-bold text-center text-black">Terimakasih</h2>
+      <p class="my-4 text-2xl text-black">Terima kasih telah menghadiri pernikahan kami secara virtual.</p>
     </div>
   </section>
   
@@ -248,6 +249,7 @@ export default {
       document.getElementById("main3").style.display="block";
       document.getElementById("main4").style.display="inherit";
       document.getElementById("main5").style.display="block";
+      document.getElementById("main6").style.display="block";
 
       document.getElementById("footer").style.display="block";
     },
@@ -267,19 +269,36 @@ export default {
 }
 </script>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 *{
-  font-family: 'Merriweather';
+  font-family: 'Vidaloka';
+}
+
+.text-lato{
+  font-family: 'Lato' !important;
 }
 
 #modal{
-  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
+  background-image: url('~assets/_Self_Photo_Studio_Jakarta_-_Depok-2.webp');
 }
 
 #main{
   background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
   /* background-size: cover; */
+}
+
+#main2{
+  background-image: linear-gradient(180deg, #B3DEEF, #E6E6FA);
+}
+
+#main3{
+  background-image: linear-gradient(180deg, #E6E6FA, #B3DEEF );
+}
+
+#main4{
+  background-color: #B3DEEF;
 }
 
 /* .carousel-3d-container { */
@@ -290,27 +309,12 @@ export default {
 
 /* } */
 
-.bg-dunes {
-  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
-  background-size: cover;
+.bg-primer{
+  background-color: #B3DEEF !important;
 }
 
-.bgbg {
-  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
-}
-.hehe {
-  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
-  background-size: cover;
-}
-
-.huhu{
-  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
-  background-size: cover;
-}
-
-.hoho{
-  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
-  background-size: cover;
+.bg-second{
+  background-color: #E6E6FA !important;
 }
 
 .main-1 {
@@ -322,9 +326,27 @@ export default {
   top: 0;
 }
 
+.flip-clock__piece{
+  color: #B3DEEF !important;
+}
+.flip{
+  color: #B3DEEF !important;
+}
+.flip-card__top{
+  color: #B3DEEF !important;
+}
+.flip-card__back::before{
+  color: #B3DEEF !important;
+}
+.flip-card__bottom{
+  color: #E6E6FA !important;
+}
+.flip-card__back-bottom{
+  color: #E6E6FA !important;
+}
+
 .text-top {
   align-self: flex-start;
-  font-size: 2em;
 }
 
 .animate-first-left{
@@ -333,12 +355,10 @@ export default {
 
 .text-middle {
   align-self: center;
-  font-size: 6.5em;
 }
 
 .text-bottom {
   align-self: flex-end;
-  font-size: 2em;
 }
 
 .animate-first-right{
@@ -527,5 +547,25 @@ input:checked + .side-label:after {
 
 .fade-leave-to {
   opacity: 0;
+}
+
+.video-docker video {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video-docker::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6), linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8));
+  z-index: 1;
+}
+
+.video-content {
+  z-index: 2;
 }
 </style>

@@ -1,41 +1,70 @@
 <template>
-    <form class="form">
-        <h2>RSVP</h2>
-        <div>
+<section>
+<div id="head" class="sticky">
+                
+<nav class="flex py-3 items-center h-16">
+    <div class="flex-1 flex items-center justify-center ">
+        <nuxt-link to="/" class="no-underline global-transition text-center cursor-pointer border-b hover:border-primary border-transparent border-solid text-body1 sm:text-body2 text-primary hidden sm:inline mx-3" data-modal-toggle="treatments">
+            Rakha & Sheila
+        </nuxt-link>
+    </div>
+</nav>
+            </div>
+<section class="bg-red-200 text-white relative">
+<!--     <div class="min-h-screen hero-image bg-center bg-cover flex" style="background-image: url(https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);"> -->
+
+  <!-- <div class="min-h-screen hero-image bg-right-bottom bg-cover flex" style="background-image: url(https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);"> -->
+    <!-- <div class="relative mx-auto p-4 z-10"> -->
+		<div id="modal" class="relative main-2 h-screen w-full flex items-center justify-center text-center bg-cover bg-center" >
+    <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-800 opacity-75"></div>
+      <form class="form w-full">
+        <h2 class="text-black">RSVP</h2>
+        <div class="body-rsvp">
 
             <input type="text" id="name" placeholder="name" />
 
-            <input id="yes" type="radio" name="rsvps" value="yes" /><label for="yes" class="side-label">Accepts with pleasure</label>
+            <input id="yes" type="radio" name="rsvps" value="yes" /><label for="yes" class="side-label">Ya, saya akan hadir</label>
 
-            <input type="radio" id="no" name="rsvps" value="no" /><label for="no" class="side-label">Declines with regrets</label>
-
-            <div class="regrets-comments">
-            <label for="box-of-regrets" class="top-label">Regrets</label><br>
-            <textarea id="box-of-regrets"></textarea>
-            </div>
+            <input type="radio" id="no" name="rsvps" value="no" /><label for="no" class="side-label">Mohon maaf belum bisa hadir</label>
 
             <div class="accept-form">
-            <label for="box-of-regrets" class="top-label">Plus one?</label><br>
-            <input id="plus-one" type="radio" name="plus1" value="yes" /><label for="plus-one" class="side-label">Yes</label>
+            <label for="box-of-regrets" class="top-label">Jumlah orang yang akan hadir:</label><br>
+            	<input id="plus-one" type="radio" name="plus1" value="yes" />
+				<label for="plus-one" class="side-label">1 orang</label>
 
 
-            <input type="radio" id="just-me" name="plus1" value="no" /><label for="just-me" class="side-label">No</label><br>
-
-            <input type="text" id="plus-one-name" placeholder="your guest's name" />
+            	<input type="radio" id="just-me" name="plus1" value="no" />
+				<label for="just-me" class="side-label">2 orang</label><br>
 
             </div>
 
         </div>
-        <button type="submit" form="form" value="Submit">Submit</button>
+        <button class="text-black" type="submit" form="form" value="Submit">Submit</button>
     </form>
+    </div>
+  <!-- </div> -->
+</section>
+</section>
 </template>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 *,
 *::before,
 *::after {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	font-family: 'Lato';
+}
+#modal{
+  background-image: url('~assets/_Self_Photo_Studio_Jakarta_-_Depok-2.webp');
+}
+#main{
+  background-image: linear-gradient(180deg, #B3DEEF, #E6E6FA);
+}
+#head{
+	background: #E6E6FA;
 }
 
 body {
@@ -45,7 +74,7 @@ body {
 }
 
 form {
-	border: 2px solid #873b51;
+	border: 2px solid #B3DEEF;
 	width: 40%;
 	min-width: 300px;
 	margin: 40px auto;
@@ -63,9 +92,6 @@ h2 {
 	left: 35%;
 }
 
-div {
-	padding: 40px;
-}
 
 input {
 	width: 100%;
@@ -77,8 +103,14 @@ input {
 	border: 0;
 	font-family: 'Montserrat', sans-serif;
 	transition: all .3s;
-	border-bottom: 2px solid #873b51;
-	border-left: 2px solid #873b51
+	border-bottom: 2px solid #B3DEEF;
+	border-left: 2px solid #B3DEEF;
+	@media (max-width: 500px) {
+		width: 40%		
+	}
+}
+#name{
+	width: 100% !important;
 }
 
 input[type="checkbox"],
@@ -92,7 +124,7 @@ textarea {
 	width: 100%;
 	max-width: 100%;
 	padding: 5px;
-	border: 2px solid #873b51;
+	border: 2px solid #B3DEEF;
 	color: #593e4e;
 	background-color: #fff;
 	font-family: inherit;
@@ -103,7 +135,10 @@ textarea {
 }
 
 textarea:focus {
-	outline: 2px solid #873b51;
+	outline: 2px solid #B3DEEF;
+}
+.body-rsvp {
+	padding: 40px;
 }
 
 .side-label {
@@ -126,11 +161,11 @@ textarea:focus {
 	display: block;
 	width: 15px;
 	height: 15px;
-	border: 2px solid #873b51;
+	border: 2px solid #B3DEEF;
 }
 
 input:focus + .side-label::before {
-	border-color: #873b51;
+	border-color: #B3DEEF;
 }
 
 .side-label:after {
@@ -138,7 +173,7 @@ input:focus + .side-label::before {
 	width: 9px;
 	height: 9px;
 	margin: 3px;
-	background-color: #873b51;
+	background-color: #B3DEEF;
 }
 
 input:checked + .side-label:after {
@@ -190,9 +225,9 @@ input:checked + .side-label:after {
 button {
 	cursor: pointer;
 	display: inline-block;
-	color: #873b51;
+	color: #000;
 	-webkit-appearance: none;
-	border: 2px solid #873b51;
+	border: 2px solid #B3DEEF;
 	background-color: #fff;
 	padding: 10px 20px;
 	font-size: 15px;
@@ -220,7 +255,7 @@ button:before {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #873b51;
+	background: #B3DEEF;
 	-webkit-transform: scaleY(0);
 	transform: scaleY(0);
 	-webkit-transform-origin: 50% 100%;
@@ -236,7 +271,7 @@ button:before {
 button:hover,
 button:focus,
 button:active {
-	color: white;
+	color: #000;
 }
 
 button:hover:before,
