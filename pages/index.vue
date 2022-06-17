@@ -141,7 +141,7 @@
         </div>
         <div class="p-2 md:p-4 w-full md:w-1/3">
           <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-              <nuxt-link to="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto text-center"><i class="fas fa-times"></i> Send Gift</nuxt-link>
+              <a href="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto text-center"><i class="fas fa-times"></i> Send Gift</a>
           </div>
         </div>
         <div class="p-2 md:p-4 w-full md:w-1/3">
