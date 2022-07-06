@@ -17,35 +17,86 @@
     <!-- <div class="relative mx-auto p-4 z-10"> -->
 		<div id="modal" class="relative main-2 h-screen w-full flex items-center justify-center text-center bg-cover bg-center" >
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-800 opacity-75"></div>
-      <form class="form w-full">
-        <h2 class="text-black">RSVP</h2>
-        <div class="body-rsvp">
+      <form class="form w-full" v-if="ada === 0">
+        <h2 class="text-black">RSVP</h2> 
+        <div class="body-rsvp" >
 
-            <input type="text" id="name" placeholder="name" />
+            <input style="text-transform:capitalize;" v-model="name" type="text" id="name" placeholder="name" />
+            <input id="yes" v-model="rsvp" type="radio" name="rsvps" :value="true" /><label for="yes" class="side-label">Ya, saya akan hadir</label>
 
-            <input id="yes" type="radio" name="rsvps" value="yes" /><label for="yes" class="side-label">Ya, saya akan hadir</label>
-
-            <input type="radio" id="no" name="rsvps" value="no" /><label for="no" class="side-label">Mohon maaf belum bisa hadir</label>
+            <input type="radio" v-model="rsvp" id="no" name="rsvps" :value="false" /><label for="no" class="side-label">Mohon maaf belum bisa hadir</label>
 
             <div class="accept-form">
             <label for="box-of-regrets" class="top-label">Jumlah orang yang akan hadir:</label><br>
-            	<input id="plus-one" type="radio" name="plus1" value="yes" />
+            	<input id="plus-one" v-model="amount" type="radio" name="plus1" value="1" />
 				<label for="plus-one" class="side-label">1 orang</label>
 
-
-            	<input type="radio" id="just-me" name="plus1" value="no" />
+            	<input type="radio" v-model="amount"  id="just-me" name="plus1" value="2" />
 				<label for="just-me" class="side-label">2 orang</label><br>
 
             </div>
 
         </div>
-        <button class="text-black" type="submit" form="form" value="Submit">Submit</button>
-    </form>
+        <button @click.prevent="create()" class="text-black" type="submit" form="form" value="Submit">Submit</button>
+      </form>
+	  <div class="container mx-auto px-6 text-center py-20" v-else>
+		<p class="my-4 text-2xl text-gray-700 ">Terima kasih telah mengisi form RSVP.</p>
+	  </div>
     </div>
   <!-- </div> -->
 </section>
 </section>
 </template>
+<script>
+import { createClient } from '@supabase/supabase-js'
+
+const supabase = createClient('https://jqwivvqrhmtsljegbvud.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impxd2l2dnFyaG10c2xqZWdidnVkIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTYxNTY4NzgsImV4cCI6MTk3MTczMjg3OH0.qUsLVd3odMnUWzhrZHayTBJxjEVHPmFA3wXQGc63tXc')
+
+export default {
+	methods: {
+		async data(){
+			
+			const { data, error } = await supabase
+				.from('invitee')
+				.select('invitee')
+				.in('invitee', [this.name])
+
+			return data.length
+		},
+		async create(){
+							console.log(this.name, this.amount, this.rsvp)
+
+			if(this.name.length != 0 && this.amount && this.rsvp != undefined){
+				console.log(this.name, this.amount, this.rsvp)
+				const { data, error } = await supabase
+					.from('invitee')
+					.insert([
+						{ invitee: this.name, answer: this.rsvp, amount: this.rsvp === true ?  Number(this.amount) : 0},
+				])
+
+				// const { data, error } = await supabase
+				// .from('invitee')
+				// .select()
+				// this.$router.push()
+			}
+			
+		}
+	},
+	data(){
+		return {
+			name : this.$route.query.invitee ?  this.$route.query.partner  ? this.$route.query.invitee + ' & '  + this.$route.query.partner : this.$route.query.invitee : '',
+			rsvp: undefined,
+			amount: null,
+			ada: 0
+		}
+	},
+	created(){
+		this.ada = this.data()
+	}
+
+
+}
+</script>
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 

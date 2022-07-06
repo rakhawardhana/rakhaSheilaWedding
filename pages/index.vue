@@ -4,8 +4,8 @@
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-800 opacity-75"></div>
     <main class="px-4 sm:px-6 lg:px-8 z-10">
       <div class="text-center">
-        <h3 class="animate fade-in-dear fadeIn text-2xl mb-3 tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-3xl">
-          Dear Name 
+        <h3 style = "text-transform:capitalize;" v-if="name" class="animate fade-in-dear fadeIn text-2xl mb-3 tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-3xl">
+          Dear {{name}} {{partner ? `& ${partner}` : ''}}
         </h3>
         <h2 class="animate fade-in-name fadeIn text-2xl tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-4xl">
           UNDANGAN PERNIKAHAN 
@@ -45,12 +45,13 @@
           <flip-countdown deadline="2022-08-06 00:00:00"></flip-countdown>
         </no-ssr>
         <div class="mt-5 sm:mt-8 sm:flex justify-center">
-          <div class="rounded-md shadow">
+          <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MHVmbXVmMjQzcjFsOGUzMjY4cnNqMGt1dnIgcmFraGFndXN0aXdhcmRoYW5hQG0&amp;tmsrc=rakhagustiwardhana%40gmail.com" class="rounded-md shadow">
             <button
               class="border-2 focus:bg-black bg-second hover:text-white text-black border-white px-8 md:px-10 py-3 rounded-md"
             >
             <div class="flex justify-center items-center relative">
               <div class="mr-3">
+                <!-- <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MHVmbXVmMjQzcjFsOGUzMjY4cnNqMGt1dnIgcmFraGFndXN0aXdhcmRoYW5hQG0&amp;tmsrc=rakhagustiwardhana%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a> -->
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -58,7 +59,7 @@
               Ingatkan Saya
               </div>
             </button>
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -139,7 +140,7 @@
           <div data-aos="flip-down" data-aos-duration="1000" class="text-center flex rounded-lg h-full bg-gray-100 p-8 flex-col">
               <h2 class="text-2xl md:text-3xl">RSVP</h2>
               <p class="mb-3 md:mb-5">Bantu kami mempersiapkan jamuan terbaik untuk Anda semua dengan mengirimkan konfirmasi kehadiran melalui tautan berikut:</p>
-              <nuxt-link to="/rsvp" class="py-2 px-4 bg-gray-500 text-white text-center rounded hover:bg-gray-700 my-auto"><i class="fas fa-times"></i> Klik di sini untuk reservasi kehadiran Anda</nuxt-link>
+              <nuxt-link :to="partner ? `/rsvp?invitee=${name}&partner=${partner}` : name ? `/rsvp?invitee=${name}` : `/rsvp` " class="py-2 px-4 bg-gray-500 text-white text-center rounded hover:bg-gray-700 my-auto"><i class="fas fa-times"></i> Klik di sini untuk reservasi kehadiran Anda</nuxt-link>
           </div>
         </div>
         <div class="p-2 md:p-4 w-full md:w-1/2 relative">
@@ -273,7 +274,9 @@ export default {
     return {
       isOpen: true,
       slides: 7,
-      onShow: false
+      onShow: false,
+      name: this.$route.query.invitee,
+      partner: this.$route.query.partner ? this.$route.query.partner : null
     };
   },
   components: { 
