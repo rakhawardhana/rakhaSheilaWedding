@@ -209,30 +209,37 @@
               </svg>
             </div>
             <div class="flex items-center justify-center pb-4">
-              <a href="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 text-center px-4 bg-gray-500 text-white rounded hover:bg-gray-700"> Klik di sini untuk mengirimkan hadiah fisik</a>
+              <h1 class="text-center">Jalan Zeni 3 No 22 RT07/RW03, Kelurahan Rawajati, Kecamatan Pancoran, Jakarta Selatan</h1>
+            </div>
+            <div class="flex items-center justify-center pb-4 mb-8">
+              <a target="_blank" href="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 text-center px-4 bg-gray-500 text-white rounded hover:bg-gray-700"> Klik di sini untuk mengirimkan hadiah fisik</a>
             </div>
             <div class="flex flex-wrap -m-4">
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="flip-down" data-aos-duration="1000" class="text-center h-full">
                 <h1>BCA</h1>
+                <h1>Rakha Gusti Wardhana</h1>
                 <img src="~assets/bca.png" width="100%" height="auto" />  
               </div>
             </div>
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="fade-right" data-aos-duration="1000" class="text-center h-full">
               <h1>Mandiri</h1>
+              <h1>Rakha Gusti Wardhana</h1>
               <img src="~assets/livin.png" width="100%" height="auto" />  
               </div>
             </div>
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="fade-right" data-aos-duration="1000" class="text-center h-full">
               <h1>GOPAY</h1>
+              <h1>082332403412</h1>
               <img src="~assets/gopay.png" width="100%" height="auto" />  
               </div>
             </div>
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="fade-right" data-aos-duration="1000" class="text-center h-full">
               <h1>OVO</h1>
+              <h1>082332403412</h1>
               <img src="~assets/ovo.png" width="100%" height="auto" />  
               </div>
             </div>
