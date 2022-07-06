@@ -209,7 +209,7 @@
               </svg>
             </div>
             <div class="flex items-center justify-center pb-4">
-              <nuxt-link to="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 text-center px-4 bg-gray-500 text-white rounded hover:bg-gray-700"> Klik di sini untuk mengirimkan hadiah fisik</nuxt-link>
+              <a href="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 text-center px-4 bg-gray-500 text-white rounded hover:bg-gray-700"> Klik di sini untuk mengirimkan hadiah fisik</a>
             </div>
             <div class="flex flex-wrap -m-4">
             <div class="p-2 md:p-4 w-full md:w-1/2">
