@@ -1,15 +1,6 @@
 <template>
 <section>
-<div id="head" class="sticky">
-                
-<nav class="flex py-3 items-center h-16">
-    <div class="flex-1 flex items-center justify-center ">
-        <nuxt-link to="/" class="no-underline global-transition text-center cursor-pointer border-b hover:border-primary border-transparent border-solid text-body1 sm:text-body2 text-primary hidden sm:inline mx-3" data-modal-toggle="treatments">
-            Rakha & Sheila
-        </nuxt-link>
-    </div>
-</nav>
-            </div>
+
 <section class="bg-red-200 text-white relative">
 <!--     <div class="min-h-screen hero-image bg-center bg-cover flex" style="background-image: url(https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);"> -->
 
@@ -39,8 +30,18 @@
         </div>
         <button @click.prevent="create()" class="text-black" type="submit" form="form" value="Submit">Submit</button>
       </form>
-	  <div class="container mx-auto px-6 text-center py-20" v-else>
-		<p class="my-4 text-2xl text-gray-700 ">Terima kasih telah mengisi form RSVP.</p>
+	  <div class="container mx-auto  text-center" v-else>
+		<p class="relative text-2xl sm:text-4xl text-white ">Terima kasih telah mengisi form RSVP.</p>
+		<div class="mt-5 sm:mt-8 sm:flex justify-center">
+          <div class="rounded-md shadow">
+            <button
+              class="rsvp-after animate fade-down-button relative fadeInDown fa border-2 text-md md:text-2xl hover:bg-white hover:text-black text-white border-white px-8 py-3 rounded-md"
+              @click="onBack()"
+            >
+              Kembali
+            </button>
+          </div>
+        </div>
 	  </div>
     </div>
   <!-- </div> -->
@@ -51,35 +52,46 @@
 import { createClient } from '@supabase/supabase-js'
 
 const supabase = createClient('https://jqwivvqrhmtsljegbvud.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impxd2l2dnFyaG10c2xqZWdidnVkIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTYxNTY4NzgsImV4cCI6MTk3MTczMjg3OH0.qUsLVd3odMnUWzhrZHayTBJxjEVHPmFA3wXQGc63tXc')
+const serializeQuery = query => {
+    return Object.keys(query)
+        .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(query[key])}`)
+        .join('&');
+};
 
 export default {
 	methods: {
 		async data(){
-			
 			const { data, error } = await supabase
 				.from('invitee')
 				.select('invitee')
 				.in('invitee', [this.name])
-
-			return data.length
+			this.ada = data.length
 		},
 		async create(){
-							console.log(this.name, this.amount, this.rsvp)
-
-			if(this.name.length != 0 && this.amount && this.rsvp != undefined){
-				console.log(this.name, this.amount, this.rsvp)
+			if(this.name.length != 0 && this.amount && this.rsvp === true){
 				const { data, error } = await supabase
 					.from('invitee')
 					.insert([
 						{ invitee: this.name, answer: this.rsvp, amount: this.rsvp === true ?  Number(this.amount) : 0},
 				])
 
-				// const { data, error } = await supabase
-				// .from('invitee')
-				// .select()
-				// this.$router.push()
+				window.location.reload()
+			}else{
+				const { data, error } = await supabase
+					.from('invitee')
+					.insert([
+						{ invitee: this.name, answer: false, amount:  0},
+				])
+
+				window.location.reload()
+			}
+		},
+		onBack(){
+			let params = {
+                ...this.$route.query,
 			}
 			
+			this.$router.push(`/?${serializeQuery(JSON.parse(JSON.stringify(params)))}`)
 		}
 	},
 	data(){
@@ -91,7 +103,8 @@ export default {
 		}
 	},
 	created(){
-		this.ada = this.data()
+		this.data()
+		console.log(this.ada)
 	}
 
 
@@ -330,5 +343,9 @@ button:focus:before,
 button:active:before {
 	-webkit-transform: scaleY(1);
 	transform: scaleY(1);
+}
+.rsvp-after{ 
+	position:  relative !important;
+	right: unset !important;
 }
 </style>

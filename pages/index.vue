@@ -1,10 +1,11 @@
 <template>
   <div class="wedding-invitation-rakha-sheila">
+  <client-only>
   <section id="modal" class="relative main-2 h-screen w-full flex items-center justify-center text-center bg-cover bg-center" >
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-800 opacity-75"></div>
     <main class="px-4 sm:px-6 lg:px-8 z-10">
       <div class="text-center">
-        <h3 style = "text-transform:capitalize;" v-if="name" class="animate fade-in-dear fadeIn text-2xl mb-3 tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-3xl">
+        <h3 style = "text-transform:capitalize;" v-show="name" class="animate fade-in-dear fadeIn text-2xl mb-3 tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-3xl">
           Dear {{name}} {{partner ? `& ${partner}` : ''}}
         </h3>
         <h2 class="animate fade-in-name fadeIn text-2xl tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-4xl">
@@ -67,7 +68,7 @@
 
   <section id="main2" class="hidden main-1 h-full relative w-full pt-7 pb-7 md:pt-20 md:pb-24 flex items-center justify-center bg-cover bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
-    <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl mx-auto text-center text-md md:text-xl mb-5 md:mb-8 relative text-lato">Dengan kerendahan hati,<br /> kami mengundang Bapak/Ibu/Saudara/Saudari untuk menghadiri pernikahan kami dan memberikan restu kepada kami</p>   
+    <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl text-center text-md md:text-xl mb-8 mx-5 md:mx-auto md:mb-8 relative text-lato">Dengan kerendahan hati,<br /> kami mengundang Bapak/Ibu/Saudara/Saudari untuk menghadiri pernikahan kami dan memberikan restu kepada kami</p>   
     <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
       <div data-aos="fade-left" data-aos-duration="1000" class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
           <img src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" class="max-h-96 mx-auto pl-6 pr-5 xl:pl-16 xl:pr-20" style="-webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0; object-fit: cover; object-position: center;">
@@ -262,11 +263,15 @@
       <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
     </svg>
   </a> -->
+    </client-only>
+
   </div>
 </template>
 
 <script>
 import FlipCountdown from 'vue2-flip-countdown';
+import AOS from "aos";
+
 
 export default {
   name: 'IndexPage',
@@ -297,6 +302,8 @@ export default {
       document.getElementById("main6").style.display="block";
       // document.getElementById("main7").style.display="block";
       // document.getElementById("footer").style.display="block";
+      AOS.init()
+
     },
     // toggleFirst(){
     //   document.getElementById('modals').classList.toggle('hidden');
