@@ -113,7 +113,7 @@
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
     <h1 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pt-20">Waktu & Tempat</h1>
     <div class="container mx-auto flex px-5 mt-8 pb-24 md:flex-row flex-col items-center">
-      <div data-aos="fade-left" data-aos-duration="1000" class="relative lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <div data-aos="fade-left" data-aos-duration="1000" class="relative lg:flex-grow md:w-3/5 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <p class="mb-4 text-sm sm:text-xl">Sabtu, 6 Agustus 2022 <br /> 11.00-13.00 WIB</p>
         <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900">
           Felfest Faculty Club Universitas Indonesia
@@ -126,7 +126,7 @@
           <a href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Lihat Map</a>
         </div>
       </div>
-      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <div class="lg:max-w-lg lg:w-full md:w-2/5 w-5/6">
         <img data-aos="fade-right" data-aos-duration="1000" class="relative object-cover object-center rounded" alt="hero" src="https://tempatnikah.net/wp-content/uploads/2020/09/UI1.png">
       </div>
     </div>
