@@ -11,10 +11,10 @@
         <h2 class="animate fade-in-name fadeIn text-2xl tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-4xl">
           UNDANGAN PERNIKAHAN 
         </h2>
-        <div class="flex justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:mt-5 text-white">
-          <span class="animate fade-left-rakha fadeInLeft text-top text-2xl md:text-3xl">Rakha</span>
-          <span class="animate fade-in-name fadeIn text-middle text-6xl md:text-8xl">&</span>
-          <span class="animate fade-right-sheila fadeInRight text-bottom text-2xl md:text-3xl">Sheila</span>
+        <div class="flex justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl mt-8 sm:mx-auto md:mt-5 text-white">
+          <span class="animate fade-left-rakha fadeInLeft text-top text-4xl md:text-4xl">Rakha</span>
+          <span class="animate fade-in-name p-4 fadeIn text-middle text-2xl md:text-4xl">&</span>
+          <span class="animate fade-right-sheila fadeInRight text-bottom text-4xl md:text-4xl">Sheila</span>
         </div>
         <div class="mt-5 sm:mt-8 sm:flex justify-center">
           <div class="rounded-md shadow">
@@ -30,7 +30,7 @@
     </main>
   </section>
 
-  <section id="main" class="hidden relative main-1 h-screen w-full flex items-center justify-center text-center bg-cover bg-center">
+  <section id="main" class="hidden lo relative main-1 h-screen w-full flex items-center justify-center text-center bg-cover bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-800 opacity-75"></div>
       <div class="px-4 sm:px-6 lg:px-8 z-10">
       <div class="text-center">
@@ -38,9 +38,9 @@
           Kami Megundang Anda Menghadiri Acara Pernikahan
         </h2>
         <div class="flex justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
-          <span class="text-top text-2xl md:text-5xl">Rakha</span>
-          <span class="text-middle text-6xl md:text-8xl">&</span>
-          <span class="text-bottom text-2xl md:text-5xl">Sheila</span>
+          <span class="text-top text-2xl md:text-6xl">Rakha</span>
+          <span class="text-middle p-4 text-2xl md:text-5xl">&</span>
+          <span class="text-bottom text-2xl md:text-6xl">Sheila</span>
         </div>
         <no-ssr>
           <flip-countdown deadline="2022-08-06 00:00:00"></flip-countdown>
@@ -71,7 +71,7 @@
     <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl mx-auto text-center text-md md:text-xl mb-5 md:mb-8 relative">Dengan kerendahan hati,<br /> kami mengundang Bapak/Ibu/Saudara/Saudari untuk menghadiri pernikahan kami dan memberikan restu kepada kami</p>   
     <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
       <div data-aos="fade-left" data-aos-duration="1000" class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
-          <img src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" class="max-h-96 mx-auto pl-6 pr-5 xl:pl-16 xl:pr-20" style="-webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0; object-fit: cover; object-position: center;">
+          <img src="~assets/undangan/personal/rakha.jpeg" class="max-h-96 mx-auto pl-6 pr-5 xl:pl-16 xl:pr-20" style="-webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0; object-fit: cover; object-position: center;">
       </div>
       <div class="box-border order-first w-full text-center md:text-left text-black border-solid md:w-1/2 md:pl-10 md:order-none">
           <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
@@ -88,7 +88,7 @@
           </p>
       </div>
     </div>
-    <p class="relative text-center text-3xl leading-tight lg:text-8xl md:text-1xl">&</p>
+    <p class="relative text-center text-2xl leading-tight lg:text-4xl md:text-1xl">&</p>
     <div class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
       <div class="box-border w-full text-center md:text-right text-black border-solid md:w-1/2 md:pl-6 xl:pl-28">
           <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
@@ -105,47 +105,49 @@
           </p>
       </div>
       <div data-aos="fade-right" data-aos-duration="1000" class="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
-          <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-2.webp" class="max-h-96 mx-auto sm:pr-6 xl:pl-10 lg:pr-32" style="object-fit: cover; object-position: center; -webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0;">
+          <img src="~assets/undangan/personal/sheila.jpg" class="max-h-96 mx-auto w-10/12 sm:pr-6 xl:pl-10 lg:pr-12" style="object-fit: cover; object-position: center; -webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0;">
       </div>
     </div>
   </section>
 
-  <section id="main3" class="hidden main-1 h-full relative w-full flex items-center justify-center bg-cover bg-center">
-    <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-50"></div>
-    <h1 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pt-20">Waktu & Tempat</h1>
-    <div class="container mx-auto flex px-5 mt-2 pb-24 md:flex-row flex-col justify-center text-center items-center">
-      <div data-aos="fade-left" data-aos-duration="1000" class="relative lg:flex-grow md:w-3/5 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center mb-6">
-        <div class="flex">
-          <div class="p-5">
-            <div style="border-bottom: solid 2px black">
-              <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Akad</h2>
+  <section id="main3" class="ada hidden main-1 h-full relative w-full flex items-center justify-center bg-cover bg-center">
+      <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-50"></div>
+      <!-- <div class="ada"> -->
+      <h1 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pt-20">Waktu & Tempat</h1>
+      <div class="container mx-auto flex px-5 mt-2 pb-24 md:flex-row flex-col justify-center text-center items-center">
+        <div data-aos="fade-left" data-aos-duration="1000" class="relative lg:flex-grow md:w-3/5 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center mb-6">
+          <div class="flex">
+            <div class="p-5">
+              <div style="border-bottom: solid 2px black">
+                <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Akad</h2>
+              </div>
+              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sabtu, 6 Agustus 2022 <br /> 07.00 - 09.00 WIB</p>
             </div>
-            <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sabtu, 6 Agustus 2022 <br /> 07.00 - 09.00 WIB</p>
+            <div class="p-5">
+              <div style="border-bottom: solid 2px black">
+                <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Resepsi</h2>
+              </div>
+              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sabtu, 6 Agustus 2022 <br /> 11.00 - 13.00 WIB</p>
+            </div>
           </div>
-          <div class="p-5">
-             <div style="border-bottom: solid 2px black">
-              <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Resepsi</h2>
-            </div>
-            <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sabtu, 6 Agustus 2022 <br /> 11.00 - 13.00 WIB</p>
+          <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900">
+            Felfest Faculty Club Universitas Indonesia
+          </h1>
+          <p class="mb-8 text-sm justify-center items-center text-center sm:text-xl">Kampus UI, Jl. Prof. Dr. Miriam Budiardjo <br />
+          Kel. Srengseng Sawah, Kec. Jagakarsa
+          Jakarta Selatan
+          </p>
+          <div class="flex justify-center">
+            <!-- <a href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Lihat Map</a> -->
           </div>
         </div>
-        <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900">
-          Felfest Faculty Club Universitas Indonesia
-        </h1>
-        <p class="mb-8 text-sm justify-center items-center text-center sm:text-xl">Kampus UI, Jl. Prof. Dr. Miriam Budiardjo <br />
-        Kel. Srengseng Sawah, Kec. Jagakarsa
-        Jakarta Selatan
-        </p>
-        <div class="flex justify-center">
-          <!-- <a href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Lihat Map</a> -->
-        </div>
-      </div>
-      <!-- <div class="lg:max-w-lg lg:w-full md:w-2/5 w-5/6"> -->
-        <!-- <div class="frame-img"> -->
-          <!-- <img src="~assets/tmpt.jpg" class="max-h-96 mx-auto sm:pr-6 xl:pl-10 lg:pr-32" style="border-radius: 100% 0px; transform: rotate(45deg);"> -->
+        <!-- <div class="lg:max-w-lg lg:w-full md:w-2/5 w-5/6"> -->
+          <!-- <div class="frame-img"> -->
+            <!-- <img src="~assets/tmpt.jpg" class="max-h-96 mx-auto sm:pr-6 xl:pl-10 lg:pr-32" style="border-radius: 100% 0px; transform: rotate(45deg);"> -->
+          <!-- </div> -->
         <!-- </div> -->
+      </div>
       <!-- </div> -->
-    </div>
   </section>  
 
   <section id="main4" class="hidden main-1 h-full relative w-full bg-center">
@@ -276,14 +278,14 @@
   </transition>
 
   <section id="main6" class="hidden main-1 h-full relative w-full bg-center">
-    <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
+    <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-300 opacity-75"></div>
     <div class="container mx-auto px-6 text-center py-20">
-      <h2 class="relative mb-6 text-xl md:text-4xl font-bold text-center text-black">Terimakasih</h2>
-      <p class="my-4 relative text-2xl text-black">Sampai Jumpa di Hari Bahagia</p>
+      <h2 class="relative mb-6 text-xl md:text-4xl font-bold text-center text-black">Terima kasih</h2>
+      <p class="my-4 relative text-2xl text-black">Sampai jumpa di hari bahagia</p>
       <div class="flex relative justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
-          <span class="text-top text-2xl md:text-5xl">Rakha</span>
-          <span class="text-middle text-6xl md:text-8xl">&</span>
-          <span class="text-bottom text-2xl md:text-5xl">Sheila</span>
+          <span style="color: rgb(100 116 139);" class="text-top font-bold text-cyan-300	text-5xl md:text-6xl">Rakha</span>
+          <span style="color: rgb(100 116 139);" class="text-middle p-5 text-4xl text-cyan-300	md:text-5xl">&</span>
+          <span style="color: rgb(100 116 139);" class="text-bottom font-bold  text-cyan-300 text-5xl md:text-6xl">Sheila</span>
         </div>
     </div>
   </section>
@@ -301,6 +303,7 @@
       <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
     </svg>
   </a> -->
+  <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4T6HLdP6OcAtqC6tGnQelG?utm_source=generator" width="40%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
     </client-only>
 
   </div>
@@ -328,6 +331,8 @@ export default {
 
   methods: {
     onFirst() {
+      // this.playSound('~assets/Michael Bublé - Everything [Official Music Video].mp3')
+
       document.getElementById("modal").style.transform="translateY(-100%)";
       document.getElementById("modal").style.transition=" all 1.2s";
       document.getElementById("modal").style.zIndex="8";
@@ -349,7 +354,13 @@ export default {
     onModalQR() {
       this.onShow = !this.onShow;
       console.log(this.onShow)
-    }
+    },
+    playSound (sound) {
+            if(sound) {
+                var audio = new Audio('~assets/Michael Bublé - Everything [Official Music Video].mp3');
+                audio.play();
+            }
+    },
   },
   computed: {
     isModalQR() {
@@ -365,13 +376,14 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aphrodite Text&display=swap');
-@import url('https://fonts.googleapis.com/css?family=GFS Didot');
+/* @import url('https://fonts.googleapis.com/css?family=GFS Didot'); */
 @import url('https://fonts.googleapis.com/css?family=Sahitya&subset=devanagari');
-
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
 
 *{
-  font-family: "Palatino Linotype";
+  /* font-family: "Palatino Linotype"; */
   /* font-family:  'GFS Didot' */
+  font-family: 'GFS Didot', serif;
 }
 
 .text-lato{
@@ -389,38 +401,99 @@ export default {
   background-image: url('~assets/_Self_Photo_Studio_Jakarta_-_Depok-2.webp');
 }
 
-#main{
-  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
-  /* background-size: cover; */  
+/* #main{ */
+  /* background-size: cover;   */
+  /* animation: imageAnimation 36s linear 0s;  */
+
+/* } */
+
+.lo{
+    background-size: cover;  
     animation: imageAnimation 36s linear 0s; 
+    background-image: url("~assets/_Self_Photo_Studio_Jakarta_-_Depok-3.webp");
+    /* opacity: 1; */
+    background-color: rgb(38 38 38);
+    /* height: 100%;
+    width: 100%; */
 
 }
 @keyframes imageAnimation { 
 	0% {
-	    opacity: 0;
+      /* background-size: cover;   */
+      background-color: rgb(38 38 38);
+
+	    opacity: 0.85;
+       /* height: 100%;
+    width: 100%; */
+      min-height: 100%;
+      width: 100%;
+
+	    animation-timing-function: ease-in;
+      background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
+
+	}
+	20% {
+      /* background-size: cover;   */
+	    opacity: 1;
+      background-color: rgb(38 38 38);
+      min-height: 100%;
+      width: 100%;
+	    /* transform: scale(1.05); */
+       /* height: 100%;
+    width: 100%; */
+	    animation-timing-function: ease-in-out;
+      background-image: url('~assets/undangan/cover slider/cover3.jpg');
+
+	}
+	45% {
+      background-size: cover;  
+      background-color: rgb(38 38 38);
+       min-height: 100%;
+      min-width: 100%;
+	    opacity: 1;
+	    /* transform: scale(1.1); */
+      /* height: 100%;
+       width: 100%; */
+	    animation-timing-function: ease-in;
+      background-image: url('~assets/undangan/cover slider/cover4.jpg');
+	}
+	75% {
+      background-size: cover;  
+	    /* opacity: 0.75; */
+      background-color: rgb(38 38 38);
+
+	    /* transform: scale(1.15); */
+       min-height: 100%;
+      min-width: 100%;
+	    animation-timing-function: ease-in;
+      background-image: url("~assets/_Self_Photo_Studio_Jakarta_-_Depok-3.webp")
+	}
+  80% {
+	    opacity: 1;
+	    /* transform: scale(1.2); */
+      background-color: rgb(38 38 38);
+       /* height: 100%;
+    width: 100%; */
+     min-height: 100%;
+      min-width: 100%;
+      background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
+
 	    animation-timing-function: ease-in;
 	}
-	8% {
-	    opacity: 1;
-	    transform: scale(1.05);
-	    animation-timing-function: ease-out;
-	}
-	17% {
-	   opacity: 1;
-	    transform: scale(1.1);
-	    animation-timing-function: ease-in;
-	}
-	25% {
-	    opacity: 1;
-	    transform: scale(1.15);
-	    animation-timing-function: ease-out;
-	}
-  /* 50% {
-	    opacity: 1;
-	    transform: scale(1.2);
-	    animation-timing-function: ease-out;
-	} */
-	100% { opacity: 1 }
+	100% { 
+      background-size: cover;  
+      background-color: rgb(38 38 38);
+      /* opacity: 0.75; */
+       /* height: 100%;
+    width: 100%; */
+     min-height: 100%;
+      min-width: 100%;
+      animation-timing-function: ease-in-out;
+
+
+      background-image: url("~assets/_Self_Photo_Studio_Jakarta_-_Depok-3.webp")
+
+  }
 }
 
 
@@ -477,7 +550,10 @@ export default {
 }
 
 .ada {
-  animation: imageAnimation 36s linear 0s; 
+   /* background-image: linear-gradient(180deg, #E6E6FA, #B3DEEF ); */
+  /* animation: imageAnimation 36s linear 2s;  */
+    /* background-image: url('~assets/venue-1.jpeg'); */
+  background-image: url('~assets/venue-3.jpeg');
 }
 #main2{
   /* background-image: linear-gradient(180deg, #B3DEEF, #E6E6FA); */
@@ -485,12 +561,12 @@ export default {
 
 }
 
-#main3{
+/* #main3{ */
   /* background-image: linear-gradient(180deg, #E6E6FA, #B3DEEF ); */
-    animation: imageAnimationLagi 36s linear 2s; 
+    /* animation: imageAnimationLagi 36s linear 2s;  */
     /* background-image: url('~assets/venue-1.jpeg'); */
-    background-image: url('~assets/venue-3.jpeg');
-}
+    /* background-image: url('~assets/venue-3.jpeg'); */
+/* } */
 
 #main4{
   /* background-color: #B3DEEF; */
