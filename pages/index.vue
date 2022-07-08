@@ -1,10 +1,11 @@
 <template>
   <div class="wedding-invitation-rakha-sheila">
+  <client-only>
   <section id="modal" class="relative main-2 h-screen w-full flex items-center justify-center text-center bg-cover bg-center" >
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-800 opacity-75"></div>
     <main class="px-4 sm:px-6 lg:px-8 z-10">
       <div class="text-center">
-        <h3 style = "text-transform:capitalize;" v-if="name" class="animate fade-in-dear fadeIn text-2xl mb-3 tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-3xl">
+        <h3 style = "text-transform:capitalize;" v-show="name" class="animate fade-in-dear fadeIn text-2xl mb-3 tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-3xl">
           Dear {{name}} {{partner ? `& ${partner}` : ''}}
         </h3>
         <h2 class="animate fade-in-name fadeIn text-2xl tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-4xl">
@@ -212,30 +213,37 @@
               </svg>
             </div>
             <div class="flex items-center justify-center pb-4">
-              <a href="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 text-center px-4 bg-gray-500 text-white rounded hover:bg-gray-700"> Klik di sini untuk mengirimkan hadiah fisik</a>
+              <h1 class="text-center">Jalan Zeni 3 No 22 RT07/RW03, Kelurahan Rawajati, Kecamatan Pancoran, Jakarta Selatan</h1>
+            </div>
+            <div class="flex items-center justify-center pb-4 mb-8">
+              <a target="_blank" href="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 text-center px-4 bg-gray-500 text-white rounded hover:bg-gray-700"> Klik di sini untuk mengirimkan hadiah fisik</a>
             </div>
             <div class="flex flex-wrap -m-4">
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="flip-down" data-aos-duration="1000" class="text-center h-full">
                 <h1>BCA</h1>
+                <h1>Rakha Gusti Wardhana</h1>
                 <img src="~assets/bca.png" width="100%" height="auto" />  
               </div>
             </div>
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="fade-right" data-aos-duration="1000" class="text-center h-full">
               <h1>Mandiri</h1>
+              <h1>Rakha Gusti Wardhana</h1>
               <img src="~assets/livin.png" width="100%" height="auto" />  
               </div>
             </div>
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="fade-right" data-aos-duration="1000" class="text-center h-full">
               <h1>GOPAY</h1>
+              <h1>082332403412</h1>
               <img src="~assets/gopay.png" width="100%" height="auto" />  
               </div>
             </div>
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="fade-right" data-aos-duration="1000" class="text-center h-full">
               <h1>OVO</h1>
+              <h1>082332403412</h1>
               <img src="~assets/ovo.png" width="100%" height="auto" />  
               </div>
             </div>
@@ -268,11 +276,15 @@
       <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
     </svg>
   </a> -->
+    </client-only>
+
   </div>
 </template>
 
 <script>
 import FlipCountdown from 'vue2-flip-countdown';
+import AOS from "aos";
+
 
 export default {
   name: 'IndexPage',
@@ -303,6 +315,8 @@ export default {
       document.getElementById("main6").style.display="block";
       // document.getElementById("main7").style.display="block";
       // document.getElementById("footer").style.display="block";
+      AOS.init()
+
     },
     // toggleFirst(){
     //   document.getElementById('modals').classList.toggle('hidden');
