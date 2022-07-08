@@ -115,10 +115,20 @@
     <h1 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pt-20">Waktu & Tempat</h1>
     <div class="container mx-auto flex px-5 mt-2 pb-24 md:flex-row flex-col justify-center text-center items-center">
       <div data-aos="fade-left" data-aos-duration="1000" class="relative lg:flex-grow md:w-3/5 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center mb-6">
-        <div style="border-bottom: solid 2px black">
-          <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Resepsi</h2>
+        <div class="flex">
+          <div class="p-5">
+            <div style="border-bottom: solid 2px black">
+              <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Akad</h2>
+            </div>
+            <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sabtu, 6 Agustus 2022 <br /> 07.00 - 09.00 WIB</p>
+          </div>
+          <div class="p-5">
+             <div style="border-bottom: solid 2px black">
+              <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Resepsi</h2>
+            </div>
+            <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sabtu, 6 Agustus 2022 <br /> 11.00 - 13.00 WIB</p>
+          </div>
         </div>
-        <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sabtu, 6 Agustus 2022 <br /> 11.00-13.00 WIB</p>
         <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900">
           Felfest Faculty Club Universitas Indonesia
         </h1>
@@ -405,7 +415,7 @@ export default {
 	    transform: scale(1.05);
 	    /* animation-timing-function: ease-out; */
       background-image: url('~assets/venue-2.jpeg');
-            object-fit: cover; height: 100%;
+      object-fit: cover; height: 100%;
 
 
 	}
@@ -422,7 +432,7 @@ export default {
 	    /* opacity: 1; */
 	    transform: scale(1.15);
 	    /* animation-timing-function: ease-out; */
-      background-image: url('~assets/venue-4.jpeg');
+      background-image: url('~assets/venue-3.jpeg');
       object-fit: cover; height: 100%;
 
 	}
@@ -431,6 +441,8 @@ export default {
 	    transform: scale(1.2);
 	    /* animation-timing-function: ease-out; */
       background-image: url('~assets/venue-5.jpeg');
+      object-fit: cover; height: 100%;
+
 
 	}
 	100% { 
@@ -438,7 +450,7 @@ export default {
     	transform: scale(1.3);
 
       background-image: url('~assets/venue-5.jpeg');
-      /* object-fit: cover; height: 100%; */
+      object-fit: cover; height: 100%;
   }
 }
 
@@ -453,12 +465,9 @@ export default {
 
 #main3{
   /* background-image: linear-gradient(180deg, #E6E6FA, #B3DEEF ); */
-    animation: imageAnimationLagi 36s linear 0s; 
+    animation: imageAnimationLagi 36s linear 2s; 
     /* background-image: url('~assets/venue-1.jpeg'); */
     background-image: url('~assets/venue-3.jpeg');
-
-
-
 }
 
 #main4{
