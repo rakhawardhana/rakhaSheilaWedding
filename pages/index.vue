@@ -34,8 +34,8 @@
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-800 opacity-75"></div>
       <div class="px-4 sm:px-6 lg:px-8 z-10">
       <div class="text-center">
-        <h2 class="text-2xl tracking-tight leading-10 font-normal sm:text-3xl text-white sm:leading-none md:text-3xl">
-          KAMI MENGUNDANG ANDA MENGHADIRI ACARA PERNIKAHAN
+        <h2 class="text-2xl tracking-tight leading-10 font-medium sm:text-3xl text-white sm:leading-none md:text-3xl">
+          Kami Megundang Anda Menghadiri Acara Pernikahan
         </h2>
         <div class="flex justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
           <span class="text-top text-2xl md:text-5xl">Rakha</span>
@@ -75,7 +75,7 @@
       </div>
       <div class="box-border order-first w-full text-center md:text-left text-black border-solid md:w-1/2 md:pl-10 md:order-none">
           <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
-              Rakha Gusti Wardhana S.Kesos
+              Rakha Gusti Wardhana, S.Kesos
           </h2>
           <p class="relative pt-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
               Putra pertama dari Bapak Agus Wardhana, S.E.
@@ -92,7 +92,7 @@
     <div class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
       <div class="box-border w-full text-center md:text-right text-black border-solid md:w-1/2 md:pl-6 xl:pl-28">
           <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
-              Sheila Jasmine Meutia Azzara S.Sos
+              Sheila Jasmine Meutia Azzara, S.Sos
           </h2>
           <p class="relative pt-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
               Putri pertama dari Bapak Achmad Jani Subchan Maliki, S.Sos.
@@ -111,15 +111,18 @@
   </section>
 
   <section id="main3" class="hidden main-1 h-full relative w-full flex items-center justify-center bg-cover bg-center">
-    <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
+    <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-50"></div>
     <h1 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pt-20">Waktu & Tempat</h1>
-    <div class="container mx-auto flex px-5 mt-8 pb-24 md:flex-row flex-col items-center">
-      <div data-aos="fade-left" data-aos-duration="1000" class="relative lg:flex-grow md:w-3/5 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p class="mb-4 text-sm sm:text-xl">Sabtu, 6 Agustus 2022 <br /> 11.00-13.00 WIB</p>
+    <div class="container mx-auto flex px-5 mt-2 pb-24 md:flex-row flex-col justify-center text-center items-center">
+      <div data-aos="fade-left" data-aos-duration="1000" class="relative lg:flex-grow md:w-3/5 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center mb-6">
+        <div style="border-bottom: solid 2px black">
+          <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Resepsi</h2>
+        </div>
+        <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sabtu, 6 Agustus 2022 <br /> 11.00-13.00 WIB</p>
         <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900">
           Felfest Faculty Club Universitas Indonesia
         </h1>
-        <p class="mb-8 text-sm sm:text-xl">Kampus UI, Jl. Prof. Dr. Miriam Budiardjo <br />
+        <p class="mb-8 text-sm justify-center items-center text-center sm:text-xl">Kampus UI, Jl. Prof. Dr. Miriam Budiardjo <br />
         Kel. Srengseng Sawah, Kec. Jagakarsa
         Jakarta Selatan
         </p>
@@ -127,11 +130,11 @@
           <!-- <a href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Lihat Map</a> -->
         </div>
       </div>
-      <div class="lg:max-w-lg lg:w-full md:w-2/5 w-5/6">
+      <!-- <div class="lg:max-w-lg lg:w-full md:w-2/5 w-5/6"> -->
         <!-- <div class="frame-img"> -->
-          <img src="~assets/tmpt.jpg" class="max-h-96 mx-auto sm:pr-6 xl:pl-10 lg:pr-32" style="border-radius: 100% 0px; transform: rotate(45deg);">
+          <!-- <img src="~assets/tmpt.jpg" class="max-h-96 mx-auto sm:pr-6 xl:pl-10 lg:pr-32" style="border-radius: 100% 0px; transform: rotate(45deg);"> -->
         <!-- </div> -->
-      </div>
+      <!-- </div> -->
     </div>
   </section>  
 
@@ -265,9 +268,13 @@
   <section id="main6" class="hidden main-1 h-full relative w-full bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
     <div class="container mx-auto px-6 text-center py-20">
-      <h2 class="relative mb-6 text-xl md:text-4xl font-bold text-center text-black">Salam Hangat</h2>
-      <h2 class="relative mb-6 text-xl md:text-4xl font-bold text-center text-black">Rakha & Sheila</h2>
-      <p class="relative my-4 text-2xl text-black">Sampai Jumpa Di Hari Bahagia Kami</p>
+      <h2 class="relative mb-6 text-xl md:text-4xl font-bold text-center text-black">Terimakasih</h2>
+      <p class="my-4 relative text-2xl text-black">Sampai Jumpa di Hari Bahagia</p>
+      <div class="flex relative justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
+          <span class="text-top text-2xl md:text-5xl">Rakha</span>
+          <span class="text-middle text-6xl md:text-8xl">&</span>
+          <span class="text-bottom text-2xl md:text-5xl">Sheila</span>
+        </div>
     </div>
   </section>
   
@@ -346,10 +353,15 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aphrodite Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=GFS Didot');
+@import url('https://fonts.googleapis.com/css?family=Sahitya&subset=devanagari');
+
 
 *{
-  font-family: 'Vidaloka';
-  /* font-family: 'Great Vibes', cursive; */
+  font-family: "Palatino Linotype";
+  /* font-family:  'GFS Didot' */
 }
 
 .text-lato{
@@ -369,9 +381,92 @@ export default {
 
 #main{
   background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
-  /* background-size: cover; */
+  /* background-size: cover; */  
+    animation: imageAnimation 36s linear 0s; 
+
+}
+@keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+	    animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    transform: scale(1.05);
+	    animation-timing-function: ease-out;
+	}
+	17% {
+	   opacity: 1;
+	    transform: scale(1.1);
+	    animation-timing-function: ease-in;
+	}
+	25% {
+	    opacity: 1;
+	    transform: scale(1.15);
+	    animation-timing-function: ease-out;
+	}
+  /* 50% {
+	    opacity: 1;
+	    transform: scale(1.2);
+	    animation-timing-function: ease-out;
+	} */
+	100% { opacity: 1 }
 }
 
+
+@keyframes imageAnimationLagi { 
+	0% {
+	    /* opacity: 0; */
+	    /* animation-timing-function: ease-in; */
+      background-image: url('~assets/venue-1.jpeg');
+      object-fit: cover; height: 100%;
+
+	}
+	8% {
+	    /* opacity: 0; */
+	    transform: scale(1.05);
+	    /* animation-timing-function: ease-out; */
+      background-image: url('~assets/venue-2.jpeg');
+            object-fit: cover; height: 100%;
+
+
+	}
+	17% {
+	   /* opacity: 1; */
+	    transform: scale(1.1);
+	    /* animation-timing-function: ease-in; */
+      background-image: url('~assets/venue-3.jpeg');
+      object-fit: cover; height: 100%;
+
+
+	}
+	25% {
+	    /* opacity: 1; */
+	    transform: scale(1.15);
+	    /* animation-timing-function: ease-out; */
+      background-image: url('~assets/venue-4.jpeg');
+      object-fit: cover; height: 100%;
+
+	}
+  50% {
+	    /* opacity: 1; */
+	    transform: scale(1.2);
+	    /* animation-timing-function: ease-out; */
+      background-image: url('~assets/venue-5.jpeg');
+
+	}
+	100% { 
+    /* opacity: 1; */
+    	transform: scale(1.3);
+
+      background-image: url('~assets/venue-5.jpeg');
+      /* object-fit: cover; height: 100%; */
+  }
+}
+
+.ada {
+  animation: imageAnimation 36s linear 0s; 
+}
 #main2{
   /* background-image: linear-gradient(180deg, #B3DEEF, #E6E6FA); */
   background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
@@ -379,8 +474,13 @@ export default {
 }
 
 #main3{
-  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
   /* background-image: linear-gradient(180deg, #E6E6FA, #B3DEEF ); */
+    animation: imageAnimationLagi 36s linear 0s; 
+    /* background-image: url('~assets/venue-1.jpeg'); */
+    background-image: url('~assets/venue-3.jpeg');
+
+
+
 }
 
 #main4{
