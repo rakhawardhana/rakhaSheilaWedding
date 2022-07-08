@@ -19,7 +19,7 @@
         <div class="mt-5 sm:mt-8 sm:flex justify-center">
           <div class="rounded-md shadow">
             <button
-              class="animate fade-down-button fadeInDown fa border-2 text-md md:text-2xl hover:bg-white hover:text-black text-white border-white px-8 py-3 rounded-md"
+              class="animate fade-down-button fadeInDown  fa border-2 text-md md:text-2xl hover:bg-white hover:text-black text-white border-white px-8 py-3 rounded-md"
               @click="onFirst"
             >
               Buka Undangan
@@ -68,7 +68,7 @@
 
   <section id="main2" class="hidden main-1 h-full relative w-full pt-7 pb-7 md:pt-20 md:pb-24 flex items-center justify-center bg-cover bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
-    <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl text-center text-md md:text-xl mb-8 mx-5 md:mx-auto md:mb-8 relative text-lato">Dengan kerendahan hati,<br /> kami mengundang Bapak/Ibu/Saudara/Saudari untuk menghadiri pernikahan kami dan memberikan restu kepada kami</p>   
+    <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl mx-auto text-center text-md md:text-xl mb-5 md:mb-8 relative">Dengan kerendahan hati,<br /> kami mengundang Bapak/Ibu/Saudara/Saudari untuk menghadiri pernikahan kami dan memberikan restu kepada kami</p>   
     <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
       <div data-aos="fade-left" data-aos-duration="1000" class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
           <img src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" class="max-h-96 mx-auto pl-6 pr-5 xl:pl-16 xl:pr-20" style="-webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0; object-fit: cover; object-position: center;">
@@ -137,12 +137,14 @@
         Jakarta Selatan
         </p>
         <div class="flex justify-center">
-          <a href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Lihat Map</a>
+          <!-- <a href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Lihat Map</a> -->
         </div>
       </div>
-      <!-- <div class="lg:max-w-lg lg:w-full md:w-2/5 w-5/6 ada">
-        <img data-aos="fade-right" data-aos-duration="1000" class="relative object-cover object-center rounded" alt="hero" src="https://tempatnikah.net/wp-content/uploads/2020/09/UI1.png">
-      </div> -->
+      <!-- <div class="lg:max-w-lg lg:w-full md:w-2/5 w-5/6"> -->
+        <!-- <div class="frame-img"> -->
+          <!-- <img src="~assets/tmpt.jpg" class="max-h-96 mx-auto sm:pr-6 xl:pl-10 lg:pr-32" style="border-radius: 100% 0px; transform: rotate(45deg);"> -->
+        <!-- </div> -->
+      <!-- </div> -->
     </div>
   </section>  
 
@@ -171,28 +173,30 @@
   <!-- <section id="main7" class="hidden text-gray-700 bg-primer body-font"> -->
     <!-- <div class="container px-5 py-24 mx-auto"> -->
       <no-ssr>
-        <carousel-3d id="main5" class="hidden" :autoplay="true" :autoplay-timeout="2000" :controls-visible="true" :controls-prev-html="'&#x2039; '" :controls-next-html="'&#x203A;'"  :controls-width="10" :controls-height="30" :clickable="false">    
-          <slide  :index="0">
-            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-5.webp" style="object-fit: cover; height: 100%;">
+        <carousel-3d id="main5" class="hidden" :autoplay="true" :autoplay-timeout="3000" :controls-visible="true" :controls-prev-html="'&#x2039; '" :controls-next-html="'&#x203A;'"  :controls-width="10" :controls-height="30" :clickable="false">    
+          <slide :index="0">
+            <img src="~assets/mi_Self_Photo_Studio_Jakarta_-_Depok.webp" style="object-fit: cover; width: 100%; height: auto;"> 
           </slide>
           <slide :index="1">
-            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-6.webp" style="object-fit: cover; height: 100%;">
+            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-9.webp" style="object-fit: cover; width: 100%; height: auto;">
           </slide>
-          <slide  :index="2">    
-           <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-7.webp" style="object-fit: cover height: 100%;"> 
+          <slide :index="2">
+            <img src="~assets/Self_Photo_Studio_Jakarta_-_Depok-10.webp" style="object-fit: cover; width: 100%; height: auto;"> 
           </slide>
           <slide :index="3">
-            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-8.webp" style="object-fit: cover; height: 100%;">    
+            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-3.webp" style="object-fit: cover; width: 100%; height: 100%;"> 
           </slide>
+
           <slide :index="4">
-            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-9.webp" style="object-fit: cover; height: 100%;">
+            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-2.webp" style="object-fit: cover; width: 100%; height: 100%;">    
           </slide>
           <slide :index="5">
-            <img src="~assets/Self_Photo_Studio_Jakarta_-_Depok-10.webp" style="object-fit: cover; height: 100%;"> 
+            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-4.webp" style="object-fit: cover; width: 100%; height: 100%;">
           </slide>
-          <slide :index="6">
-            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-3.webp" style="object-fit: cover; height: 100%;"> 
-          </slide>
+          <!-- <slide :index="6">    
+            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-5.webp" style="object-fit: cover; width: 100%; height: auto;">          
+
+          </slide> -->
         </carousel-3d>
       </no-ssr>
     </div>
@@ -224,8 +228,16 @@
             <div class="flex items-center justify-center pb-4">
               <h1 class="text-center">Jalan Zeni 3 No 22 RT07/RW03, Kelurahan Rawajati, Kecamatan Pancoran, Jakarta Selatan</h1>
             </div>
+            <div class="flex items-center justify-center">
+              <button class="py-1 px-3 bg-gray-500 mx-auto text-white rounded hover:bg-gray-700 my-auto" style="font-size: 14px;">Copy Alamat</button>
+            </div>
+            <div class="text-center">
+              <a href="#" class="arrow up">Up</a>
+              <p style="color: red;">Copy Alamat diatas sebelum mengirimkan <bold>hadiah fisik</bold></p>
+              <a href="#" class="arrow down">Down</a>
+            </div>
             <div class="flex items-center justify-center pb-4 mb-8">
-              <a target="_blank" href="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 text-center px-4 bg-gray-500 text-white rounded hover:bg-gray-700"> Klik di sini untuk mengirimkan hadiah fisik</a>
+              <a target="_blank" href="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 text-center px-4 bg-gray-500 text-white rounded hover:bg-gray-700">Kirim hadiah fisik</a>
             </div>
             <div class="flex flex-wrap -m-4">
             <div class="p-2 md:p-4 w-full md:w-1/2">
@@ -263,11 +275,12 @@
     </div>
   </transition>
 
-  <section id="main6" class="hidden bg-primer">
+  <section id="main6" class="hidden main-1 h-full relative w-full bg-center">
+    <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
     <div class="container mx-auto px-6 text-center py-20">
-      <h2 class="mb-6 text-xl md:text-4xl font-bold text-center text-black">Terimakasih</h2>
-      <p class="my-4 text-2xl text-black">Sampai Jumpa di Hari Bahagia</p>
-      <div class="flex justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
+      <h2 class="relative mb-6 text-xl md:text-4xl font-bold text-center text-black">Terimakasih</h2>
+      <p class="my-4 relative text-2xl text-black">Sampai Jumpa di Hari Bahagia</p>
+      <div class="flex relative justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
           <span class="text-top text-2xl md:text-5xl">Rakha</span>
           <span class="text-middle text-6xl md:text-8xl">&</span>
           <span class="text-bottom text-2xl md:text-5xl">Sheila</span>
@@ -345,9 +358,11 @@ export default {
   }
 }
 </script>
-<style>
+<style lang="css">
 @import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aphrodite Text&display=swap');
 @import url('https://fonts.googleapis.com/css?family=GFS Didot');
@@ -361,6 +376,13 @@ export default {
 
 .text-lato{
   font-family: 'Lato' !important;
+}
+
+.text-serrat {
+  font-family: 'Montserrat', sans-serif;
+}
+.text-vibe {
+  font-family: 'Great Vibes', cursive;
 }
 
 #modal{
@@ -473,6 +495,12 @@ export default {
 #main4{
   /* background-color: #B3DEEF; */
   background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
+
+}
+#main6{
+  /* background-color: #B3DEEF; */
+  background-image: url('~assets/bg-thanks2.jpeg');
+  background-size: cover;
 
 }
 
@@ -674,5 +702,49 @@ export default {
 .carousel-3d-container .carousel-3d-slide {
   padding: 0 !important;
   border-radius: 10px !important;
+}
+
+/* .carousel-3d-slide{
+  width: unset !important;
+} */
+
+.carousel-3d-slider {
+  width: 370px !important;
+}
+
+@media (max-width: 768px) {
+  .carousel-3d-slider {
+    width: unset !important;
+  }
+}
+
+@-webkit-keyframes uparrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(-0.4em); opacity: 0.9 }
+}
+@-webkit-keyframes downarrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(0.4em); opacity: 0.9 }
+}
+
+.arrow {
+  border-color:transparent;
+  border-style:solid;
+  border-width:0 2em;
+  display:block;
+  height:0;
+  margin:1em auto;
+  opacity:0.4;
+  text-indent:-9999px;
+  transform-origin: 50% 50%;
+  width:0;
+}
+.up {
+  -webkit-animation: uparrow 0.6s infinite alternate ease-in-out;
+  border-bottom:2em solid black;
+}
+.down {
+  -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
+  border-top:2em solid black;
 }
 </style>
