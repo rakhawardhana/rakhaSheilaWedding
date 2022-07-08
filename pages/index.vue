@@ -215,8 +215,16 @@
             <div class="flex items-center justify-center pb-4">
               <h1 class="text-center">Jalan Zeni 3 No 22 RT07/RW03, Kelurahan Rawajati, Kecamatan Pancoran, Jakarta Selatan</h1>
             </div>
+            <div class="flex items-center justify-center">
+              <button class="py-1 px-3 bg-gray-500 mx-auto text-white rounded hover:bg-gray-700 my-auto" style="font-size: 14px;">Copy Alamat</button>
+            </div>
+            <div class="text-center">
+              <a href="#" class="arrow up">Up</a>
+              <p style="color: red;">Copy Alamat diatas sebelum mengirimkan <bold>hadiah fisik</bold></p>
+              <a href="#" class="arrow down">Down</a>
+            </div>
             <div class="flex items-center justify-center pb-4 mb-8">
-              <a target="_blank" href="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 text-center px-4 bg-gray-500 text-white rounded hover:bg-gray-700"> Klik di sini untuk mengirimkan hadiah fisik</a>
+              <a target="_blank" href="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 text-center px-4 bg-gray-500 text-white rounded hover:bg-gray-700">Kirim hadiah fisik</a>
             </div>
             <div class="flex flex-wrap -m-4">
             <div class="p-2 md:p-4 w-full md:w-1/2">
@@ -599,5 +607,35 @@ export default {
   .carousel-3d-slider {
     width: unset !important;
   }
+}
+
+@-webkit-keyframes uparrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(-0.4em); opacity: 0.9 }
+}
+@-webkit-keyframes downarrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(0.4em); opacity: 0.9 }
+}
+
+.arrow {
+  border-color:transparent;
+  border-style:solid;
+  border-width:0 2em;
+  display:block;
+  height:0;
+  margin:1em auto;
+  opacity:0.4;
+  text-indent:-9999px;
+  transform-origin: 50% 50%;
+  width:0;
+}
+.up {
+  -webkit-animation: uparrow 0.6s infinite alternate ease-in-out;
+  border-bottom:2em solid black;
+}
+.down {
+  -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
+  border-top:2em solid black;
 }
 </style>
