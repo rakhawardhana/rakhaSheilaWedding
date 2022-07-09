@@ -1,7 +1,7 @@
 <template>
-  <div class="wedding-invitation-rakha-sheila">
+  <div class="wedding-invitation-rakha-sheila max-w-screen max-h-screen">
   <client-only>
-  <section id="modal" class="relative main-2 h-screen w-full flex items-center justify-center text-center bg-cover bg-center" >
+  <section id="modal" class="relative main-2 max-w-screen max-h-screen h-screen w-full flex items-center justify-center text-center bg-cover bg-center" >
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-800 opacity-75"></div>
     <main class="px-4 sm:px-6 lg:px-8 z-10">
       <div class="text-center">
@@ -13,7 +13,7 @@
         </h2>
         <div class="flex justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl mt-8 sm:mx-auto md:mt-5 text-white">
           <span class="animate fade-left-rakha fadeInLeft text-top text-4xl md:text-4xl">Rakha</span>
-          <span class="animate fade-in-name p-4 fadeIn text-middle text-2xl md:text-4xl">&</span>
+          <span class="animate fade-in-name p-4 fadeIn text-middle text-2xl md:text-4xl">&amp;</span>
           <span class="animate fade-right-sheila fadeInRight text-bottom text-4xl md:text-4xl">Sheila</span>
         </div>
         <div class="mt-5 sm:mt-8 sm:flex justify-center">
@@ -35,11 +35,11 @@
       <div class="px-4 sm:px-6 lg:px-8 z-10">
       <div class="text-center">
         <h2 class="text-2xl tracking-tight leading-10 font-medium sm:text-3xl text-white sm:leading-none md:text-3xl">
-          Kami Megundang Anda Menghadiri Acara Pernikahan
+          Kami mengundang Anda menghadiri acara pernikahan
         </h2>
         <div class="flex justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
           <span class="text-top text-2xl md:text-6xl">Rakha</span>
-          <span class="text-middle p-4 text-2xl md:text-5xl">&</span>
+          <span class="text-middle p-4 text-2xl md:text-5xl">&amp;</span>
           <span class="text-bottom text-2xl md:text-6xl">Sheila</span>
         </div>
         <no-ssr>
@@ -78,10 +78,10 @@
               Rakha Gusti Wardhana, S.Kesos
           </h2>
           <p class="relative pt-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-              Putra pertama dari Bapak Agus Wardhana, S.E.
+              Putra dari
           </p>
-          <p class="relative p-0 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-              &
+          <p class="relative m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+              Bapak Agus Wardhana, S.E. &amp;
           </p>
           <p class="relative pb-4 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
               Ibu Agustina, S.E.
@@ -95,46 +95,46 @@
               Sheila Jasmine Meutia Azzara, S.Sos
           </h2>
           <p class="relative pt-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
-              Putri pertama dari Bapak Achmad Jani Subchan Maliki, S.Sos.
+              Putri dari
           </p>
-          <p class="relative p-0 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
-              &
+          <p class="relative m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
+              Bapak A. Jani S. Maliki, S.Sos. &amp;
           </p>
           <p class="relative pb-4 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
               Ibu dr. Dwi Rosaline Febrina
           </p>
       </div>
-      <div data-aos="fade-right" data-aos-duration="1000" class="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
+      <div data-aos="fade-right" data-aos-duration="1000" class="box-border relative w-full max-w-md px-4 mt-5 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
           <img src="~assets/undangan/personal/sheila.jpg" class="max-h-96 mx-auto w-10/12 sm:pr-6 xl:pl-10 lg:pr-12" style="object-fit: cover; object-position: center; -webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0;">
       </div>
     </div>
   </section>
 
   <section id="main3" class="ada hidden main-1 h-full relative w-full flex items-center justify-center bg-cover bg-center">
-      <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-50"></div>
+      <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-70"></div>
       <!-- <div class="ada"> -->
-      <h1 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pt-20">Waktu & Tempat</h1>
+      <h1 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl lg:mb-16  md:text-3xl pt-20">Waktu & Tempat</h1>
       <div class="container mx-auto flex px-5 mt-2 pb-24 md:flex-row flex-col justify-center text-center items-center">
-        <div data-aos="fade-left" data-aos-duration="1000" class="relative lg:flex-grow md:w-3/5 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center mb-6">
-          <div class="flex">
-            <div class="p-5">
+        <div data-aos="fade-left" data-aos-duration="1000" class="relative lg:flex-grow md:w-3/5 flex flex-col md:text-left md:mb-0 items-center text-center">
+          <div class="flex justify-center items-center w-full md:mb-3 lg:mb-16">
+            <div class="p-4 md:w-full lg:w-10/12">
               <div style="border-bottom: solid 2px black">
                 <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Akad</h2>
               </div>
-              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sabtu, 6 Agustus 2022 <br /> 07.00 - 09.00 WIB</p>
+              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sabtu <br/> 6 Agustus 2022 <br /> 07.00 - 09.00 WIB</p>
             </div>
-            <div class="p-5">
+            <div class="p-4 md:w-full lg:w-10/12">
               <div style="border-bottom: solid 2px black">
                 <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Resepsi</h2>
               </div>
-              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sabtu, 6 Agustus 2022 <br /> 11.00 - 13.00 WIB</p>
+              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sabtu <br/> 6 Agustus 2022 <br /> 11.00 - 13.00 WIB</p>
             </div>
           </div>
           <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900">
-            Felfest Faculty Club Universitas Indonesia
+            Felfest Faculty Club <br/> Universitas Indonesia
           </h1>
-          <p class="mb-8 text-sm justify-center items-center text-center sm:text-xl">Kampus UI, Jl. Prof. Dr. Miriam Budiardjo <br />
-          Kel. Srengseng Sawah, Kec. Jagakarsa
+          <p class="mb-4 text-sm justify-center items-center text-center sm:text-xl">Kampus UI, Jl. Prof. Dr. Miriam Budiardjo <br />
+          Kel. Srengseng Sawah, Kec. Jagakarsa <br/>
           Jakarta Selatan
           </p>
           <div class="flex justify-center">
@@ -152,20 +152,20 @@
 
   <section id="main4" class="hidden main-1 h-full relative w-full bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 py-12 mx-auto">
       <div class="flex flex-wrap -m-4">
         <div class="p-2 md:p-4 w-full md:w-1/2 relative">
-          <div data-aos="flip-down" data-aos-duration="1000" class="text-center flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-              <h2 class="text-2xl md:text-3xl">RSVP</h2>
-              <p class="mb-3 md:mb-5">Bantu kami mempersiapkan jamuan terbaik untuk Anda semua dengan mengirimkan konfirmasi kehadiran melalui tautan berikut:</p>
-              <nuxt-link :to="partner ? `/rsvp?invitee=${name}&partner=${partner}` : name ? `/rsvp?invitee=${name}` : `/rsvp` " class="py-2 px-4 bg-gray-500 text-white text-center rounded hover:bg-gray-700 my-auto"><i class="fas fa-times"></i> Klik di sini untuk reservasi kehadiran Anda</nuxt-link>
+          <div data-aos="flip-down" data-aos-duration="1000" class="text-center items-center justify-center flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+              <h2 class="text-2xl pb-5 md:text-3xl">RSVP</h2>
+              <p class="mb-8 text-center md:mb-15">Bantu kami mempersiapkan jamuan terbaik untuk Anda dengan mengirimkan konfirmasi kehadiran melalui tautan berikut:</p>
+              <nuxt-link style="font-size: 20px;" :to="partner ? `/rsvp?invitee=${name}&partner=${partner}` : name ? `/rsvp?invitee=${name}` : `/rsvp` " class="flex w-8/12 justify-center items-center py-2 px-4 bg-gray-500 text-white text-center rounded hover:bg-gray-700 my-auto shadow-md">Reservasi</nuxt-link>
           </div>
         </div>
         <div class="p-2 md:p-4 w-full md:w-1/2 relative">
-          <div data-aos="fade-right" data-aos-duration="1000" class="text-center flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-            <h2 class="text-2xl md:text-3xl">KIRIM HADIAH</h2>
-              <p class="mb-3 md:mb-5">Doa restu keluarga, sahabat, serta rekan-rekan semua di pernikahan kami sudah sangat cukup sebagai hadiah, namun jika memberi merupakan tanda kasih, kami dengan senang hati menerimanya dan tentunya semakin melengkapi kebahagiaan kami.</p>
-              <button @click="onModalQR" class="py-2 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto">Klik di sini untuk mengirimkan hadiah</button>
+          <div data-aos="fade-right" data-aos-duration="1000" class="text-center items-center justify-center  flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+            <h2 class="text-2xl pb-5 md:text-3xl">KIRIM HADIAH</h2>
+              <p class="text-center mb-8 md:mb-15">Kami sangat berterima kasih untuk doa restu, kehadiran dan tanda kasih yang Anda berikan di hari bahagia kami.</p>
+              <button style="font-size: 20px;" @click="onModalQR" class="py-2 w-8/12 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto shadow-md">Kirim Hadiah</button>
           </div>
         </div>
       </div>
@@ -174,7 +174,12 @@
 
   <!-- <section id="main7" class="hidden text-gray-700 bg-primer body-font"> -->
     <!-- <div class="container px-5 py-24 mx-auto"> -->
-      <no-ssr>
+      
+    </div>
+  </section>
+
+  <section id="main-slider" class="hidden main-1 h-full relative w-full bg-center">
+    <no-ssr>
         <carousel-3d id="main5" class="hidden" :autoplay="true" :autoplay-timeout="3000" :controls-visible="true" :controls-prev-html="'&#x2039; '" :controls-next-html="'&#x203A;'"  :controls-width="10" :controls-height="30" :clickable="false">    
           <slide :index="0">
             <img src="~assets/mi_Self_Photo_Studio_Jakarta_-_Depok.webp" style="object-fit: cover; width: 100%; height: auto;"> 
@@ -201,7 +206,6 @@
           </slide> -->
         </carousel-3d>
       </no-ssr>
-    </div>
   </section>
 
   <transition name="fade">
@@ -299,11 +303,16 @@
       </div>
     </div>
   </footer> -->
-  <!-- <a href="https://github.com/mertJF/tailblocks" id="play-btn" class="hidden rounded-full w-12 h-12 bg-gray-100 fixed bottom-0 right-0 flex items-center justify-center text-gray-800 mr-8 mb-8 shadow-sm border-gray-300 border" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-    </svg>
-  </a> -->
-  <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4T6HLdP6OcAtqC6tGnQelG?utm_source=generator" width="40%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
+  
+
+   <button @click="play" id="play-btn" class="hidden rounded-full w-12 h-12 bg-gray-100 fixed bottom-0 right-0 flex items-center justify-center text-gray-800 mr-8 mb-8 shadow-sm border-gray-300 border" target="_blank">
+      <svg v-if="!music" class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z"/></svg>      
+      <svg v-else class="items-center justify-center w-6 h-6"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M272 63.1l-32 0c-26.51 0-48 21.49-48 47.1v288c0 26.51 21.49 48 48 48L272 448c26.51 0 48-21.49 48-48v-288C320 85.49 298.5 63.1 272 63.1zM80 63.1l-32 0c-26.51 0-48 21.49-48 48v288C0 426.5 21.49 448 48 448l32 0c26.51 0 48-21.49 48-48v-288C128 85.49 106.5 63.1 80 63.1z"/></svg>
+
+      <audio id="play" controls src='@/assets/lagu.mp3' autoplay loop class="hidden rounded-full w-12 h-12 bg-gray-100 fixed bottom-0 right-0 flex items-center justify-center text-gray-800 mr-8 mb-8 shadow-sm border-gray-300 border" target="_blank">
+      </audio>
+    </button>
+   
     </client-only>
 
   </div>
@@ -322,7 +331,8 @@ export default {
       slides: 7,
       onShow: false,
       name: this.$route.query.invitee,
-      partner: this.$route.query.partner ? this.$route.query.partner : null
+      partner: this.$route.query.partner ? this.$route.query.partner : null,
+      music: false
     };
   },
   components: { 
@@ -331,18 +341,20 @@ export default {
 
   methods: {
     onFirst() {
-      // this.playSound('~assets/Michael Bublé - Everything [Official Music Video].mp3')
+      this.play()
 
       document.getElementById("modal").style.transform="translateY(-100%)";
       document.getElementById("modal").style.transition=" all 1.2s";
       document.getElementById("modal").style.zIndex="8";
-      // document.getElementById("play-btn").style.display="flex";
+      document.getElementById("play-btn").style.display="flex";
       document.getElementById("main").style.display="flex";
       document.getElementById("main2").style.display="block";
       document.getElementById("main3").style.display="block";
       document.getElementById("main4").style.display="inherit";
       document.getElementById("main5").style.display="block";
       document.getElementById("main6").style.display="block";
+      document.getElementById("main-slider").style.display="block";
+
       // document.getElementById("main7").style.display="block";
       // document.getElementById("footer").style.display="block";
       AOS.init()
@@ -355,12 +367,28 @@ export default {
       this.onShow = !this.onShow;
       console.log(this.onShow)
     },
-    playSound (sound) {
-            if(sound) {
-                var audio = new Audio('~assets/Michael Bublé - Everything [Official Music Video].mp3');
-                audio.play();
-            }
+    playSound () {
+            // if(sound) {
+                // var audio = new Audio(this.music);
+                // audio.play();
+            // }
+        document.getElementById("play").play();
+        this.music = true
+
+
     },
+    pause(){
+      document.getElementById("play").pause();
+      this.music = false
+
+    },
+    play(){
+        if(this.music === false){
+          this.playSound()
+        }else {
+          this.pause()
+        }
+    }
   },
   computed: {
     isModalQR() {
@@ -379,6 +407,10 @@ export default {
 /* @import url('https://fonts.googleapis.com/css?family=GFS Didot'); */
 @import url('https://fonts.googleapis.com/css?family=Sahitya&subset=devanagari');
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+body {
+  overflow-x: hidden;
+}
 
 *{
   /* font-family: "Palatino Linotype"; */
@@ -410,7 +442,7 @@ export default {
 .lo{
     background-size: cover;  
     animation: imageAnimation 36s linear 0s; 
-    background-image: url("~assets/_Self_Photo_Studio_Jakarta_-_Depok-3.webp");
+    background-image: url("~assets/_Self_Photo_Studio_Jakarta_-_Depok-9 copy.jpg");
     /* opacity: 1; */
     background-color: rgb(38 38 38);
     /* height: 100%;
@@ -428,36 +460,36 @@ export default {
       min-height: 100%;
       width: 100%;
 
-	    animation-timing-function: ease-in;
+	    /* animation-timing-function: ease-in; */
       background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
 
 	}
-	20% {
+	35% {
       /* background-size: cover;   */
-	    opacity: 1;
+	    /* opacity: 1; */
       background-color: rgb(38 38 38);
       min-height: 100%;
       width: 100%;
 	    /* transform: scale(1.05); */
        /* height: 100%;
-    width: 100%; */
+      width: 100%; */
 	    /* animation-timing-function: ease-in-out; */
       background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok.jpg');
 
 	}
-	45% {
+	75% {
       background-size: cover;  
       background-color: rgb(38 38 38);
        min-height: 100%;
       min-width: 100%;
-	    opacity: 1;
+	    /* opacity: 1; */
 	    /* transform: scale(1.1); */
       /* height: 100%;
        width: 100%; */
 	    /* animation-timing-function: ease-in; */
       background-image: url('~assets/Self_Photo_Studio_Jakarta_-_Depok-10.webp');
 	}
-	75% {
+	100% {
       background-size: cover;  
 	    /* opacity: 0.75; */
       background-color: rgb(38 38 38);
@@ -465,37 +497,29 @@ export default {
 	    /* transform: scale(1.15); */
        min-height: 100%;
       min-width: 100%;
-	    animation-timing-function: ease-in;
+	    /* animation-timing-function: ease-in; */
       background-image: url("~assets/_Self_Photo_Studio_Jakarta_-_Depok-9 copy.jpg")
 	}
-  80% {
+  /* 90% {
 	    opacity: 1;
-	    /* transform: scale(1.2); */
       background-color: rgb(38 38 38);
-       /* height: 100%;
-    width: 100%; */
-     min-height: 100%;
+     
       min-width: 100%;
       background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
 
 	    animation-timing-function: ease-in;
-	}
-	100% { 
+	} */
+	/* 100% { 
       background-size: cover;  
       background-color: rgb(38 38 38);
       /* opacity: 0.75; */
        /* height: 100%;
-    width: 100%; */
-     min-height: 100%;
+      min-height: 100%;
       min-width: 100%;
       animation-timing-function: ease-in-out;
-
-
       background-image: url("~assets/_Self_Photo_Studio_Jakarta_-_Depok-3.webp")
-
-  }
+  } */
 }
-
 
 @keyframes imageAnimationLagi { 
 	0% {
@@ -503,7 +527,6 @@ export default {
 	    /* animation-timing-function: ease-in; */
       background-image: url('~assets/venue-1.jpeg');
       object-fit: cover; height: 100%;
-
 	}
 	8% {
 	    /* opacity: 0; */
@@ -586,6 +609,10 @@ export default {
   }
     .carousel-3d-slide .title { font-size: 22px; }
 
+.carousel-3d-controls{
+    visibility: hidden;
+
+}
 /* } */
 
 .bg-primer{
