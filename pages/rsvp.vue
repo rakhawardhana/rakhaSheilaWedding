@@ -10,21 +10,27 @@
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-800 opacity-75"></div>
       <form class="form w-full" v-if="ada === 0">
         <h2 class="text-black">RSVP</h2> 
-        <div class="body-rsvp" >
+        <div class="body-rsvp flex justify-center items-center flex-col" >
 
-            <input style="text-transform:capitalize;" v-model="name" type="text" id="name" placeholder="name" />
-            <input id="yes" v-model="rsvp" type="radio" name="rsvps" :value="true" /><label for="yes" class="side-label">Ya, saya akan hadir</label>
+            <input style="text-transform:capitalize;" v-model="name" type="text" id="name" placeholder="name" class="mb-5" />
+			
+			<p style="margin-top: 5px; display: none;" class="warning">Harap isi form dengan lengkap</p>
+			<br/>
+			<!-- <div class="mt-5"> -->
+			<input id="yes" checked v-model="rsvp" type="radio" name="rsvps" :value="true" /><label for="yes" class="side-label">Ya, saya akan hadir</label>
 
-            <input type="radio" v-model="rsvp" id="no" name="rsvps" :value="false" /><label for="no" class="side-label">Mohon maaf belum bisa hadir</label>
+			<input type="radio" v-model="rsvp" id="no" name="rsvps" :value="false" /><label for="no" class="side-label">Mohon maaf belum bisa hadir</label>
+			<!-- </div> -->
 
             <div class="accept-form">
             <label for="box-of-regrets" class="top-label">Jumlah orang yang akan hadir:</label><br>
-            	<input id="plus-one" v-model="amount" type="radio" name="plus1" value="1" />
-				<label for="plus-one" class="side-label">1 orang</label>
+				<div class="flex justify-center items-center flex-col">
+					<input id="plus-one" v-model="amount" type="radio" name="plus1" value="1" />
+					<label for="plus-one" class="side-label">1 orang</label>
 
-            	<input type="radio" v-model="amount"  id="just-me" name="plus1" value="2" />
-				<label for="just-me" class="side-label">2 orang</label><br>
-
+					<input type="radio" v-model="amount"  id="just-me" name="plus1" value="2" />
+					<label for="just-me" class="side-label">2 orang</label><br>
+				</div>
             </div>
 
         </div>
@@ -76,7 +82,7 @@ export default {
 				])
 
 				window.location.reload()
-			}else{
+			} else if(this.rsvp === false && this.name.length != 0) {
 				const { data, error } = await supabase
 					.from('invitee')
 					.insert([
@@ -84,6 +90,16 @@ export default {
 				])
 
 				window.location.reload()
+			}
+			else if(this.name.length === 0 || (this.rsvp === true && !this.amount)) {
+				document.querySelector('.warning').style.display='block'
+				// const { data, error } = await supabase
+				// 	.from('invitee')
+				// 	.insert([
+				// 		{ invitee: this.name, answer: false, amount:  0},
+				// ])
+
+				// window.location.reload()
 			}
 		},
 		onBack(){
@@ -97,7 +113,7 @@ export default {
 	data(){
 		return {
 			name : this.$route.query.invitee ?  this.$route.query.partner  ? this.$route.query.invitee + ' & '  + this.$route.query.partner : this.$route.query.invitee : '',
-			rsvp: undefined,
+			rsvp: true,
 			amount: null,
 			ada: 0
 		}
@@ -208,10 +224,12 @@ textarea:focus {
 .side-label {
 	display: inline-block;
 	position: relative;
-	margin: 20px 43px;
+	margin: 10px 0px;
 	padding-left: 25px;
 	cursor: pointer;
 }
+
+
 
 .side-label::before,
 .side-label::after {
@@ -257,7 +275,7 @@ input:checked + .side-label:after {
 	transition: all 1s ease-out;
 	opacity: 0;
 	height: 0;
-	padding: 0px 43px;
+	/* padding: 0px 10px; */
 	overflow: hidden;
 }
 
