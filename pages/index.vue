@@ -441,8 +441,8 @@ export default {
 	    /* transform: scale(1.05); */
        /* height: 100%;
     width: 100%; */
-	    animation-timing-function: ease-in-out;
-      background-image: url('~assets/undangan/cover slider/cover3.jpg');
+	    /* animation-timing-function: ease-in-out; */
+      background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok.jpg');
 
 	}
 	45% {
@@ -454,8 +454,8 @@ export default {
 	    /* transform: scale(1.1); */
       /* height: 100%;
        width: 100%; */
-	    animation-timing-function: ease-in;
-      background-image: url('~assets/undangan/cover slider/cover4.jpg');
+	    /* animation-timing-function: ease-in; */
+      background-image: url('~assets/Self_Photo_Studio_Jakarta_-_Depok-10.webp');
 	}
 	75% {
       background-size: cover;  
@@ -466,7 +466,7 @@ export default {
        min-height: 100%;
       min-width: 100%;
 	    animation-timing-function: ease-in;
-      background-image: url("~assets/_Self_Photo_Studio_Jakarta_-_Depok-3.webp")
+      background-image: url("~assets/_Self_Photo_Studio_Jakarta_-_Depok-9 copy.jpg")
 	}
   80% {
 	    opacity: 1;
