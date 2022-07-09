@@ -71,7 +71,7 @@
     <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-5 mx-auto text-center text-md md:text-xl mb-5 md:mb-8 relative">Dengan kerendahan hati, kami mengundang Bapak/Ibu/Saudara/Saudari untuk menghadiri pernikahan kami dan memberikan restu kepada kami</p>   
     <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
       <div data-aos="fade-left" data-aos-duration="1000" class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
-          <img src="~assets/undangan/personal/rakha.jpeg" class="max-h-96 mx-auto pl-6 pr-5 xl:pl-16 xl:pr-20" style="-webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0; object-fit: cover; object-position: center;">
+          <img src="~assets/rakha3.jpeg" class="max-h-96 mx-auto pl-6 pr-5 xl:pl-16 xl:pr-20" style="-webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0; object-fit: cover; object-position: center;">
       </div>
       <div class="box-border order-first w-full text-center md:text-left text-black border-solid md:w-1/2 md:pl-10 md:order-none">
           <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
@@ -164,7 +164,7 @@
         <div class="p-2 md:p-4 w-full md:w-1/2 relative">
           <div data-aos="fade-right" data-aos-duration="1000" class="text-center items-center justify-center  flex rounded-lg h-full bg-gray-100 p-8 flex-col">
             <h2 class="text-2xl pb-5 md:text-3xl">KIRIM HADIAH</h2>
-              <p class="text-center mb-8 md:mb-15">Kami sangat berterima kasih untuk doa restu, kehadiran dan tanda kasih yang Anda berikan di hari bahagia kami.</p>
+              <p class="text-center mb-8 md:mb-15">Kami sangat berterima kasih untuk doa restu, kehadiran, dan tanda kasih yang Anda berikan di hari bahagia kami.</p>
               <button style="font-size: 20px;" @click="onModalQR" class="py-2 w-8/12 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto shadow-md">Kirim Hadiah</button>
           </div>
         </div>
@@ -180,25 +180,43 @@
 
   <section id="main-slider" class="hidden main-1 h-full relative w-full bg-center">
     <no-ssr>
-        <carousel-3d id="main5" class="hidden" :autoplay="true" :autoplay-timeout="3000" :controls-visible="true" :controls-prev-html="'&#x2039; '" :controls-next-html="'&#x203A;'"  :controls-width="10" :controls-height="30" :clickable="false">    
+        <carousel-3d id="main5" class="hidden" :autoplay="true" :autoplay-timeout="3000" :controls-visible="true" :controls-prev-html="'&#x2039; '" :controls-next-html="'&#x203A;'"  :controls-width="10" :controls-height="30" :clickable="true">    
           <slide :index="0">
-            <img src="~assets/mi_Self_Photo_Studio_Jakarta_-_Depok.webp" style="object-fit: cover; width: 100%; height: auto;"> 
+            <img  src="~assets/mi_Self_Photo_Studio_Jakarta_-_Depok.webp" style="object-fit: cover; min-width: 362px; height: auto;"> 
           </slide>
-          <slide :index="1">
-            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-9.webp" style="object-fit: cover; width: 100%; height: auto;">
+          <slide  :index="1">
+            <img  src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-9.webp" style="object-fit: cover; min-width: 362px; height: auto;">
           </slide>
           <slide :index="2">
-            <img src="~assets/Self_Photo_Studio_Jakarta_-_Depok-10.webp" style="object-fit: cover; width: 100%; height: auto;"> 
+            <img   src="~assets/wisuda4.jpg" style="object-fit: cover; min-width: 362px; height: auto;"> 
           </slide>
           <slide :index="3">
-            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-3.webp" style="object-fit: cover; width: 100%; height: 100%;"> 
+            <img   src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-3.webp" style="object-fit: cover; min-width: 362px;height: 100%;"> 
           </slide>
 
           <slide :index="4">
-            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-2.webp" style="object-fit: cover; width: 100%; height: 100%;">    
+            <img   src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-2.webp" style="object-fit: cover; min-width: 362px; height: 100%;">    
           </slide>
           <slide :index="5">
-            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-4.webp" style="object-fit: cover; width: 100%; height: 100%;">
+            <img   src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-4.webp" style="object-fit: cover; min-width: 362px; height: 100%;">
+          </slide>
+          <slide :index="6">
+            <img   src="~assets/lamaran1.jpg" style="object-fit: cover; min-width: 362px;height: 100%;"> 
+          </slide>
+          <slide :index="7">
+            <img src="~assets/lamaran2.jpg" style="object-fit: cover; min-width: 362px; height: 100%;">    
+          </slide>
+          <slide :index="8">
+            <img src="~assets/lamaran3.jpg" style="object-fit: cover; min-width: 362px; height: 100%;">
+          </slide>
+          <slide :index="9">
+            <img src="~assets/lamaran4.jpg" style="object-fit: cover; min-width: 362px;height: 100%;"> 
+          </slide>
+          <slide :index="10">
+            <img src="~assets/wisuda1.jpg" style="object-fit: cover; min-width: 362px; height: 100%;">    
+          </slide>
+          <slide :index="11">
+            <img src="~assets/wisuda2.jpg" style="object-fit: cover; min-width: 362px; height: 100%;">
           </slide>
           <!-- <slide :index="6">    
             <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-5.webp" style="object-fit: cover; width: 100%; height: auto;">          
@@ -207,6 +225,27 @@
         </carousel-3d>
       </no-ssr>
   </section>
+
+  <!-- <transition name="fade">
+    <div v-if="isModalPhoto" class="fixed flex inset-0 z-10 bg-transparent bg-opacity-75" id="modal2">
+      <div class="flex self-center items-center justify-center w-full h-full p-8 max-h-fit">
+        <div class="flex flex-col overflow-hidden bg-white rounded w-full max-h-full max-w-md">
+
+          <div class="flex items-center justify-end p-4">
+            <button @click="onModalPhoto('')" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+
+          <div class="relative overflow-y-auto p-4" :style="`background-image: url(${photo})`">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </transition> -->
 
   <transition name="fade">
     <div v-if="isModalQR" class="fixed flex inset-0 z-10 bg-transparent bg-opacity-75" id="modal">
@@ -235,11 +274,11 @@
               <h1 class="text-center">Jalan Zeni 3 No 22 RT07/RW03, Kelurahan Rawajati, Kecamatan Pancoran, Jakarta Selatan</h1>
             </div>
             <div class="flex items-center justify-center">
-              <button class="py-1 px-3 bg-gray-500 mx-auto text-white rounded hover:bg-gray-700 my-auto" style="font-size: 14px;">Copy Alamat</button>
+              <button class="py-1 px-3 bg-gray-500 mx-auto text-white rounded hover:bg-gray-700 my-auto" @click="copyAddress" style="font-size: 14px;">Copy Alamat</button>
             </div>
             <div class="text-center">
               <a href="#" class="arrow up">Up</a>
-              <p style="color: red;">Copy Alamat diatas sebelum mengirimkan <bold>hadiah fisik</bold></p>
+              <p style="color: red;">Copy Alamat diatas sebelum mengirimkan hadiah fisik</p>
               <a href="#" class="arrow down">Down</a>
             </div>
             <div class="flex items-center justify-center pb-4 mb-8">
@@ -250,28 +289,50 @@
               <div data-aos="flip-down" data-aos-duration="1000" class="text-center h-full">
                 <h1>BCA</h1>
                 <h1>Rakha Gusti Wardhana</h1>
+                <div class="flex mb-4 items-center justify-center">
+                  <p>3970113206</p>
+                  <button class="items-center justify-center ml-3" @click="copyBCA">
+                    <svg class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"/></svg>
+                  </button>
+                </div>
                 <img src="~assets/bca.png" width="100%" height="auto" />  
               </div>
             </div>
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="fade-right" data-aos-duration="1000" class="text-center h-full">
-              <h1>Mandiri</h1>
-              <h1>Rakha Gusti Wardhana</h1>
-              <img src="~assets/livin.png" width="100%" height="auto" />  
+              <h1>BNI</h1>
+              <h1>Sheila Jasmine Meutia Azzara</h1>
+              <div class="flex items-center justify-center">
+                  <p>12112121212</p>
+                  <button class="items-center justify-center ml-3" @click="copyBNI">
+                    <svg class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"/></svg>
+                  </button>
+              </div>
+              <img src="~assets/BNI.jpeg" width="100%" height="auto" />  
               </div>
             </div>
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="fade-right" data-aos-duration="1000" class="text-center h-full">
               <h1>GOPAY</h1>
-              <h1>082332403412</h1>
+              <div class="flex mb-4 items-center justify-center">
+                  <h1>082332403412</h1>
+                  <button class="items-center justify-center ml-3" @click="copyGopay">
+                    <svg class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"/></svg>
+                  </button>
+              </div>
               <img src="~assets/gopay.png" width="100%" height="auto" />  
               </div>
             </div>
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="fade-right" data-aos-duration="1000" class="text-center h-full">
               <h1>OVO</h1>
-              <h1>082332403412</h1>
-              <img src="~assets/ovo.png" width="100%" height="auto" />  
+              <div class="flex mb-4 items-center justify-center">
+                  <h1>085810336810</h1>
+                  <button class="items-center justify-center ml-3" @click="copyOVO">
+                    <svg class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"/></svg>
+                  </button>
+              </div>
+              <img src="~assets/ovo.jpeg" width="100%" height="100%" />  
               </div>
             </div>
           </div>
@@ -305,9 +366,9 @@
   </footer> -->
   
 
-   <button @click="play" id="play-btn" class="hidden rounded-full w-12 h-12 bg-gray-100 fixed bottom-0 right-0 flex items-center justify-center text-gray-800 mr-8 mb-8 shadow-sm border-gray-300 border" target="_blank">
-      <svg v-if="!music" class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z"/></svg>      
-      <svg v-else class="items-center justify-center w-6 h-6"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M272 63.1l-32 0c-26.51 0-48 21.49-48 47.1v288c0 26.51 21.49 48 48 48L272 448c26.51 0 48-21.49 48-48v-288C320 85.49 298.5 63.1 272 63.1zM80 63.1l-32 0c-26.51 0-48 21.49-48 48v288C0 426.5 21.49 448 48 448l32 0c26.51 0 48-21.49 48-48v-288C128 85.49 106.5 63.1 80 63.1z"/></svg>
+    <button @click="play" id="play-btn" class="hidden rounded-full w-6 h-6 bg-gray-100 fixed bottom-0 right-0 flex items-center justify-center text-gray-800 mr-8 mb-8 shadow-sm border-gray-300 border" target="_blank">
+      <svg v-if="!music" class="items-center justify-center w-3 h-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z"/></svg>      
+      <svg v-else class="items-center justify-center w-3 h-3"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M272 63.1l-32 0c-26.51 0-48 21.49-48 47.1v288c0 26.51 21.49 48 48 48L272 448c26.51 0 48-21.49 48-48v-288C320 85.49 298.5 63.1 272 63.1zM80 63.1l-32 0c-26.51 0-48 21.49-48 48v288C0 426.5 21.49 448 48 448l32 0c26.51 0 48-21.49 48-48v-288C128 85.49 106.5 63.1 80 63.1z"/></svg>
 
       <audio id="play" controls src='@/assets/lagu.mp3' autoplay loop class="hidden rounded-full w-12 h-12 bg-gray-100 fixed bottom-0 right-0 flex items-center justify-center text-gray-800 mr-8 mb-8 shadow-sm border-gray-300 border" target="_blank">
       </audio>
@@ -332,7 +393,10 @@ export default {
       onShow: false,
       name: this.$route.query.invitee,
       partner: this.$route.query.partner ? this.$route.query.partner : null,
-      music: false
+      music: false,
+      onShowPhoto: false,
+      photo: ''
+
     };
   },
   components: { 
@@ -367,15 +431,29 @@ export default {
       this.onShow = !this.onShow;
       console.log(this.onShow)
     },
+    onModalPhoto(value){
+      this.onShowPhoto = !this.onShowPhoto;
+      this.photo = value
+      console.log(value)
+    },
+    copyAddress(){
+        navigator.clipboard.writeText('Jalan Zeni 3 No 22 RT07/RW03, Kelurahan Rawajati, Kecamatan Pancoran, Jakarta Selatan')
+    },
+    copyBCA(){
+        navigator.clipboard.writeText('3970113206')
+    },
+    copyBNI(){
+        navigator.clipboard.writeText('09121212121')
+    },
+    copyGopay(){
+        navigator.clipboard.writeText('082332403412')
+    },
+    copyOVO(){
+        navigator.clipboard.writeText('085810336810')
+    },
     playSound () {
-            // if(sound) {
-                // var audio = new Audio(this.music);
-                // audio.play();
-            // }
         document.getElementById("play").play();
         this.music = true
-
-
     },
     pause(){
       document.getElementById("play").pause();
@@ -393,6 +471,9 @@ export default {
   computed: {
     isModalQR() {
       return this.onShow;
+    },
+    isModalPhoto() {
+      return this.onShowPhoto;
     }
   }
 }
@@ -442,11 +523,11 @@ body {
 .lo{
     background-size: cover;  
     animation: imageAnimation 36s linear 0s; 
-    background-image: url("~assets/_Self_Photo_Studio_Jakarta_-_Depok-9 copy.jpg");
-    /* opacity: 1; */
+    background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
     background-color: rgb(38 38 38);
     /* height: 100%;
     width: 100%; */
+    opacity: 0.90
 
 }
 @keyframes imageAnimation { 
@@ -454,71 +535,65 @@ body {
       /* background-size: cover;   */
       background-color: rgb(38 38 38);
 
-	    opacity: 0.85;
+	    /* opacity: 0.85; */
        /* height: 100%;
     width: 100%; */
       min-height: 100%;
       width: 100%;
-
+  
 	    /* animation-timing-function: ease-in; */
-      background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
-
+      background-image: url('~assets/lamaran1.jpg');
 	}
-	35% {
-      /* background-size: cover;   */
-	    /* opacity: 1; */
+	20% {
       background-color: rgb(38 38 38);
       min-height: 100%;
       width: 100%;
-	    /* transform: scale(1.05); */
-       /* height: 100%;
-      width: 100%; */
-	    /* animation-timing-function: ease-in-out; */
-      background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok.jpg');
-
+      /* opacity: 0.85; */
+      background-image: url("~assets/lamaran3.jpg");
 	}
-	75% {
-      background-size: cover;  
+	45% {
+      /* background-size: cover;   */
       background-color: rgb(38 38 38);
-       min-height: 100%;
+      min-height: 100%;
       min-width: 100%;
+      /* opacity: 0.85; */
+
 	    /* opacity: 1; */
 	    /* transform: scale(1.1); */
       /* height: 100%;
        width: 100%; */
 	    /* animation-timing-function: ease-in; */
-      background-image: url('~assets/Self_Photo_Studio_Jakarta_-_Depok-10.webp');
+      background-image: url("~assets/lamaran3.jpg");
 	}
-	100% {
-      background-size: cover;  
+	70% {
+      /* background-size: cover;   */
 	    /* opacity: 0.75; */
       background-color: rgb(38 38 38);
 
 	    /* transform: scale(1.15); */
-       min-height: 100%;
+      min-height: 100%;
       min-width: 100%;
 	    /* animation-timing-function: ease-in; */
-      background-image: url("~assets/_Self_Photo_Studio_Jakarta_-_Depok-9 copy.jpg")
+      background-image: url("~assets/lamaran4.jpg");
 	}
-  /* 90% {
+  90% {
 	    opacity: 1;
       background-color: rgb(38 38 38);
      
-      min-width: 100%;
-      background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
-
-	    animation-timing-function: ease-in;
-	} */
-	/* 100% { 
-      background-size: cover;  
+      min-height: 100%;
+      min-width: 100%;      
+      background-image: url("~assets/lamaran4.jpg");
+	    /* animation-timing-function: ease-in; */
+	}
+	100% { 
+      /* background-size: cover;   */
       background-color: rgb(38 38 38);
-      /* opacity: 0.75; */
-       /* height: 100%;
+      opacity: 0.90;
       min-height: 100%;
       min-width: 100%;
       animation-timing-function: ease-in-out;
-      background-image: url("~assets/_Self_Photo_Studio_Jakarta_-_Depok-3.webp")
-  } */
+      background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
+  }
 }
 
 @keyframes imageAnimationLagi { 
