@@ -46,7 +46,7 @@
           <flip-countdown deadline="2022-08-06 00:00:00"></flip-countdown>
         </no-ssr>
         <div class="mt-5 sm:mt-8 sm:flex justify-center">
-          <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MHVmbXVmMjQzcjFsOGUzMjY4cnNqMGt1dnIgcmFraGFndXN0aXdhcmRoYW5hQG0&amp;tmsrc=rakhagustiwardhana%40gmail.com" class="rounded-md shadow">
+          <a target="_blank" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Rakha+and+Sheila+Wedding&dates=20220806/20220807&details=&location=&trp=true" class="rounded-md shadow">
             <button
               class="border-2 focus:bg-black bg-second hover:text-white text-black border-white px-8 md:px-10 py-3 rounded-md"
             >
@@ -138,7 +138,7 @@
           Jakarta Selatan
           </p>
           <div class="flex justify-center">
-            <!-- <a href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Lihat Map</a> -->
+            <a target="_blank" href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Lihat Map</a>
           </div>
         </div>
         <!-- <div class="lg:max-w-lg lg:w-full md:w-2/5 w-5/6"> -->
