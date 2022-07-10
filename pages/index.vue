@@ -68,11 +68,11 @@
 
   <section id="main2" class="hidden main-1 h-full relative w-full pt-7 pb-7 md:pt-20 md:pb-24 flex items-center justify-center bg-cover bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
-    <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-5 mx-auto text-center text-md md:text-xl mb-5 md:mb-8 relative">Dengan kerendahan hati, kami mengundang Bapak/Ibu/Saudara/Saudari untuk menghadiri pernikahan kami dan memberikan restu kepada kami</p>   
-    <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
-      <div data-aos="fade-left" data-aos-duration="1000" class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
-          <img src="~assets/rakha3.jpeg" class="max-h-96 mx-auto pl-6 pr-5 xl:pl-16 xl:pr-20" style="-webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0; object-fit: cover; object-position: center;">
-      </div>
+    <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-5 mx-auto text-center text-md md:text-xl mb-5 md:mb-8 relative">Dengan kerendahan hati, kami mengundang Bapak/Ibu/Saudara/Saudari untuk menghadiri pernikahan kami dan memberikan doa restu kepada kami</p>   
+    <div class="box-border md:mt-6 md:pt-6 mb-10 mt-10 justify-center flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
+      <!-- <div data-aos="fade-left" data-aos-duration="1000" class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
+          <img src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" class="max-h-96 mx-auto pl-6 pr-5 xl:pl-16 xl:pr-20" style="-webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0; object-fit: cover; object-position: center;">
+      </div> -->
       <div class="box-border order-first w-full text-center md:text-left text-black border-solid md:w-1/2 md:pl-10 md:order-none">
           <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
               Rakha Gusti Wardhana, S.Kesos
@@ -88,9 +88,15 @@
           </p>
       </div>
     </div>
-    <p class="relative text-center text-2xl leading-tight lg:text-4xl md:text-1xl">&</p>
-    <div class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
-      <div class="box-border w-full text-center md:text-right text-black border-solid md:w-1/2 md:pl-6 xl:pl-28">
+    <!-- <p class="relative text-center text-2xl leading-tight lg:text-4xl md:text-1xl">&</p> -->
+    <div class="relative  w-full text-center text-2xl leading-tight lg:text-4xl md:text-1xl">
+
+      <img src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" class="max-h-96 mx-auto  md:w-/12 pl-6 pr-5 xl:pl-16 xl:pr-20" style="-webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0; object-fit: cover; object-position: center;">
+
+    </div>
+
+    <div class="box-border mt-6 pt-6 justify-center flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
+      <div class="box-border order-first w-full text-center md:text-right text-black border-solid md:w-1/2 md:pl-10 md:order-none">
           <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
               Sheila Jasmine Meutia Azzara, S.Sos
           </h2>
@@ -104,9 +110,9 @@
               Ibu dr. Dwi Rosaline Febrina
           </p>
       </div>
-      <div data-aos="fade-right" data-aos-duration="1000" class="box-border relative w-full max-w-md px-4 mt-5 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
-          <img src="~assets/undangan/personal/sheila.jpg" class="max-h-96 mx-auto w-10/12 sm:pr-6 xl:pl-10 lg:pr-12" style="object-fit: cover; object-position: center; -webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0;">
-      </div>
+      <!-- <div data-aos="fade-right" data-aos-duration="1000" class="box-border relative w-full max-w-md px-4 mt-5 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
+          <img src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" class="max-h-96 mx-auto w-10/12 sm:pr-6 xl:pl-10 lg:pr-12" style="object-fit: cover; object-position: center; -webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0;">
+      </div> -->
     </div>
   </section>
 
@@ -157,14 +163,14 @@
         <div class="p-2 md:p-4 w-full md:w-1/2 relative">
           <div data-aos="flip-down" data-aos-duration="1000" class="text-center items-center justify-center flex rounded-lg h-full bg-gray-100 p-8 flex-col">
               <h2 class="text-2xl pb-5 md:text-3xl">RSVP</h2>
-              <p class="mb-8 text-center md:mb-15">Bantu kami mempersiapkan jamuan terbaik untuk Anda dengan mengirimkan konfirmasi kehadiran melalui tautan berikut:</p>
+              <p class="mb-8 text-center md:mb-15">Mohon bantu kami untuk mempersiapkan acara dengan lebih baik dengan mengonfirmasi kehadiran Anda pada acara pernikahan kami pada form berikut:</p>
               <nuxt-link style="font-size: 20px;" :to="partner ? `/rsvp?invitee=${name}&partner=${partner}` : name ? `/rsvp?invitee=${name}` : `/rsvp` " class="flex w-8/12 justify-center items-center py-2 px-4 bg-gray-500 text-white text-center rounded hover:bg-gray-700 my-auto shadow-md">Reservasi</nuxt-link>
           </div>
         </div>
         <div class="p-2 md:p-4 w-full md:w-1/2 relative">
           <div data-aos="fade-right" data-aos-duration="1000" class="text-center items-center justify-center  flex rounded-lg h-full bg-gray-100 p-8 flex-col">
             <h2 class="text-2xl pb-5 md:text-3xl">KIRIM HADIAH</h2>
-              <p class="text-center mb-8 md:mb-15">Kami sangat berterima kasih untuk doa restu, kehadiran, dan tanda kasih yang Anda berikan di hari bahagia kami.</p>
+              <p class="text-center mb-8 md:mb-15">Kami sangat berterima kasih untuk doa, restu, kehadiran, serta tanda kasih yang Anda berikan kepada kami. <br/> Doa, restu, kehadiran, dan tanda kasih Anda dalam bentuk apapun merupakan berkat terbesar bagi hari bahagia kami.</p>
               <button style="font-size: 20px;" @click="onModalQR" class="py-2 w-8/12 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto shadow-md">Kirim Hadiah</button>
           </div>
         </div>
@@ -181,41 +187,42 @@
   <section id="main-slider" class="bg-slate-100	hidden main-1 h-full relative w-full bg-center">
     <no-ssr>
         <carousel-3d style="background-color: rgb(241 245 249);" id="main5" class="hidden" :autoplay="true" :autoplay-timeout="3000" :controls-visible="true" :controls-prev-html="'&#x2039; '" :controls-next-html="'&#x203A;'"  :controls-width="10" :controls-height="30" :clickable="true">    
-          <slide :index="0">
-            <img  src="~assets/mi_Self_Photo_Studio_Jakarta_-_Depok.webp" style="object-fit: cover; min-width: 362px; height: auto;"> 
+          <!-- <slide :index="0">
+            <img  src="~assets/mi_Self_Photo_Studio_Jakarta_-_Depok.webp" style="object-fit: cover; min-width: 362px; height: 100%;"> 
+          </slide> -->
+          <slide  :index="0">
+            <img  src="~assets/undangan/revisi7.jpeg" style="object-fit: cover; min-width: 362px; height: 100%;">
           </slide>
-          <slide  :index="1">
-            <img  src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-9.webp" style="object-fit: cover; min-width: 362px; height: auto;">
+          <slide :index="1">
+                        <!-- ganti udah -->
+            <img   src="~assets/undangan/revisi3.jpeg" style="object-fit: cover; min-width: 362px; height: 100%;"> 
           </slide>
           <slide :index="2">
-            <img   src="~assets/wisuda4.jpg" style="object-fit: cover; min-width: 362px; height: auto;"> 
-          </slide>
-          <slide :index="3">
             <img   src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-3.webp" style="object-fit: cover; min-width: 362px;height: 100%;"> 
           </slide>
 
-          <slide :index="4">
+          <slide :index="3">
             <img   src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-2.webp" style="object-fit: cover; min-width: 362px; height: 100%;">    
           </slide>
-          <slide :index="5">
+          <slide :index="4">
             <img   src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-4.webp" style="object-fit: cover; min-width: 362px; height: 100%;">
           </slide>
-          <slide :index="6">
+          <slide :index="5">
             <img   src="~assets/lamaran1.jpg" style="object-fit: cover; min-width: 362px;height: 100%;"> 
           </slide>
-          <slide :index="7">
+          <slide :index="6">
             <img src="~assets/lamaran2.jpg" style="object-fit: cover; min-width: 362px; height: 100%;">    
           </slide>
-          <slide :index="8">
-            <img src="~assets/lamaran3.jpg" style="object-fit: cover; min-width: 362px; height: 100%;">
+          <slide :index="7">
+            <img src="~assets/undangan/revisi1.jpeg" style="object-fit: cover; min-width: 362px; height: 100%;">
+          </slide>
+          <slide :index="8"> 
+            <img src="~assets/undangan/revisi5.jpeg" style="object-fit: cover; min-width: 362px;height: 100%;"> 
           </slide>
           <slide :index="9">
-            <img src="~assets/lamaran4.jpg" style="object-fit: cover; min-width: 362px;height: 100%;"> 
+            <img src="~assets/undangan/revisi6.jpeg" style="object-fit: cover; min-width: 362px; height: 100%;">    
           </slide>
           <slide :index="10">
-            <img src="~assets/wisuda1.jpg" style="object-fit: cover; min-width: 362px; height: 100%;">    
-          </slide>
-          <slide :index="11">
             <img src="~assets/wisuda2.jpg" style="object-fit: cover; min-width: 362px; height: 100%;">
           </slide>
           <!-- <slide :index="6">    
@@ -284,6 +291,16 @@
             <div class="flex items-center justify-center pb-4 mb-8">
               <a target="_blank" href="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 text-center px-4 bg-gray-500 text-white rounded hover:bg-gray-700">Kirim hadiah fisik</a>
             </div>
+            <div class="items-center text-center mb-8 justify-center">
+              <h1 class="font-bold">Mandiri</h1>
+              <h1>Sheila Jasmine Meutia Azzara</h1>
+              <div class="flex mb-4 items-center justify-center">
+                  <p>1240007912398</p>
+                  <button class="items-center justify-center ml-3" @click="copyBCA">
+                    <svg class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"/></svg>
+                  </button>
+                </div>
+            </div>
             <div class="flex flex-wrap -m-4">
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="flip-down" data-aos-duration="1000" class="text-center h-full">
@@ -303,7 +320,7 @@
               <h1 class="font-bold">BNI</h1>
               <h1>Sheila Jasmine Meutia Azzara</h1>
               <div class="flex items-center justify-center">
-                  <p>12112121212</p>
+                  <p>1421370545</p>
                   <button class="items-center justify-center ml-3" @click="copyBNI">
                     <svg class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"/></svg>
                   </button>
@@ -345,13 +362,18 @@
   <section id="main6" class="hidden main-1 h-full relative w-full bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-300 opacity-75"></div>
     <div class="container mx-auto px-6 text-center py-20">
-      <h2 class="relative mb-6 text-xl md:text-4xl font-bold text-center text-black">Terima kasih</h2>
-      <p class="my-4 relative text-2xl text-black">Sampai jumpa di hari bahagia</p>
+      <h2 class="relative md:mb-4 text-4xl md:text-4xl font-bold text-center text-black">Terima kasih</h2>
+      <p class="my-4 mb-4 relative text-xl text-black">Sampai jumpa di hari bahagia</p>
       <div class="flex relative justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
           <span style="color: rgb(100 116 139);" class="text-top font-bold text-cyan-300	text-5xl md:text-6xl">Rakha</span>
           <span style="color: rgb(100 116 139);" class="text-middle p-5 text-4xl text-cyan-300	md:text-5xl">&</span>
           <span style="color: rgb(100 116 139);" class="text-bottom font-bold  text-cyan-300 text-5xl md:text-6xl">Sheila</span>
-        </div>
+      </div>
+      <p class="italic my-4 mt-6 relative text-red-700	">
+        <!-- “Everyone Comes With Baggage. Find Someone Who Loves You Enough To Help You Unpack." <br/>-<br/>Ted Mosby -->
+                “There are two big days in any love story: the day you meet the girl of your dreams and the day you marry her.” <br/>-- Ted Mosby
+
+      </p>
     </div>
   </section>
   
@@ -442,8 +464,11 @@ export default {
     copyBCA(){
         navigator.clipboard.writeText('3970113206')
     },
+    copyMandiri(){
+        navigator.clipboard.writeText('1240007912398')
+    },
     copyBNI(){
-        navigator.clipboard.writeText('09121212121')
+        navigator.clipboard.writeText('1421370545')
     },
     copyGopay(){
         navigator.clipboard.writeText('082332403412')
@@ -530,7 +555,7 @@ body {
 .lo{
     background-size: cover;  
     animation: imageAnimation 36s linear 0s; 
-    background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
+      background-image: url('~assets/undangan/revisi1.jpeg');
     background-color: rgb(38 38 38);
     /* height: 100%;
     width: 100%; */
@@ -549,14 +574,14 @@ body {
       width: 100%;
   
 	    /* animation-timing-function: ease-in; */
-      background-image: url('~assets/lamaran1.jpg');
+      background-image: url('~assets/undangan/revisi1.jpeg');
 	}
 	20% {
       background-color: rgb(38 38 38);
       min-height: 100%;
       width: 100%;
       /* opacity: 0.85; */
-      background-image: url("~assets/lamaran3.jpg");
+      background-image: url("~assets/undangan/revisi2.jpeg");
 	}
 	45% {
       /* background-size: cover;   */
@@ -570,7 +595,7 @@ body {
       /* height: 100%;
        width: 100%; */
 	    /* animation-timing-function: ease-in; */
-      background-image: url("~assets/lamaran3.jpg");
+      background-image: url("~assets/undangan/revisi3.jpeg");
 	}
 	70% {
       /* background-size: cover;   */
@@ -581,7 +606,7 @@ body {
       min-height: 100%;
       min-width: 100%;
 	    /* animation-timing-function: ease-in; */
-      background-image: url("~assets/lamaran4.jpg");
+      background-image: url("~assets/undangan/revisi4.jpeg");
 	}
   90% {
 	    opacity: 1;
@@ -589,7 +614,7 @@ body {
      
       min-height: 100%;
       min-width: 100%;      
-      background-image: url("~assets/lamaran4.jpg");
+      background-image: url("~assets/lamaran1.jpg");
 	    /* animation-timing-function: ease-in; */
 	}
 	100% { 
@@ -599,7 +624,7 @@ body {
       min-height: 100%;
       min-width: 100%;
       animation-timing-function: ease-in-out;
-      background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
+      background-image: url('~assets/undangan/revisi1.jpeg');
   }
 }
 
