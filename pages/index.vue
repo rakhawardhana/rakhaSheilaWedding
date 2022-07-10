@@ -181,7 +181,7 @@
       <div class="flex flex-wrap -m-4">
         <div class="p-2 md:p-4 w-full md:w-1/2 relative">
           <div data-aos="flip-down" data-aos-duration="1000" class="relative text-center items-center justify-center flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-              <img src="~assets/aside.png" style="position: absolute; left: 0; height: 90%;" />
+              <img src="~assets/aside.png" style="position: absolute; left: 0;  top:20px; height:70%; width:40%; " />
               <h2 class="text-2xl pb-5 md:text-3xl">RSVP</h2>
               <p class="mb-8 text-center md:mb-15">Mohon bantu kami untuk mempersiapkan acara dengan lebih baik dengan mengonfirmasi kehadiran Anda pada acara pernikahan kami pada form berikut:</p>
               <nuxt-link style="font-size: 20px;" :to="partner ? `/rsvp?invitee=${name}&partner=${partner}` : name ? `/rsvp?invitee=${name}` : `/rsvp` " class="flex w-8/12 justify-center items-center py-2 px-4 bg-gray-500 text-white text-center rounded hover:bg-gray-700 my-auto shadow-md">Reservasi</nuxt-link>
@@ -189,7 +189,7 @@
         </div>
         <div class="p-2 md:p-4 w-full md:w-1/2 relative">
           <div data-aos="fade-right" data-aos-duration="1000" class="text-center items-center justify-center  flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-              <img src="~assets/aside.png" style="position: absolute; right: 0; height: 90%; transform: scaleX(-1);" />
+              <img src="~assets/aside.png" style="position: absolute;  top:20px; right: 0px; height:70%; width:40%; transform: scaleX(-1);" />
               <h2 class="text-2xl pb-5 md:text-3xl">KIRIM HADIAH</h2>
               <p class="text-center mb-8 md:mb-15">Kami sangat berterima kasih untuk doa, restu, kehadiran, serta tanda kasih yang Anda berikan kepada kami. <br/> Doa, restu, kehadiran, dan tanda kasih Anda dalam bentuk apapun merupakan berkat terbesar bagi hari bahagia kami.</p>
               <button style="font-size: 20px;" @click="onModalQR" class="py-2 w-8/12 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto shadow-md">Kirim Hadiah</button>
