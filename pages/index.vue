@@ -154,7 +154,7 @@
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
     <h3 class="text-center pt-20 relative">Acara ini diselenggarakan dengan mengikuti protokol kesehatan demi mencegah penyebaran virus Covid-19.</h3>
     <div class="container relative px-5 py-12 mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
             <img src="~assets/mask.png" width="110" height="auto" class="mx-auto">
             <p class="text-center">Menggunakan Masker.</p>
@@ -164,7 +164,7 @@
             <p class="text-center">Menjaga Jarak.</p>
         </div>
         <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
-            <img src="~assets/washhand.png" width="160" height="auto" class="mx-auto">
+            <img src="~assets/washhand.png" width="160" height="200px;" class="mx-auto">
             <p class="text-center">Mencuci Tangan.</p>
         </div>
         <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
@@ -279,8 +279,8 @@
         <!-- To adjust the width of the modal, change the 'max-w-md' on the div below to your liking -->
         <div class="flex relative flex-col overflow-hidden bg-white rounded w-full max-h-full max-w-md">
 
-          <img src="~/assets/border-top.jpg" alt="Rakha Sheila Wedding" width="200" height="auto" style="position: absolute; left: -10px;">
-          <img src="~/assets/border-top.jpg" alt="Rakha Sheila Wedding" width="200" height="auto" style="transform: scaleX(-1); right: 0; position: absolute">
+          <!-- <img src="~/assets/border-top.jpg" alt="Rakha Sheila Wedding" width="200" height="auto" style="position: absolute; left: -10px;"> -->
+          <!-- <img src="~/assets/border-top.jpg" alt="Rakha Sheila Wedding" width="200" height="auto" style="transform: scaleX(-1); right: 0; position: absolute"> -->
 
           <!-- Header -->
           <div class="flex items-center justify-end p-4" style="position: absolute; right: 0; z-index: 10">
@@ -384,15 +384,15 @@
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-300 opacity-75"></div>
     <div class="container mx-auto px-6 text-center py-20">
       <h2 class="relative md:mb-4 text-4xl md:text-4xl font-bold text-center text-black">Terima kasih</h2>
-      <p class="my-4 mb-4 relative text-xl text-black">Sampai jumpa di hari bahagia</p>
+      <p class="my-4 mb-5 relative text-xl text-black">Sampai jumpa di hari bahagia</p>
       <div class="flex relative justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
           <span style="color: rgb(100 116 139);" class="text-top font-bold text-cyan-300	text-5xl md:text-6xl">Rakha</span>
           <span style="color: rgb(100 116 139);" class="text-middle p-5 text-4xl text-cyan-300	md:text-5xl">&</span>
           <span style="color: rgb(100 116 139);" class="text-bottom font-bold  text-cyan-300 text-5xl md:text-6xl">Sheila</span>
       </div>
-      <p class="italic my-4 mt-6 relative text-red-700	">
+      <p class="italic my-4 mt-6 relative text-xl text-blue-700	">
         <!-- “Everyone Comes With Baggage. Find Someone Who Loves You Enough To Help You Unpack." <br/>-<br/>Ted Mosby -->
-                “There are two big days in any love story: the day you meet the girl of your dreams and the day you marry her.” <br/>-- Ted Mosby
+                “There are two big days in any love story: the day you meet the girl of your dreams and the day you marry her.” <br/>- Ted Mosby
 
       </p>
     </div>
