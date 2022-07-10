@@ -75,7 +75,7 @@
       </div> -->
       <div class="box-border order-first w-full text-center md:text-left text-black border-solid md:w-1/2 md:pl-10 md:order-none">
           <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
-              Rakha Gusti Wardhana, S.Kesos
+              Rakha Gusti Wardhana, S.Kesos.
           </h2>
           <p class="relative font-bold pt-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
               Putra dari
@@ -89,7 +89,7 @@
       </div>
     </div>
     <!-- <p class="relative text-center text-2xl leading-tight lg:text-4xl md:text-1xl">&</p> -->
-    <div class="relative  w-full text-center text-2xl leading-tight lg:text-4xl md:text-1xl">
+    <div data-aos="fade-right" data-aos-duration="1000" class="relative  w-full text-center text-2xl leading-tight lg:text-4xl md:text-1xl">
 
       <img src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" class="max-h-96 mx-auto  md:w-/12 pl-6 pr-5 xl:pl-16 xl:pr-20" style="-webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0; object-fit: cover; object-position: center;">
 
@@ -98,7 +98,7 @@
     <div class="box-border mt-6 pt-6 justify-center flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
       <div class="box-border order-first w-full text-center md:text-right text-black border-solid md:w-1/2 md:pl-10 md:order-none">
           <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
-              Sheila Jasmine Meutia Azzara, S.Sos
+              Sheila Jasmine Meutia Azzara, S.Sos.
           </h2>
           <p class="relative font-bold pt-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
               Putri dari
@@ -152,8 +152,8 @@
   </section>
   <section id="main7" class="hidden main-1 h-full relative w-full bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
-    <h3 class="text-center pt-20 relative">Acara ini diselenggarakan dengan mengikuti protokol kesehatan demi mencegah penyebaran virus Covid-19.</h3>
-    <div class="container relative px-5 py-12 mx-auto">
+    <h3 data-aos="fade-up" data-aos-duration="1000" class="text-center pt-20 px-6 relative">Acara ini diselenggarakan dengan mengikuti protokol kesehatan demi mencegah penyebaran virus Covid-19.</h3>
+    <div data-aos="fade-left" data-aos-duration="1000" class="container relative px-5 py-12 mx-auto">
       <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
             <img src="~assets/mask.png" width="110" height="auto" class="mx-auto">
@@ -183,7 +183,7 @@
           <div data-aos="flip-down" data-aos-duration="1000" class="relative text-center items-center justify-center flex rounded-lg h-full bg-gray-100 p-8 flex-col">
               <img src="~assets/aside.png" style="position: absolute; left: 0;  top:20px; height:70%; width:40%; " />
               <h2 class="text-2xl pb-5 md:text-3xl">RSVP</h2>
-              <p class="mb-8 text-center md:mb-15">Mohon bantu kami untuk mempersiapkan acara dengan lebih baik dengan mengonfirmasi kehadiran Anda pada acara pernikahan kami pada form berikut:</p>
+              <p class="mb-8 text-center md:mb-15">Mohon bantu kami untuk mempersiapkan acara dengan lebih baik dengan mengkonfirmasi kehadiran Anda pada acara pernikahan kami pada form berikut:</p>
               <nuxt-link style="font-size: 20px;" :to="partner ? `/rsvp?invitee=${name}&partner=${partner}` : name ? `/rsvp?invitee=${name}` : `/rsvp` " class="flex w-8/12 justify-center items-center py-2 px-4 bg-gray-500 text-white text-center rounded hover:bg-gray-700 my-auto shadow-md">Reservasi</nuxt-link>
           </div>
         </div>
@@ -202,7 +202,7 @@
   <section id="main-slider" class="hidden main-1 h-full relative w-full bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-700 opacity-75"></div>
     <no-ssr>
-        <carousel-3d id="main5" class="hidden" :autoplay="true" :autoplay-timeout="3000" :controls-visible="true" :controls-prev-html="'&#x2039; '" :controls-next-html="'&#x203A;'"  :controls-width="10" :controls-height="30" :clickable="true">    
+        <carousel-3d data-aos="fade-right" data-aos-duration="1000" id="main5" class="hidden" :display="11" :autoplay="true" :autoplay-timeout="2000">    
           <!-- <slide :index="0">
             <img  src="~assets/mi_Self_Photo_Studio_Jakarta_-_Depok.webp" style="object-fit: cover; min-width: 362px; height: 100%;"> 
           </slide> -->
@@ -439,7 +439,7 @@ export default {
       music: false,
       onShowPhoto: false,
       photo: ''
-
+      
     };
   },
   components: { 
@@ -576,7 +576,7 @@ body {
 
 }
 .lo{
-    background-size: cover;  
+    /* background-size: cover;   */
     animation: imageAnimation 36s linear 0s; 
       background-image: url('~assets/undangan/revisi1.jpeg');
     background-color: rgb(38 38 38);
@@ -752,10 +752,10 @@ body {
   }
     .carousel-3d-slide .title { font-size: 22px; }
 
-.carousel-3d-controls{
+/* .carousel-3d-controls{
     visibility: hidden;
 
-}
+} */
 /* } */
 
 .bg-primer{

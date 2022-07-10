@@ -52,6 +52,30 @@
     </div>
   <!-- </div> -->
 </section>
+ <section id="main7" class="hidden main-1 h-full relative w-full bg-center">
+    <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
+    <h3 class="text-center pt-20 relative">Acara ini diselenggarakan dengan mengikuti protokol kesehatan demi mencegah penyebaran virus Covid-19.</h3>
+    <div class="container relative px-5 py-12 mx-auto">
+      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+            <img src="~assets/mask.png" width="110" height="auto" class="mx-auto">
+            <p class="text-center">Menggunakan Masker.</p>
+        </div>
+        <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+            <img src="~assets/distance.png" width="160" height="auto" class="mx-auto">
+            <p class="text-center">Menjaga Jarak.</p>
+        </div>
+        <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+            <img src="~assets/washhand.png" width="160" height="200px;" class="mx-auto">
+            <p class="text-center">Mencuci Tangan.</p>
+        </div>
+        <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+            <img src="~assets/elbow.png" width="160" height="auto" class="mx-auto">
+            <p class="text-center">Tidak berjabat tangan, kami sarankan untuk menggukanan salam siku.</p>
+        </div>
+      </div>
+    </div>
+  </section> 
 </section>
 </template>
 <script>
@@ -121,6 +145,9 @@ export default {
 	created(){
 		this.data()
 		console.log(this.ada)
+	},
+	mounted(){
+		document.getElementById("main7").style.display="block";
 	}
 
 
@@ -146,6 +173,11 @@ export default {
 #head{
 	background: #E6E6FA;
 }
+
+#main7{
+  background-image: url('~assets/venue-3.jpeg');
+}
+
 
 body {
 	color: #873b51;
