@@ -77,13 +77,13 @@
           <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
               Rakha Gusti Wardhana, S.Kesos
           </h2>
-          <p class="relative pt-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+          <p class="relative font-bold pt-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
               Putra dari
           </p>
-          <p class="relative m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+          <p class="relative font-bold m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
               Bapak Agus Wardhana, S.E. &amp;
           </p>
-          <p class="relative pb-4 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+          <p class="relative font-bold pb-4 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
               Ibu Agustina, S.E.
           </p>
       </div>
@@ -100,13 +100,13 @@
           <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
               Sheila Jasmine Meutia Azzara, S.Sos
           </h2>
-          <p class="relative pt-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
+          <p class="relative font-bold pt-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
               Putri dari
           </p>
-          <p class="relative m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
+          <p class="relative font-bold m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
               Bapak A. Jani S. Maliki, S.Sos. &amp;
           </p>
-          <p class="relative pb-4 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
+          <p class="relative font-bold pb-4 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
               Ibu dr. Dwi Rosaline Febrina
           </p>
       </div>
