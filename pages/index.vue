@@ -200,7 +200,7 @@
   </section>
 
   <section id="main-slider" class="hidden main-1 h-full relative w-full bg-center">
-    <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
+    <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-700 opacity-75"></div>
     <no-ssr>
         <carousel-3d id="main5" class="hidden" :autoplay="true" :autoplay-timeout="3000" :controls-visible="true" :controls-prev-html="'&#x2039; '" :controls-next-html="'&#x203A;'"  :controls-width="10" :controls-height="30" :clickable="true">    
           <!-- <slide :index="0">
