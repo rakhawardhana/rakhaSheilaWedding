@@ -112,18 +112,19 @@
 
   <section id="main3" class="ada hidden main-1 h-full relative w-full flex items-center justify-center bg-cover bg-center">
       <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-70"></div>
-      <!-- <div class="ada"> -->
       <h1 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl lg:mb-16  md:text-3xl pt-20">Waktu & Tempat</h1>
       <div class="container mx-auto flex px-5 mt-2 pb-24 md:flex-row flex-col justify-center text-center items-center">
-        <div data-aos="fade-left" data-aos-duration="1000" class="relative lg:flex-grow md:w-3/5 flex flex-col md:text-left md:mb-0 items-center text-center">
+        <div data-aos="fade-left" data-aos-duration="1000" class="relative lg:flex-grow md:w-3/5 flex flex-col md:text-left p-4 md:mb-0 items-center text-center" style="box-shadow: 0 3px 1px -2px rgb(0 0 0 / 8%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);">
           <div class="flex justify-center items-center w-full md:mb-3 lg:mb-16">
             <div class="p-4 md:w-full lg:w-10/12">
+              <img src="~assets/akad.png" width="110" height="auto" class="mx-auto">
               <div style="border-bottom: solid 2px black">
                 <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Akad</h2>
               </div>
               <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sabtu <br/> 6 Agustus 2022 <br /> 07.00 - 09.00 WIB</p>
             </div>
             <div class="p-4 md:w-full lg:w-10/12">
+              <img src="~assets/resepsi.png" width="80" height="auto" class="mx-auto">
               <div style="border-bottom: solid 2px black">
                 <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Resepsi</h2>
               </div>
@@ -138,16 +139,34 @@
           Jakarta Selatan
           </p>
           <div class="flex justify-center">
-            <a target="_blank" href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Lihat Map</a>
+            <a target="_blank" href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg" style="border: 1px solid black;">Lihat Map</a>
           </div>
         </div>
-        <!-- <div class="lg:max-w-lg lg:w-full md:w-2/5 w-5/6"> -->
-          <!-- <div class="frame-img"> -->
-            <!-- <img src="~assets/tmpt.jpg" class="max-h-96 mx-auto sm:pr-6 xl:pl-10 lg:pr-32" style="border-radius: 100% 0px; transform: rotate(45deg);"> -->
-          <!-- </div> -->
-        <!-- </div> -->
       </div>
-      <!-- </div> -->
+  </section>
+  <section id="main7" class="hidden main-1 h-full relative w-full bg-center">
+    <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
+    <h3 class="text-center pt-20 relative">Acara ini diselenggarakan dengan mengikuti protokol kesehatan demi mencegah penyebaran virus Covid-19.</h3>
+    <div class="container relative px-5 py-12 mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+            <img src="~assets/mask.png" width="110" height="auto" class="mx-auto">
+            <p class="text-center">Menggunakan Masker.</p>
+        </div>
+        <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+            <img src="~assets/distance.png" width="160" height="auto" class="mx-auto">
+            <p class="text-center">Menjaga Jarak.</p>
+        </div>
+        <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+            <img src="~assets/washhand.png" width="160" height="auto" class="mx-auto">
+            <p class="text-center">Mencuci Tangan.</p>
+        </div>
+        <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+            <img src="~assets/elbow.png" width="160" height="auto" class="mx-auto">
+            <p class="text-center">Tidak berjabat tangan, kami sarankan untuk menggukanan salam siku.</p>
+        </div>
+      </div>
+    </div>
   </section>  
 
   <section id="main4" class="hidden main-1 h-full relative w-full bg-center">
@@ -155,7 +174,8 @@
     <div class="container px-5 py-12 mx-auto">
       <div class="flex flex-wrap -m-4">
         <div class="p-2 md:p-4 w-full md:w-1/2 relative">
-          <div data-aos="flip-down" data-aos-duration="1000" class="text-center items-center justify-center flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+          <div data-aos="flip-down" data-aos-duration="1000" class="relative text-center items-center justify-center flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+              <img src="~assets/aside.png" style="position: absolute; left: 0; height: 90%;" />
               <h2 class="text-2xl pb-5 md:text-3xl">RSVP</h2>
               <p class="mb-8 text-center md:mb-15">Bantu kami mempersiapkan jamuan terbaik untuk Anda dengan mengirimkan konfirmasi kehadiran melalui tautan berikut:</p>
               <nuxt-link style="font-size: 20px;" :to="partner ? `/rsvp?invitee=${name}&partner=${partner}` : name ? `/rsvp?invitee=${name}` : `/rsvp` " class="flex w-8/12 justify-center items-center py-2 px-4 bg-gray-500 text-white text-center rounded hover:bg-gray-700 my-auto shadow-md">Reservasi</nuxt-link>
@@ -163,22 +183,18 @@
         </div>
         <div class="p-2 md:p-4 w-full md:w-1/2 relative">
           <div data-aos="fade-right" data-aos-duration="1000" class="text-center items-center justify-center  flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-            <h2 class="text-2xl pb-5 md:text-3xl">KIRIM HADIAH</h2>
+              <img src="~assets/aside.png" style="position: absolute; right: 0; height: 90%; transform: scaleX(-1);" />
+              <h2 class="text-2xl pb-5 md:text-3xl">KIRIM HADIAH</h2>
               <p class="text-center mb-8 md:mb-15">Kami sangat berterima kasih untuk doa restu, kehadiran, dan tanda kasih yang Anda berikan di hari bahagia kami.</p>
               <button style="font-size: 20px;" @click="onModalQR" class="py-2 w-8/12 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto shadow-md">Kirim Hadiah</button>
           </div>
         </div>
       </div>
-    <!-- </div> -->
-  <!-- </section> -->
-
-  <!-- <section id="main7" class="hidden text-gray-700 bg-primer body-font"> -->
-    <!-- <div class="container px-5 py-24 mx-auto"> -->
-      
     </div>
   </section>
 
   <section id="main-slider" class="hidden main-1 h-full relative w-full bg-center">
+    <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
     <no-ssr>
         <carousel-3d id="main5" class="hidden" :autoplay="true" :autoplay-timeout="3000" :controls-visible="true" :controls-prev-html="'&#x2039; '" :controls-next-html="'&#x203A;'"  :controls-width="10" :controls-height="30" :clickable="true">    
           <slide :index="0">
@@ -249,13 +265,18 @@
 
   <transition name="fade">
     <div v-if="isModalQR" class="fixed flex inset-0 z-10 bg-transparent bg-opacity-75" id="modal">
+          <img src="~/assets/lamaran2.jpg" id="background-modal" width="100%" height="auto" alt="Rakha Sheila Wedding" style="position: absolute; opacity: 30%">
+
       <!-- Remove the 'max-h-96' on the div below to use the height of the content -->
       <div class="flex self-center items-center justify-center w-full h-full p-8 max-h-fit">
         <!-- To adjust the width of the modal, change the 'max-w-md' on the div below to your liking -->
-        <div class="flex flex-col overflow-hidden bg-white rounded w-full max-h-full max-w-md">
+        <div class="flex relative flex-col overflow-hidden bg-white rounded w-full max-h-full max-w-md">
+
+          <img src="~/assets/border-top.jpg" alt="Rakha Sheila Wedding" width="200" height="auto" style="position: absolute; left: -10px;">
+          <img src="~/assets/border-top.jpg" alt="Rakha Sheila Wedding" width="200" height="auto" style="transform: scaleX(-1); right: 0; position: absolute">
 
           <!-- Header -->
-          <div class="flex items-center justify-end p-4">
+          <div class="flex items-center justify-end p-4" style="position: absolute; right: 0; z-index: 10">
             <button @click="onModalQR" type="button">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -264,7 +285,7 @@
           </div>
 
           <!-- Content -->
-          <div class="relative overflow-y-auto p-4">
+          <div class="relative overflow-y-auto p-8">
             <div class="flex items-center justify-center pb-4">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
@@ -417,7 +438,9 @@ export default {
       document.getElementById("main4").style.display="inherit";
       document.getElementById("main5").style.display="block";
       document.getElementById("main6").style.display="block";
+      document.getElementById("main7").style.display="block";
       document.getElementById("main-slider").style.display="block";
+      document.getElementById("main-slider").style.padding="40px";
 
       // document.getElementById("main7").style.display="block";
       // document.getElementById("footer").style.display="block";
@@ -659,6 +682,12 @@ body {
 
 }
 
+#main-slider{
+  /* background-image: linear-gradient(180deg, #B3DEEF, #E6E6FA); */
+  background-image: url('~assets/venue-5.jpeg');
+
+}
+
 /* #main3{ */
   /* background-image: linear-gradient(180deg, #E6E6FA, #B3DEEF ); */
     /* animation: imageAnimationLagi 36s linear 2s;  */
@@ -671,6 +700,11 @@ body {
   background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
 
 }
+
+#main7{
+  background-image: url('~assets/venue-3.jpeg');
+}
+
 #main6{
   /* background-color: #B3DEEF; */
   background-image: url('~assets/bg-thanks2.jpeg');
@@ -874,7 +908,7 @@ body {
 }
 
 .carousel-3d-container{
-  margin: 40px auto !important;
+  margin: 0 auto !important;
 }
 
 .carousel-3d-container .carousel-3d-slide {
@@ -924,5 +958,14 @@ body {
 .down {
   -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
   border-top:2em solid black;
+}
+#background-modal {
+  @media (max-width: 767px) {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    display: block;
+  }
 }
 </style>
