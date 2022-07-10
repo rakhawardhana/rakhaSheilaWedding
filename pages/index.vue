@@ -68,7 +68,8 @@
 
   <section id="main2" class="hidden main-1 h-full relative w-full pt-7 pb-7 md:pt-20 md:pb-24 flex items-center justify-center bg-cover bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
-    <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-5 mx-auto text-center text-md md:text-xl mb-5 md:mb-8 relative">Dengan kerendahan hati, kami mengundang Bapak/Ibu/Saudara/Saudari untuk menghadiri pernikahan kami dan memberikan doa restu kepada kami</p>   
+    <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-8 text-serrat md:px-3 mx-auto italic text-center md:text-blue-400 text-blue-300 text-md md:text-xl mb-10 md:mb-10 relative">"Dan segala sesuatu Kami ciptakan berpasang-pasangan agar kamu mengingat (kebesaran Allah)."<br/>QS. Az Zariyat: 49</p>   
+    <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-8 mx-auto text-center text-md md:text-xl mb-5 md:mb-8 relative">Dengan kerendahan hati, kami mengundang Bapak/Ibu/Saudara/Saudari untuk menghadiri pernikahan kami dan memberikan doa restu kepada kami</p>   
     <div class="box-border md:mt-6 md:pt-6 mb-10 mt-10 justify-center flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
       <!-- <div data-aos="fade-left" data-aos-duration="1000" class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
           <img src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" class="max-h-96 mx-auto pl-6 pr-5 xl:pl-16 xl:pr-20" style="-webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0; object-fit: cover; object-position: center;">
@@ -77,13 +78,13 @@
           <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
               Rakha Gusti Wardhana, S.Kesos.
           </h2>
-          <p class="relative font-bold pt-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+          <p class="relative font-bold pt-2 m-0 leading-7 text-gray-800 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
               Putra dari
           </p>
-          <p class="relative font-bold m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+          <p class="relative font-bold m-0 leading-7 text-gray-800 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
               Bapak Agus Wardhana, S.E. &amp;
           </p>
-          <p class="relative font-bold pb-4 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+          <p class="relative font-bold pb-4 m-0 leading-7 text-gray-800 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
               Ibu Agustina, S.E.
           </p>
       </div>
@@ -100,13 +101,13 @@
           <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
               Sheila Jasmine Meutia Azzara, S.Sos.
           </h2>
-          <p class="relative font-bold pt-2 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
+          <p class="relative font-bold pt-2 m-0 leading-7 text-gray-800 border-0 border-gray-300 lg:text-lg">
               Putri dari
           </p>
-          <p class="relative font-bold m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
+          <p class="relative font-bold m-0 leading-7 text-gray-800 border-0 border-gray-300 lg:text-lg">
               Bapak A. Jani S. Maliki, S.Sos. &amp;
           </p>
-          <p class="relative font-bold pb-4 m-0 leading-7 text-gray-700 border-0 border-gray-300 lg:text-lg">
+          <p class="relative font-bold pb-4 m-0 leading-7 text-gray-800 border-0 border-gray-300 lg:text-lg">
               Ibu dr. Dwi Rosaline Febrina
           </p>
       </div>
@@ -202,7 +203,7 @@
   <section id="main-slider" class="hidden main-1 h-full relative w-full bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-700 opacity-75"></div>
     <no-ssr>
-        <carousel-3d data-aos="fade-right" data-aos-duration="1000" id="main5" class="hidden" :display="6" :autoplay="true" :autoplay-timeout="2000">    
+        <carousel-3d data-aos="fade-right" data-aos-duration="1000" id="main5" class="hidden" :display="5" :autoplay="true" :autoplay-timeout="2000">    
           <!-- <slide :index="0">
             <img  src="~assets/mi_Self_Photo_Studio_Jakarta_-_Depok.webp" style="object-fit: cover; min-width: 362px; height: 100%;"> 
           </slide> -->

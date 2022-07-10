@@ -13,7 +13,7 @@ export default {
       { name: 'viewport', content:"width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=0" },
       { hid: 'description', name: 'description', content: 'Sampai jumpa di hari bahagia Rakha & Sheila' },
       { name: 'format-detection', content: 'telephone=no' },
-      { property: "og:image", content: '/ogimagenew.jpg' },
+      { property: "og:image",  content: 'http://rakhasheila.com/ogimagenew.jpg' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/ogimagenew.jpg' }
