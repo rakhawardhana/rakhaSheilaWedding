@@ -196,7 +196,7 @@
   <section id="main-slider" class="hidden main-1 h-full relative w-full bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
     <no-ssr>
-        <carousel-3d id="main5" class="hidden" :autoplay="true" :autoplay-timeout="3000" :controls-visible="true" :controls-prev-html="'&#x2039; '" :controls-next-html="'&#x203A;'"  :controls-width="10" :controls-height="30" :clickable="true">    
+        <carousel-3d style="background-color: rgb(241 245 249);" id="main5" class="hidden" :autoplay="true" :autoplay-timeout="3000" :controls-visible="true" :controls-prev-html="'&#x2039; '" :controls-next-html="'&#x203A;'"  :controls-width="10" :controls-height="30" :clickable="true">    
           <slide :index="0">
             <img  src="~assets/mi_Self_Photo_Studio_Jakarta_-_Depok.webp" style="object-fit: cover; min-width: 362px; height: auto;"> 
           </slide>
@@ -308,7 +308,7 @@
             <div class="flex flex-wrap -m-4">
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="flip-down" data-aos-duration="1000" class="text-center h-full">
-                <h1>BCA</h1>
+                <h1 class="font-bold">BCA</h1>
                 <h1>Rakha Gusti Wardhana</h1>
                 <div class="flex mb-4 items-center justify-center">
                   <p>3970113206</p>
@@ -321,7 +321,7 @@
             </div>
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="fade-right" data-aos-duration="1000" class="text-center h-full">
-              <h1>BNI</h1>
+              <h1 class="font-bold">BNI</h1>
               <h1>Sheila Jasmine Meutia Azzara</h1>
               <div class="flex items-center justify-center">
                   <p>12112121212</p>
@@ -334,7 +334,7 @@
             </div>
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="fade-right" data-aos-duration="1000" class="text-center h-full">
-              <h1>GOPAY</h1>
+              <h1 class="font-bold">GOPAY</h1>
               <div class="flex mb-4 items-center justify-center">
                   <h1>082332403412</h1>
                   <button class="items-center justify-center ml-3" @click="copyGopay">
@@ -346,7 +346,7 @@
             </div>
             <div class="p-2 md:p-4 w-full md:w-1/2">
               <div data-aos="fade-right" data-aos-duration="1000" class="text-center h-full">
-              <h1>OVO</h1>
+              <h1 class="font-bold">OVO</h1>
               <div class="flex mb-4 items-center justify-center">
                   <h1>085810336810</h1>
                   <button class="items-center justify-center ml-3" @click="copyOVO">
@@ -542,7 +542,14 @@ body {
   /* animation: imageAnimation 36s linear 0s;  */
 
 /* } */
+#main-slider{
+  background-color: rgb(241 245 249);
+}
 
+#main5{
+  background-color: rgb(241 245 249);
+
+}
 .lo{
     background-size: cover;  
     animation: imageAnimation 36s linear 0s; 
@@ -714,7 +721,9 @@ body {
 
 /* .carousel-3d-container { */
   .carousel-3d-container .carousel-3d-slide {
-    padding: 20px;    
+    background-color: rgb(241 245 249);
+
+    /* padding: 20px;     */
   }
     .carousel-3d-slide .title { font-size: 22px; }
 
