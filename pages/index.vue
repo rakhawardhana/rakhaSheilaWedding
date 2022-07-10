@@ -202,7 +202,7 @@
   <section id="main-slider" class="hidden main-1 h-full relative w-full bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-700 opacity-75"></div>
     <no-ssr>
-        <carousel-3d data-aos="fade-right" data-aos-duration="1000" id="main5" class="hidden" :display="11" :autoplay="true" :autoplay-timeout="2000">    
+        <carousel-3d data-aos="fade-right" data-aos-duration="1000" id="main5" class="hidden" :display="6" :autoplay="true" :autoplay-timeout="2000">    
           <!-- <slide :index="0">
             <img  src="~assets/mi_Self_Photo_Studio_Jakarta_-_Depok.webp" style="object-fit: cover; min-width: 362px; height: 100%;"> 
           </slide> -->
@@ -439,7 +439,7 @@ export default {
       music: false,
       onShowPhoto: false,
       photo: ''
-      
+
     };
   },
   components: { 
