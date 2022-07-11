@@ -78,13 +78,13 @@
           <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
               Rakha Gusti Wardhana, S.Kesos.
           </h2>
-          <p class="relative font-bold pt-2 m-0 leading-7 text-gray-800 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+          <p class="relative pt-2 m-0 leading-7 text-gray-800 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
               Putra dari
           </p>
-          <p class="relative font-bold m-0 leading-7 text-gray-800 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+          <p class="relative m-0 leading-7 text-gray-800 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
               Bapak Agus Wardhana, S.E. &amp;
           </p>
-          <p class="relative font-bold pb-4 m-0 leading-7 text-gray-800 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+          <p class="relative pb-4 m-0 leading-7 text-gray-800 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
               Ibu Agustina, S.E.
           </p>
       </div>
@@ -101,13 +101,13 @@
           <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
               Sheila Jasmine Meutia Azzara, S.Sos.
           </h2>
-          <p class="relative font-bold pt-2 m-0 leading-7 text-gray-800 border-0 border-gray-300 lg:text-lg">
+          <p class="relative pt-2 m-0 leading-7 text-gray-800 border-0 border-gray-300 lg:text-lg">
               Putri dari
           </p>
-          <p class="relative font-bold m-0 leading-7 text-gray-800 border-0 border-gray-300 lg:text-lg">
+          <p class="relative m-0 leading-7 text-gray-800 border-0 border-gray-300 lg:text-lg">
               Bapak A. Jani S. Maliki, S.Sos. &amp;
           </p>
-          <p class="relative font-bold pb-4 m-0 leading-7 text-gray-800 border-0 border-gray-300 lg:text-lg">
+          <p class="relative pb-4 m-0 leading-7 text-gray-800 border-0 border-gray-300 lg:text-lg">
               Ibu dr. Dwi Rosaline Febrina
           </p>
       </div>
@@ -203,7 +203,7 @@
   <section id="main-slider" class="hidden main-1 h-full relative w-full bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-700 opacity-75"></div>
     <no-ssr>
-        <carousel-3d data-aos="fade-right" data-aos-duration="1000" id="main5" class="hidden" :display="5" :autoplay="true" :autoplay-timeout="2000">    
+        <carousel-3d :width="900" :height="800" data-aos="fade-right" data-aos-duration="1000" id="main5" class="hidden" :display="5" :autoplay="true" :autoplay-timeout="2000">    
           <!-- <slide :index="0">
             <img  src="~assets/mi_Self_Photo_Studio_Jakarta_-_Depok.webp" style="object-fit: cover; min-width: 362px; height: 100%;"> 
           </slide> -->
@@ -215,7 +215,7 @@
             <img   src="~assets/undangan/revisi3.jpeg" style="object-fit: cover; min-width: 362px; height: 100%;"> 
           </slide>
           <slide :index="2">
-            <img   src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-3.webp" style="object-fit: cover; min-width: 362px;height: 100%;"> 
+            <img   src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-3 copy.jpg" style="object-fit: cover; min-width: 362px;height: 100%;"> 
           </slide>
 
           <slide :index="3">
@@ -225,7 +225,7 @@
             <img   src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-4.webp" style="object-fit: cover; min-width: 362px; height: 100%;">
           </slide>
           <slide :index="5">
-            <img   src="~assets/lamaran1.jpg" style="object-fit: cover; min-width: 362px;height: 100%;"> 
+            <img   src="~assets/lamaran1 copy.jpg" style="object-fit: cover; min-width: 362px;height: 100%;"> 
           </slide>
           <slide :index="6">
             <img src="~assets/lamaran2.jpg" style="object-fit: cover; min-width: 362px; height: 100%;">    
@@ -579,7 +579,7 @@ body {
 .lo{
     /* background-size: cover;   */
     animation: imageAnimation 36s linear 0s; 
-      background-image: url('~assets/undangan/revisi1.jpeg');
+      background-image: url('~assets/undangan/revisisampul2.jpeg');
     background-color: rgb(38 38 38);
     /* height: 100%;
     width: 100%; */
@@ -598,16 +598,16 @@ body {
       width: 100%;
   
 	    /* animation-timing-function: ease-in; */
-      background-image: url('~assets/undangan/revisi1.jpeg');
+      background-image: url('~assets/undangan/revisisampul2.jpeg');
 	}
-	20% {
+	30% {
       background-color: rgb(38 38 38);
       min-height: 100%;
       width: 100%;
       /* opacity: 0.85; */
-      background-image: url("~assets/undangan/revisi2.jpeg");
+      background-image: url("~assets/undangan/revisisampul1.jpg");
 	}
-	45% {
+	55% {
       /* background-size: cover;   */
       background-color: rgb(38 38 38);
       min-height: 100%;
@@ -619,7 +619,7 @@ body {
       /* height: 100%;
        width: 100%; */
 	    /* animation-timing-function: ease-in; */
-      background-image: url("~assets/undangan/revisi3.jpeg");
+      background-image: url("~assets/undangan/revisi3 copy.jpeg");
 	}
 	70% {
       /* background-size: cover;   */
@@ -648,7 +648,7 @@ body {
       min-height: 100%;
       min-width: 100%;
       animation-timing-function: ease-in-out;
-      background-image: url('~assets/undangan/revisi1.jpeg');
+      background-image: url('~assets/undangan/revisisampul2.jpeg');
   }
 }
 
