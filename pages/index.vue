@@ -68,6 +68,7 @@
 
   <section id="main2" class="hidden main-1 h-full relative w-full pt-7 pb-7 md:pt-20 md:pb-24 flex items-center justify-center bg-cover bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
+    <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-8 text-serrat md:px-3 mx-auto italic text-center md:text-blue-400 text-blue-300 text-md md:text-xl mb-3 md:mb-3 relative">Bismillahirrohmanirrohim</p>   
     <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-8 text-serrat md:px-3 mx-auto italic text-center md:text-blue-400 text-blue-300 text-md md:text-xl mb-10 md:mb-10 relative">"Dan segala sesuatu Kami ciptakan berpasang-pasangan agar kamu mengingat (kebesaran Allah)."<br/>QS. Az Zariyat: 49</p>   
     <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-8 mx-auto text-center text-md md:text-xl mb-5 md:mb-8 relative">Dengan kerendahan hati, kami mengundang Bapak/Ibu/Saudara/Saudari untuk menghadiri pernikahan kami dan memberikan doa restu kepada kami</p>   
     <div class="box-border md:mt-6 md:pt-6 mb-10 mt-10 justify-center flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
@@ -185,7 +186,7 @@
               <img src="~assets/aside.png" style="position: absolute; left: 0;  top:20px; height:70%; width:40%; " />
               <h2 class="text-2xl pb-5 md:text-3xl">RSVP</h2>
               <p class="mb-8 text-center md:mb-15">Mohon bantu kami untuk mempersiapkan acara dengan lebih baik dengan mengkonfirmasi kehadiran Anda pada acara pernikahan kami pada form berikut:</p>
-              <nuxt-link style="font-size: 20px;" :to="partner ? `/rsvp?invitee=${name}&partner=${partner}` : name ? `/rsvp?invitee=${name}` : `/rsvp` " class="flex w-8/12 justify-center items-center py-2 px-4 bg-gray-500 text-white text-center rounded hover:bg-gray-700 my-auto shadow-md">Reservasi</nuxt-link>
+              <nuxt-link style="font-size: 20px;" :to="partner ? `/rsvp?invitee=${name}&partner=${partner}&id=${id}` : name ? `/rsvp?invitee=${name}&id=${id}` : `/rsvp` " class="flex w-8/12 justify-center items-center py-2 px-4 bg-gray-500 text-white text-center rounded hover:bg-gray-700 my-auto shadow-md">Reservasi</nuxt-link>
           </div>
         </div>
         <div class="p-2 md:p-4 w-full md:w-1/2 relative">
@@ -437,6 +438,7 @@ export default {
       onShow: false,
       name: this.$route.query.invitee,
       partner: this.$route.query.partner ? this.$route.query.partner : null,
+      id:  this.$route.query.id ? this.$route.query.id : null   ,
       music: false,
       onShowPhoto: false,
       photo: ''
