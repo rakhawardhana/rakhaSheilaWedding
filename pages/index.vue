@@ -386,12 +386,12 @@
     <div class="container mx-auto px-6 text-center py-20">
       <h2 class="relative md:mb-4 text-4xl md:text-4xl font-bold text-center text-gray-700">Terima kasih</h2>
       <p class="my-4 mb-5 relative text-xl text-gray-700">Sampai jumpa di hari bahagia</p>
-      <div class="flex relative justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
+      <div data-aos="fade-left" data-aos-duration="1000" class="flex relative justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
           <span style="color: rgb(100 116 139);" class="text-top font-bold text-cyan-300	text-5xl md:text-6xl">Rakha</span>
           <span style="color: rgb(100 116 139);" class="text-middle p-5 text-4xl text-cyan-300	md:text-5xl">&</span>
           <span style="color: rgb(100 116 139);" class="text-bottom font-bold  text-cyan-300 text-5xl md:text-6xl">Sheila</span>
       </div>
-      <p class="italic my-4 mt-6 relative text-xl text-gray-600">
+      <p data-aos="fade-left" data-aos-duration="1000" class="italic my-4 mt-6 relative text-xl text-gray-600">
         <!-- “Everyone Comes With Baggage. Find Someone Who Loves You Enough To Help You Unpack." <br/>-<br/>Ted Mosby -->
                 “There are two big days in any love story: the day you meet the girl of your dreams and the day you marry her.” <br/>- Ted Mosby
 
