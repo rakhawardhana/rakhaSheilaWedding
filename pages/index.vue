@@ -5,21 +5,21 @@
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-800 opacity-75"></div>
     <main class="px-4 sm:px-6 lg:px-8 z-10">
       <div class="text-center">
-        <h3 style = "text-transform:capitalize;" v-show="name" class="animate fade-in-dear fadeIn text-2xl mb-3 tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-3xl">
-          Dear {{name}} {{partner ? `& ${partner}` : ''}}
+        <h3 style="text-transform:capitalize;" v-show="name" class="animate fade-in-dear fadeIn text-3xl mb-8 tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-3xl">
+          Dear <span class="italic">{{name}} {{partner ? `& ${partner}` : ''}}</span>
         </h3>
         <h2 class="animate fade-in-name fadeIn text-2xl tracking-tight leading-10 font-medium sm:text-4xl text-white sm:leading-none md:text-4xl">
           UNDANGAN PERNIKAHAN 
         </h2>
-        <div class="flex justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl mt-8 sm:mx-auto md:mt-5 text-white">
-          <span class="animate fade-left-rakha fadeInLeft text-top text-4xl md:text-4xl">Rakha</span>
-          <span class="animate fade-in-name p-4 fadeIn text-middle text-2xl md:text-4xl">&amp;</span>
-          <span class="animate fade-right-sheila fadeInRight text-bottom text-4xl md:text-4xl">Sheila</span>
+        <div class="flex justify-center mb-5 w-full my-3 sm:my-5 sm:text-md sm:max-w-xl mt-4 sm:mx-auto md:mt-6 text-white">
+          <span class="animate fade-left-rakha fadeInLeft text-top text-5xl md:text-5xl">Rakha</span>
+          <span class="animate fade-in-name p-4 fadeIn text-middle text-3xl md:text-4xl">&amp;</span>
+          <span class="animate fade-right-sheila fadeInRight text-bottom text-5xl md:text-5xl">Sheila</span>
         </div>
         <div class="mt-5 sm:mt-8 sm:flex justify-center">
           <div class="rounded-md shadow">
             <button
-              class="animate fade-down-button fadeInDown  fa border-2 text-md md:text-2xl hover:bg-white hover:text-black text-white border-white px-8 py-3 rounded-md"
+              class="animate fade-down-button fadeInDown  fa border-2 text-xl md:text-2xl hover:bg-white hover:text-black text-white border-white px-8 py-3 rounded-md"
               @click="onFirst"
             >
               Buka Undangan
@@ -37,22 +37,21 @@
         <h2 class="text-2xl tracking-tight leading-10 font-medium sm:text-3xl text-white sm:leading-none md:text-3xl">
           Kami mengundang Anda menghadiri acara pernikahan
         </h2>
-        <div class="flex justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
-          <span class="text-top text-2xl md:text-6xl">Rakha</span>
-          <span class="text-middle p-4 text-2xl md:text-5xl">&amp;</span>
-          <span class="text-bottom text-2xl md:text-6xl">Sheila</span>
+        <div class="flex justify-center w-full mb-9 mt-6 my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
+          <span class="text-top text-5xl md:text-6xl">Rakha</span>
+          <span class="text-middle p-4 text-3xl md:text-5xl">&amp;</span>
+          <span class="text-bottom text-5xl md:text-6xl">Sheila</span>
         </div>
         <no-ssr>
-          <flip-countdown deadline="2022-08-06 00:00:00"></flip-countdown>
+          <flip-countdown deadline="2022-08-06 07:00:00"></flip-countdown>
         </no-ssr>
-        <div class="mt-5 sm:mt-8 sm:flex justify-center">
+        <div class="mt-8 sm:mt-8 sm:flex justify-center">
           <a target="_blank" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Rakha+and+Sheila+Wedding&dates=20220806/20220807&details=&location=&trp=true" class="rounded-md shadow">
             <button
               class="border-2 focus:bg-black bg-second hover:text-white text-black border-white px-8 md:px-10 py-3 rounded-md"
             >
             <div class="flex justify-center items-center relative">
               <div class="mr-3">
-                <!-- <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MHVmbXVmMjQzcjFsOGUzMjY4cnNqMGt1dnIgcmFraGFndXN0aXdhcmRoYW5hQG0&amp;tmsrc=rakhagustiwardhana%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a> -->
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -204,7 +203,7 @@
   <section id="main-slider" class="hidden main-1 h-full relative w-full bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-700 opacity-75"></div>
     <no-ssr>
-        <carousel-3d :width="900" :height="800" data-aos="fade-right" data-aos-duration="1000" id="main5" class="hidden" :display="5" :autoplay="true" :autoplay-timeout="2000">    
+        <carousel-3d :width="500" :height="400" data-aos="fade-right" data-aos-duration="1000" id="main5" class="hidden" :display="6" :autoplay="true" :autoplay-timeout="3000">    
           <!-- <slide :index="0">
             <img  src="~assets/mi_Self_Photo_Studio_Jakarta_-_Depok.webp" style="object-fit: cover; min-width: 362px; height: 100%;"> 
           </slide> -->
@@ -319,7 +318,7 @@
               <h1>Sheila Jasmine Meutia Azzara</h1>
               <div class="flex mb-4 items-center justify-center">
                   <p>1240007912398</p>
-                  <button class="items-center justify-center ml-3" @click="copyBCA">
+                  <button class="items-center justify-center ml-3" @click="copyMandiri">
                     <svg class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"/></svg>
                   </button>
                 </div>
@@ -385,14 +384,14 @@
   <section id="main6" class="hidden main-1 h-full relative w-full bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-300 opacity-75"></div>
     <div class="container mx-auto px-6 text-center py-20">
-      <h2 class="relative md:mb-4 text-4xl md:text-4xl font-bold text-center text-black">Terima kasih</h2>
-      <p class="my-4 mb-5 relative text-xl text-black">Sampai jumpa di hari bahagia</p>
+      <h2 class="relative md:mb-4 text-4xl md:text-4xl font-bold text-center text-gray-700">Terima kasih</h2>
+      <p class="my-4 mb-5 relative text-xl text-gray-700">Sampai jumpa di hari bahagia</p>
       <div class="flex relative justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
           <span style="color: rgb(100 116 139);" class="text-top font-bold text-cyan-300	text-5xl md:text-6xl">Rakha</span>
           <span style="color: rgb(100 116 139);" class="text-middle p-5 text-4xl text-cyan-300	md:text-5xl">&</span>
           <span style="color: rgb(100 116 139);" class="text-bottom font-bold  text-cyan-300 text-5xl md:text-6xl">Sheila</span>
       </div>
-      <p class="italic my-4 mt-6 relative text-xl text-blue-700	">
+      <p class="italic my-4 mt-6 relative text-xl text-gray-600">
         <!-- “Everyone Comes With Baggage. Find Someone Who Loves You Enough To Help You Unpack." <br/>-<br/>Ted Mosby -->
                 “There are two big days in any love story: the day you meet the girl of your dreams and the day you marry her.” <br/>- Ted Mosby
 
@@ -584,7 +583,7 @@ body {
     background-color: rgb(38 38 38);
     /* height: 100%;
     width: 100%; */
-    opacity: 0.90
+    opacity: 1
 
 }
 @keyframes imageAnimation { 
@@ -645,7 +644,7 @@ body {
 	100% { 
       /* background-size: cover;   */
       background-color: rgb(38 38 38);
-      opacity: 0.90;
+      opacity: 1;
       min-height: 100%;
       min-width: 100%;
       animation-timing-function: ease-in-out;
