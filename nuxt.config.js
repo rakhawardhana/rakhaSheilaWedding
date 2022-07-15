@@ -26,7 +26,7 @@ export default {
       { property:"og:image:height", content:"300" },
       { property:"og:image:alt", content:"Sampai jumpa di hari bahagia Rakha & Sheila" },
       { property:"og:title", content:"Rakha & Sheila" },
-      { property="og:url", content="https://rakhasheila.com" }
+      { property:"og:url", content:"https://rakhasheila.com" }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/ogimagenew.jpg' }
