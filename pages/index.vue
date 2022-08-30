@@ -12,9 +12,9 @@
           THE WEDDING OF
         </h2>
         <div class="flex justify-center mb-5 w-full my-3 sm:my-5 sm:text-md sm:max-w-xl mt-4 sm:mx-auto md:mt-6 text-white">
-          <span class="animate fade-left-rakha fadeInLeft text-top text-5xl md:text-5xl">Eric</span>
-          <span class="animate fade-in-name p-4 fadeIn text-middle text-3xl md:text-4xl">&amp;</span>
-          <span class="animate fade-right-sheila fadeInRight text-bottom text-5xl md:text-5xl">Listi</span>
+          <span class="animate fade-left-rakha fadeInLeft text-top text-dancing text-5xl md:text-5xl">Eric</span>
+          <span class="animate fade-in-name p-4 fadeIn text-middle text-dancing text-3xl md:text-4xl">&amp;</span>
+          <span class="animate fade-right-sheila fadeInRight text-bottom text-dancing text-5xl md:text-5xl">Listi</span>
         </div>
         <div class="mt-5 sm:mt-8 sm:flex justify-center">
           <div class="rounded-md shadow">
@@ -38,9 +38,9 @@
           We Invite You To Our Wedding
         </h2>
         <div class="flex justify-center w-full mb-9 mt-6 my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
-          <span class="text-top text-5xl md:text-6xl">Eric</span>
-          <span class="text-middle p-4 text-3xl md:text-5xl">&amp;</span>
-          <span class="text-bottom text-5xl md:text-6xl">Listi</span>
+          <span class="text-top text-5xl text-dancing md:text-6xl">Eric</span>
+          <span class="text-middle p-4 text-3xl text-dancing md:text-5xl">&amp;</span>
+          <span class="text-bottom text-5xl text-dancing md:text-6xl">Listi</span>
         </div>
         <no-ssr>
           <flip-countdown deadline="2022-09-06 00:00:00"></flip-countdown>
@@ -67,78 +67,89 @@
 
   <section id="main2" class="hidden main-1 h-full relative w-full pt-7 pb-7 md:pt-20 md:pb-24 flex items-center justify-center bg-cover bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
-    <!-- <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-8 text-serrat md:px-3 mx-auto italic text-center md:text-blue-400 text-blue-300 text-md md:text-xl mb-3 md:mb-3 relative">Bismillaahirrahmaanirrahiim</p>    -->
     <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-8 text-serrat md:px-3 mx-auto italic text-center md:text-blue-400 text-blue-300 text-md md:text-xl mb-10 md:mb-10 relative">"And over all these virtues put on love. Which binds them all together in perfect unity."<br/>Colossians 3:14</p>   
-    <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-8 mx-auto text-center text-md md:text-xl mb-5 md:mb-8 relative">By the grace and blessing of God We cordially request the honour of your presence At the wedding of our beloved children</p>   
-    <div class="box-border md:mt-6 md:pt-6 mb-10 mt-10 justify-center flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
-      <!-- <div data-aos="fade-left" data-aos-duration="1000" class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
-          <img src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" class="max-h-96 mx-auto pl-6 pr-5 xl:pl-16 xl:pr-20" style="-webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0; object-fit: cover; object-position: center;">
-      </div> -->
-      <div class="box-border order-first w-full text-center md:text-left text-black border-solid md:w-1/2 md:pl-10 md:order-none">
-          <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
-              Eric Ivan, S.T.,M.M.
-          </h2>
-          <p class="relative pt-2 m-0 leading-7 text-gray-800 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-              The son of
-          </p>
-          <p class="relative m-0 leading-7 text-gray-800 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-              MR.Drs.GOZARI EFFENDY &amp;
-          </p>
-          <p class="relative pb-4 m-0 leading-7 text-gray-800 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-              MRS. LIEM WIDARIA LINDY
-          </p>
+    <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-8 mx-auto text-center text-vibe text-md md:text-xl mb-5 md:mb-8 relative">By the grace and blessing of God We cordially request the honour of your presence At the wedding of our beloved children</p>   
+    <div class="flex relative justify-center items-center w-full md:mb-3 lg:mb-16">
+      <div class="p-4 md:w-full lg:w-10/12">
+        <div class="ce-mo__picture"></div>
+        <div style="border-bottom: solid 2px black">
+          <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-vibe text-2xl md:text-3xl pb-3 pt-6">Eric</h2>
+        </div>
+        <p class="mb-1 mt-3 text-sm text-center text-vibe sm:text-xl">Eric Ivan, S.T.,M.M.</p>
+        <p class="mb-1 text-sm text-center sm:text-xl">The son of</p>
+        <p class="mb-1 text-sm text-center sm:text-xl">Mr.Drs. Gozari Effendy</p>
+        <p class="mb-1 text-sm text-center sm:text-xl">&amp;</p>
+        <p class="mb-1 text-sm text-center sm:text-xl">Mrs. Liem Widaria Lindy</p>
+
       </div>
-    </div>
-    <!-- <p class="relative text-center text-2xl leading-tight lg:text-4xl md:text-1xl">&</p> -->
-    <div data-aos="fade-right" data-aos-duration="1000" class="relative  w-full text-center text-2xl leading-tight lg:text-4xl md:text-1xl">
-
-      <img src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" class="max-h-96 mx-auto  md:w-/12 pl-6 pr-5 xl:pl-16 xl:pr-20" style="-webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0; object-fit: cover; object-position: center;">
-
-    </div>
-
-    <div class="box-border mt-6 pt-6 justify-center flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
-      <div class="box-border order-first w-full text-center md:text-right text-black border-solid md:w-1/2 md:pl-10 md:order-none">
-          <h2 data-aos="fade-up" data-aos-duration="1000" class="relative m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
-              Koe Listiyani,S.E
-          </h2>
-          <p class="relative pt-2 m-0 leading-7 text-gray-800 border-0 border-gray-300 lg:text-lg">
-              The daughter of
-          </p>
-          <p class="relative m-0 leading-7 text-gray-800 border-0 border-gray-300 lg:text-lg">
-              MR (+) MULIADI SUSANTO &amp;
-          </p>
-          <p class="relative pb-4 m-0 leading-7 text-gray-800 border-0 border-gray-300 lg:text-lg">
-              MRS. KOE LIE HOA
-          </p>
+      <div class="p-4 md:w-full lg:w-10/12">
+        <div class="ce-wo__picture"></div>
+        <div style="border-bottom: solid 2px black">
+          <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-vibe text-2xl md:text-3xl pb-3 lg:pb-3 pt-6">Listi</h2>
+        </div>
+        <p class="mb-1 mt-3 text-sm text-center text-vibe sm:text-xl">Koe Listiyani,S.E</p>
+        <p class="mb-1 text-sm text-center sm:text-xl">The daughter of</p>
+        <p class="mb-1 text-sm text-center sm:text-xl">Mr. (+) Muliadi Susanto</p>
+        <p class="mb-1 text-sm text-center sm:text-xl">&amp;</p>
+        <p class="mb-5 md:mb-1 text-sm text-center sm:text-xl">Mrs. Koe Lie Hoa</p>
       </div>
-      <!-- <div data-aos="fade-right" data-aos-duration="1000" class="box-border relative w-full max-w-md px-4 mt-5 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
-          <img src="~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg" class="max-h-96 mx-auto w-10/12 sm:pr-6 xl:pl-10 lg:pr-12" style="object-fit: cover; object-position: center; -webkit-border-radius: 40% 0 40% 0; border-radius: 40% 0 40% 0;">
-      </div> -->
     </div>
   </section>
 
   <section id="main3" class="ada hidden main-1 h-full relative w-full flex items-center justify-center bg-cover bg-center">
       <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-70"></div>
-      <h1 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl lg:mb-16  md:text-3xl pt-20">Waktu & Tempat</h1>
+      <h1 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl text-dancing lg:mb-16  md:text-3xl pt-20">Time & Place</h1>
       <div class="container mx-auto flex px-5 mt-2 pb-24 md:flex-row flex-col justify-center text-center items-center">
         <div data-aos="fade-left" data-aos-duration="1000" class="relative lg:flex-grow md:w-3/5 flex flex-col md:text-left p-4 md:mb-0 items-center text-center" style="box-shadow: 0 3px 1px -2px rgb(0 0 0 / 8%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);">
-          <div class="flex justify-center items-center w-full md:mb-3 lg:mb-16">
+          <div class="block md:flex md:justify-center items-center w-full md:mb-3 lg:mb-16">
             <div class="p-4 md:w-full lg:w-10/12">
               <img src="~assets/akad.png" width="110" height="auto" class="mx-auto">
               <div style="border-bottom: solid 2px black">
-                <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Akad</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Holy Matrimony</h2>
               </div>
-              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sabtu <br/> 6 Agustus 2022 <br /> 07.00 - 09.00 WIB</p>
+              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sunday, 28 August 2022</p>
+                <div class="flex justify-center">
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mb-2 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="mr-3">10.00 - End</p>
+                  </div>
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mb-2 mx-auto">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                    </svg>
+                    <a target="_blank" href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="ml-3" style="color: #0000EE;">Summer at The Pool, Lt. 8</a>
+                  </div>
+                </div>
+              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Jl. Pantai Indah Utara 1, RT.6/RW.2, Kapuk Muara, Kec. Penjaringan, Jakarta, Daerah Khusu Ibu Kota Jakarta 14460</p>
             </div>
             <div class="p-4 md:w-full lg:w-10/12">
               <img src="~assets/resepsi.png" width="80" height="auto" class="mx-auto">
               <div style="border-bottom: solid 2px black">
-                <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Resepsi</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Reception</h2>
               </div>
-              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sabtu <br/> 6 Agustus 2022 <br /> 11.00 - 13.00 WIB</p>
+              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Saturday, 6 Agustus 2022</p>
+              <div class="flex justify-center">
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mb-2 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="mr-3">18.00 - End</p>
+                  </div>
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mb-2 mx-auto">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                    </svg>
+                    <a target="_blank" href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="ml-3" style="color: #0000EE;">Summer at The Pool, Lt. 8</a>
+                  </div>
+                </div>
+              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Jl. Pantai Indah Utara 1, RT.6/RW.2, Kapuk Muara, Kec. Penjaringan, Jakarta, Daerah Khusu Ibu Kota Jakarta 14460</p>
             </div>
           </div>
-          <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900">
+          <!-- <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900">
             Felfest Faculty Club <br/> Universitas Indonesia
           </h1>
           <p class="mb-4 text-sm justify-center items-center text-center sm:text-xl">Kampus UI, Jl. Prof. Dr. Miriam Budiardjo <br />
@@ -147,30 +158,30 @@
           </p>
           <div class="flex justify-center">
             <a target="_blank" href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg" style="border: 1px solid black;">Lihat Map</a>
-          </div>
+          </div> -->
         </div>
       </div>
   </section>
   <section id="main7" class="hidden main-1 h-full relative w-full bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
-    <h3 data-aos="fade-up" data-aos-duration="1000" class="text-center pt-20 px-6 relative">Acara ini diselenggarakan dengan mengikuti protokol kesehatan demi mencegah penyebaran virus Covid-19.</h3>
+    <h1 data-aos="fade-up" data-aos-duration="1000" class="text-center pt-20 text-4xl px-6 text-dancing relative">Health Protocol</h1>
     <div data-aos="fade-left" data-aos-duration="1000" class="container relative px-5 py-12 mx-auto">
       <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
             <img src="~assets/mask.png" width="110" height="auto" class="mx-auto">
-            <p class="text-center">Menggunakan Masker.</p>
+            <p class="text-center">Use Mask</p>
         </div>
         <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
             <img src="~assets/distance.png" width="160" height="auto" class="mx-auto">
-            <p class="text-center">Menjaga Jarak.</p>
+            <p class="text-center">Social Distancing</p>
         </div>
         <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
             <img src="~assets/washhand.png" width="160" height="200px;" class="mx-auto">
-            <p class="text-center">Mencuci Tangan.</p>
+            <p class="text-center">Hand Sanitizer</p>
         </div>
         <div class="border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
-            <img src="~assets/elbow.png" width="160" height="auto" class="mx-auto">
-            <p class="text-center">Tidak berjabat tangan, kami sarankan untuk menggukanan salam siku.</p>
+            <img src="~assets/tempt.png" width="160" height="auto" class="mx-auto">
+            <p class="text-center">Fit. Body temp < 37° </p>
         </div>
       </div>
     </div>
@@ -182,7 +193,7 @@
       <div class="flex flex-wrap -m-4">
         <div class="p-2 md:p-4 w-full md:w-1/2 relative">
           <div data-aos="flip-down" data-aos-duration="1000" class="relative text-center items-center justify-center flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-              <img src="~assets/aside.png" style="position: absolute; left: 0;  top:20px; height:70%; width:40%; " />
+              <img src="~assets/aside.png" style="position: absolute; left: 0;  top:20px; height:92%; width:37%; " />
               <h2 class="text-2xl pb-5 md:text-3xl">RSVP</h2>
               <p class="mb-8 text-center md:mb-15">Mohon bantu kami untuk mempersiapkan acara dengan lebih baik dengan mengkonfirmasi kehadiran Anda pada acara pernikahan kami pada form berikut:</p>
               <nuxt-link style="font-size: 20px;" :to="partner ? `/rsvp?invitee=${name}&partner=${partner}` : name ? `/rsvp?invitee=${name}` : `/rsvp` " class="flex w-8/12 justify-center items-center py-2 px-4 bg-gray-500 text-white text-center rounded hover:bg-gray-700 my-auto shadow-md">Reservasi</nuxt-link>
@@ -190,10 +201,10 @@
         </div>
         <div class="p-2 md:p-4 w-full md:w-1/2 relative">
           <div data-aos="fade-right" data-aos-duration="1000" class="text-center items-center justify-center  flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-              <img src="~assets/aside.png" style="position: absolute;  top:20px; right: 0px; height:70%; width:40%; transform: scaleX(-1);" />
-              <h2 class="text-2xl pb-5 md:text-3xl">KIRIM HADIAH</h2>
-              <p class="text-center mb-8 md:mb-15">Kami sangat berterima kasih untuk doa, restu, kehadiran, serta tanda kasih yang Anda berikan kepada kami. <br/> Doa, restu, kehadiran, dan tanda kasih Anda dalam bentuk apapun merupakan berkat terbesar bagi hari bahagia kami.</p>
-              <button style="font-size: 20px;" @click="onModalQR" class="py-2 w-8/12 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto shadow-md">Kirim Hadiah</button>
+              <img src="~assets/aside.png" style="position: absolute;  top:20px; right: 0px; height:92%; width:37%; transform: scaleX(-1);" />
+              <h2 class="text-2xl pb-5 md:text-3xl">WEDDING GIFT</h2>
+              <p class="text-center mb-8 md:mb-15">To minimize Covid transmission through physical contact, we facilitate Invited Guests to be able to give a token of love through the following online transactions: </p>
+              <button style="font-size: 20px;" @click="onModalQR" class="py-2 w-8/12 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto shadow-md">Send Gift</button>
           </div>
         </div>
       </div>
@@ -201,28 +212,24 @@
   </section>
 
   <section id="main-slider" class="hidden main-1 h-full relative w-full bg-center">
-    <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-700 opacity-75"></div>
+    <!-- <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-700 opacity-75"></div>
     <no-ssr>
         <carousel-3d :width="500" :height="400" data-aos="fade-right" data-aos-duration="1000" id="main5" class="hidden" :display="6" :autoplay="true" :autoplay-timeout="3000">    
-          <!-- <slide :index="0">
-            <img  src="~assets/mi_Self_Photo_Studio_Jakarta_-_Depok.webp" style="object-fit: cover; min-width: 362px; height: 100%;"> 
-          </slide> -->
           <slide  :index="0">
-            <img  src="~assets/undangan/revisi7.jpeg" style="object-fit: cover; min-width: 362px; height: 100%;">
+            <img  src="~assets/el_portrait1.jpeg" style="object-fit: cover; min-width: 362px; height: 100%;">
           </slide>
           <slide :index="1">
-                        <!-- ganti udah -->
-            <img   src="~assets/undangan/revisi3.jpeg" style="object-fit: cover; min-width: 362px; height: 100%;"> 
+            <img   src="~assets/el_portrait2.jpeg" style="object-fit: cover; min-width: 362px; height: 100%;"> 
           </slide>
           <slide :index="2">
-            <img   src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-3 copy.jpg" style="object-fit: cover; min-width: 362px;height: 100%;"> 
+            <img   src="~assets/el_portrait3.jpeg" style="object-fit: cover; min-width: 362px;height: 100%;"> 
           </slide>
 
           <slide :index="3">
-            <img   src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-2.webp" style="object-fit: cover; min-width: 362px; height: 100%;">    
+            <img   src="~assets/el_portrait4.jpeg" style="object-fit: cover; min-width: 362px; height: 100%;">    
           </slide>
           <slide :index="4">
-            <img   src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-4.webp" style="object-fit: cover; min-width: 362px; height: 100%;">
+            <img   src="~assets/el_portrait5.jpeg" style="object-fit: cover; min-width: 362px; height: 100%;">
           </slide>
           <slide :index="5">
             <img   src="~assets/lamaran1 copy.jpg" style="object-fit: cover; min-width: 362px;height: 100%;"> 
@@ -242,12 +249,34 @@
           <slide :index="10">
             <img src="~assets/wisuda2.jpg" style="object-fit: cover; min-width: 362px; height: 100%;">
           </slide>
-          <!-- <slide :index="6">    
-            <img src="~assets/_Self_Photo_Studio_Jakarta_-_Depok-5.webp" style="object-fit: cover; width: 100%; height: auto;">          
-
-          </slide> -->
         </carousel-3d>
-      </no-ssr>
+      </no-ssr> -->
+
+      <div class="container--img">
+        <div>
+            <img src="../assets/el_landscape.jpeg" alt="Eric & Listi Wedding" class="img--img">
+        </div>
+
+        <div>
+            <img src="../assets/el_portrait1.jpeg" alt="Eric & Listi Wedding" class="img--img">
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1580769154185-abdda4691da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Eric & Listi Wedding" class="img--img">
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1580732055671-e64dde2eb75b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Eric & Listi Wedding" class="img--img">
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1580785422463-c88da52a2922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Eric & Listi Wedding" class="img--img">
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1558666831-d43129d768b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Eric & Listi Wedding" class="img--img">
+        </div>
+        </div>
   </section>
 
   <!-- <transition name="fade">
@@ -273,7 +302,9 @@
 
   <transition name="fade">
     <div v-if="isModalQR" class="fixed flex inset-0 z-10 bg-transparent bg-opacity-75" id="modal">
-          <img src="~/assets/lamaran2.jpg" id="background-modal" width="100%" height="auto" alt="Rakha Sheila Wedding" style="position: absolute; opacity: 30%">
+    <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-800 opacity-75"></div>
+
+      <!-- <img src="~/assets/el_portrait5.jpeg" id="background-modal" width="100%" height="auto" alt="Rakha Sheila Wedding" style="position: absolute;"> -->
 
       <!-- Remove the 'max-h-96' on the div below to use the height of the content -->
       <div class="flex self-center items-center justify-center w-full h-full p-8 max-h-fit">
@@ -299,7 +330,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
               </svg>
             </div>
-            <div class="flex items-center justify-center pb-4">
+            <!-- <div class="flex items-center justify-center pb-4">
               <h1 class="text-center">Jalan Zeni 3 No 22 RT07/RW03, Kelurahan Rawajati, Kecamatan Pancoran, Jakarta Selatan</h1>
             </div>
             <div class="flex items-center justify-center">
@@ -312,69 +343,18 @@
             </div>
             <div class="flex items-center justify-center pb-4 mb-8">
               <a target="_blank" href="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 text-center px-4 bg-gray-500 text-white rounded hover:bg-gray-700">Kirim hadiah fisik</a>
-            </div>
+            </div> -->
             <div class="items-center text-center mb-8 justify-center">
-              <h1 class="font-bold">Mandiri</h1>
-              <h1>Sheila Jasmine Meutia Azzara</h1>
+              <h1 class="font-bold">BCA</h1>
+              <h1>Eric Ivan</h1>
               <div class="flex mb-4 items-center justify-center">
-                  <p>1240007912398</p>
+                  <p>6043983046</p>
                   <button class="items-center justify-center ml-3" @click="copyMandiri">
                     <svg class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"/></svg>
                   </button>
                 </div>
+              <img src="~assets/er_bca.png" width="100%" height="auto" />  
             </div>
-            <div class="flex flex-wrap -m-4">
-            <div class="p-2 md:p-4 w-full md:w-1/2">
-              <div data-aos="flip-down" data-aos-duration="1000" class="text-center h-full">
-                <h1 class="font-bold">BCA</h1>
-                <h1>Rakha Gusti Wardhana</h1>
-                <div class="flex mb-4 items-center justify-center">
-                  <p>3970113206</p>
-                  <button class="items-center justify-center ml-3" @click="copyBCA">
-                    <svg class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"/></svg>
-                  </button>
-                </div>
-                <img src="~assets/bca.png" width="100%" height="auto" />  
-              </div>
-            </div>
-            <div class="p-2 md:p-4 w-full md:w-1/2">
-              <div data-aos="fade-right" data-aos-duration="1000" class="text-center h-full">
-              <h1 class="font-bold">BNI</h1>
-              <h1>Sheila Jasmine Meutia Azzara</h1>
-              <div class="flex items-center justify-center">
-                  <p>1421370545</p>
-                  <button class="items-center justify-center ml-3" @click="copyBNI">
-                    <svg class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"/></svg>
-                  </button>
-              </div>
-              <img src="~assets/BNI.jpeg" width="100%" height="auto" />  
-              </div>
-            </div>
-            <div class="p-2 md:p-4 w-full md:w-1/2">
-              <div data-aos="fade-right" data-aos-duration="1000" class="text-center h-full">
-              <h1 class="font-bold">GOPAY</h1>
-              <div class="flex mb-4 items-center justify-center">
-                  <h1>082332403412</h1>
-                  <button class="items-center justify-center ml-3" @click="copyGopay">
-                    <svg class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"/></svg>
-                  </button>
-              </div>
-              <img src="~assets/gopay.png" width="100%" height="auto" />  
-              </div>
-            </div>
-            <div class="p-2 md:p-4 w-full md:w-1/2">
-              <div data-aos="fade-right" data-aos-duration="1000" class="text-center h-full">
-              <h1 class="font-bold">OVO</h1>
-              <div class="flex mb-4 items-center justify-center">
-                  <h1>085810336810</h1>
-                  <button class="items-center justify-center ml-3" @click="copyOVO">
-                    <svg class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"/></svg>
-                  </button>
-              </div>
-              <img src="~assets/ovo.jpeg" width="100%" height="100%" />  
-              </div>
-            </div>
-          </div>
           </div>
         </div>
       </div>
@@ -384,12 +364,12 @@
   <section id="main6" class="hidden main-1 h-full relative w-full bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-300 opacity-75"></div>
     <div class="container mx-auto px-6 text-center py-20">
-      <h2 class="relative md:mb-4 text-4xl md:text-4xl font-bold text-center text-gray-700">Terima kasih</h2>
-      <p class="my-4 mb-5 relative text-xl text-gray-700">Sampai jumpa di hari bahagia</p>
+      <h2 class="relative md:mb-4 text-4xl md:text-4xl font-bold text-center  text-gray-700">Thank You</h2>
+      <p class="my-4 mb-5 relative text-xl text-gray-700">For Coming & Your Blessing</p>
       <div data-aos="fade-left" data-aos-duration="1000" class="flex relative justify-center w-full my-3 sm:my-5 sm:text-md sm:max-w-xl sm:mx-auto md:my-8 text-white">
-          <span style="color: rgb(100 116 139);" class="text-top font-bold text-cyan-300	text-5xl md:text-6xl">Rakha</span>
-          <span style="color: rgb(100 116 139);" class="text-middle p-5 text-4xl text-cyan-300	md:text-5xl">&</span>
-          <span style="color: rgb(100 116 139);" class="text-bottom font-bold  text-cyan-300 text-5xl md:text-6xl">Sheila</span>
+          <span style="color: rgb(100 116 139);" class="text-top font-bold text-dancing text-cyan-300	text-5xl md:text-6xl">Eric</span>
+          <span style="color: rgb(100 116 139);" class="text-middle p-5 text-4xl text-dancing text-cyan-300	md:text-5xl">&</span>
+          <span style="color: rgb(100 116 139);" class="text-bottom font-bold text-dancing text-cyan-300 text-5xl md:text-6xl">Listi</span>
       </div>
       <p data-aos="fade-left" data-aos-duration="1000" class="italic my-4 mt-6 relative text-xl text-gray-600">
         <!-- “Everyone Comes With Baggage. Find Someone Who Loves You Enough To Help You Unpack." <br/>-<br/>Ted Mosby -->
@@ -459,7 +439,7 @@ export default {
       document.getElementById("main2").style.display="block";
       document.getElementById("main3").style.display="block";
       document.getElementById("main4").style.display="inherit";
-      document.getElementById("main5").style.display="block";
+      // document.getElementById("main5").style.display="block";
       document.getElementById("main6").style.display="block";
       document.getElementById("main7").style.display="block";
       document.getElementById("main-slider").style.display="block";
@@ -489,7 +469,7 @@ export default {
         navigator.clipboard.writeText('3970113206')
     },
     copyMandiri(){
-        navigator.clipboard.writeText('1240007912398')
+        navigator.clipboard.writeText('6043983046')
     },
     copyBNI(){
         navigator.clipboard.writeText('1421370545')
@@ -537,6 +517,7 @@ export default {
 /* @import url('https://fonts.googleapis.com/css?family=GFS Didot'); */
 @import url('https://fonts.googleapis.com/css?family=Sahitya&subset=devanagari');
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 
 body {
   overflow-x: hidden;
@@ -546,6 +527,10 @@ body {
   /* font-family: "Palatino Linotype"; */
   /* font-family:  'GFS Didot' */
   font-family: 'GFS Didot', serif;
+}
+
+.text-dancing{
+  font-family: 'Dancing Script';
 }
 
 .text-lato{
@@ -560,7 +545,8 @@ body {
 }
 
 #modal{
-  background-image: url('~assets/_Self_Photo_Studio_Jakarta_-_Depok-2.webp');
+  background-image: url('~assets/el_portrait5.jpeg');
+  background-size: cover;
 }
 
 /* #main{ */
@@ -579,7 +565,7 @@ body {
 .lo{
     /* background-size: cover;   */
     animation: imageAnimation 36s linear 0s; 
-      background-image: url('~assets/undangan/revisisampul2.jpeg');
+      background-image: url('~assets/el_portrait4.jpeg');
     background-color: rgb(38 38 38);
     /* height: 100%;
     width: 100%; */
@@ -598,14 +584,14 @@ body {
       width: 100%;
   
 	    /* animation-timing-function: ease-in; */
-      background-image: url('~assets/undangan/revisisampul2.jpeg');
+      background-image: url('~assets/el_portrait2.jpeg');
 	}
 	30% {
       background-color: rgb(38 38 38);
       min-height: 100%;
       width: 100%;
       /* opacity: 0.85; */
-      background-image: url("~assets/undangan/revisisampul1.jpg");
+      background-image: url("~assets/el_portrait1.jpeg");
 	}
 	55% {
       /* background-size: cover;   */
@@ -619,7 +605,7 @@ body {
       /* height: 100%;
        width: 100%; */
 	    /* animation-timing-function: ease-in; */
-      background-image: url("~assets/undangan/revisi3 copy.jpeg");
+      background-image: url("~assets/el_portrait5.jpeg");
 	}
 	70% {
       /* background-size: cover;   */
@@ -630,7 +616,7 @@ body {
       min-height: 100%;
       min-width: 100%;
 	    /* animation-timing-function: ease-in; */
-      background-image: url("~assets/undangan/revisi4.jpeg");
+      background-image: url("~assets/el_portrait4.jpeg");
 	}
   90% {
 	    opacity: 1;
@@ -638,7 +624,7 @@ body {
      
       min-height: 100%;
       min-width: 100%;      
-      background-image: url("~assets/lamaran1.jpg");
+      background-image: url("~assets/el_portrait3.jpeg");
 	    /* animation-timing-function: ease-in; */
 	}
 	100% { 
@@ -648,7 +634,7 @@ body {
       min-height: 100%;
       min-width: 100%;
       animation-timing-function: ease-in-out;
-      background-image: url('~assets/undangan/revisisampul2.jpeg');
+      background-image: url('~assets/el_portrait4.jpeg');
   }
 }
 
@@ -711,7 +697,7 @@ body {
 }
 #main2{
   /* background-image: linear-gradient(180deg, #B3DEEF, #E6E6FA); */
-  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
+  background-image: url('~assets/el_landscape.jpeg');
 
 }
 
@@ -730,7 +716,7 @@ body {
 
 #main4{
   /* background-color: #B3DEEF; */
-  background-image: url('~assets/Timi Self Photo Studio Jakarta - Depok-4.jpg');
+  background-image: url('~assets/el_portrait2.jpeg');
 
 }
 
@@ -1002,5 +988,60 @@ body {
   @media (min-width: 768px) {
     display: block;
   }
+}
+
+.ce-wo__picture {
+  border-radius: 50%;
+  margin: 0 auto;
+  height: 210px;
+  width: 210px;
+  overflow: hidden;
+  background:  url('~assets/ce_woman.jpeg');
+  background-size: contain;
+  background-position: center;
+
+  @media (max-width: 767px) {
+    height: 110px;
+    width: 110px;
+  }
+}
+
+.ce-mo__picture {
+  border-radius: 50%;
+  margin: 0 auto;
+  height: 210px;
+  width: 210px;
+  overflow: hidden;
+  background:  url('~assets/ce_man.jpeg');
+  background-size: contain;
+  background-position: center;
+
+  @media (max-width: 767px) {
+    height: 110px;
+    width: 110px;
+  }
+}
+
+.container--img {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 290px));
+  grid-gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  box-shadow: 0 1px 1px #000;
+}
+.img--img {
+  background-position: top;
+  background-size: cover;
+  height: 200px;
+  width: 290px;
+  box-shadow: 0 2px 10px #000;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.img--img:hover {
+  box-shadow: none;
+  transform: scale(1.1);
 }
 </style>
