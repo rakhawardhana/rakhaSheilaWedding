@@ -46,7 +46,7 @@
           <flip-countdown deadline="2022-09-06 00:00:00"></flip-countdown>
         </no-ssr>
         <div class="mt-8 sm:mt-8 sm:flex justify-center">
-          <a target="_blank" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Rakha+and+Sheila+Wedding&dates=20220806/20220807&details=&location=&trp=true" class="rounded-md shadow">
+          <a target="_blank" href="https://calendar.google.com/calendar/u/0/r/eventedit/MzRrOTU2amhpODZqYXJuZnZ2aGJ0MnN1Zm8gc3Vrcm9ubjI0QG0?trp=true&pli=1" class="rounded-md shadow">
             <button
               class="border-2 focus:bg-black bg-second hover:text-white text-black border-white px-8 md:px-10 py-3 rounded-md"
             >
@@ -68,30 +68,30 @@
   <section id="main2" class="hidden main-1 h-full relative w-full pt-7 pb-7 md:pt-20 md:pb-24 flex items-center justify-center bg-cover bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
     <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-8 text-serrat md:px-3 mx-auto italic text-center md:text-blue-400 text-blue-300 text-md md:text-xl mb-10 md:mb-10 relative">"And over all these virtues put on love. Which binds them all together in perfect unity."<br/>Colossians 3:14</p>   
-    <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-8 mx-auto text-center text-vibe text-md md:text-xl mb-5 md:mb-8 relative">By the grace and blessing of God We cordially request the honour of your presence At the wedding of our beloved children</p>   
+    <p data-aos="fade-down" data-aos-duration="500" class="max-w-5xl px-8 mx-auto text-center text-slab text-md md:text-xl mb-5 md:mb-8 relative">By the grace and blessing of God We cordially request the honour of your presence At the wedding of our beloved children</p>   
     <div class="flex relative justify-center items-center w-full md:mb-3 lg:mb-16">
       <div class="p-4 md:w-full lg:w-10/12">
         <div class="ce-mo__picture"></div>
         <div style="border-bottom: solid 2px black">
-          <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-vibe text-2xl md:text-3xl pb-3 pt-6">Eric</h2>
+          <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-jose text-2xl md:text-3xl pb-3 pt-6">Eric</h2>
         </div>
-        <p class="mb-1 mt-3 text-sm text-center text-vibe sm:text-xl">Eric Ivan, S.T.,M.M.</p>
-        <p class="mb-1 text-sm text-center sm:text-xl">The son of</p>
-        <p class="mb-1 text-sm text-center sm:text-xl">Mr.Drs. Gozari Effendy</p>
-        <p class="mb-1 text-sm text-center sm:text-xl">&amp;</p>
-        <p class="mb-1 text-sm text-center sm:text-xl">Mrs. Liem Widaria Lindy</p>
+        <p class="mb-1 mt-3 text-sm text-center text-jose sm:text-xl">Eric Ivan, S.T.,M.M.</p>
+        <p class="mb-1 text-sm text-center text-slab sm:text-xl">The son of</p>
+        <p class="mb-1 text-sm text-center text-slab sm:text-xl">Mr.Drs. Gozari Effendy</p>
+        <p class="mb-1 text-sm text-center text-slab sm:text-xl">&amp;</p>
+        <p class="mb-1 text-sm text-center text-slab sm:text-xl">Mrs. Liem Widaria Lindy</p>
 
       </div>
       <div class="p-4 md:w-full lg:w-10/12">
         <div class="ce-wo__picture"></div>
         <div style="border-bottom: solid 2px black">
-          <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-vibe text-2xl md:text-3xl pb-3 lg:pb-3 pt-6">Listi</h2>
+          <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-jose text-2xl md:text-3xl pb-3 lg:pb-3 pt-6">Listi</h2>
         </div>
-        <p class="mb-1 mt-3 text-sm text-center text-vibe sm:text-xl">Koe Listiyani,S.E</p>
-        <p class="mb-1 text-sm text-center sm:text-xl">The daughter of</p>
-        <p class="mb-1 text-sm text-center sm:text-xl">Mr. (+) Muliadi Susanto</p>
-        <p class="mb-1 text-sm text-center sm:text-xl">&amp;</p>
-        <p class="mb-5 md:mb-1 text-sm text-center sm:text-xl">Mrs. Koe Lie Hoa</p>
+        <p class="mb-1 mt-3 text-sm text-center text-jose sm:text-xl">Koe Listiyani,S.E</p>
+        <p class="mb-1 text-sm text-center text-slab sm:text-xl">The daughter of</p>
+        <p class="mb-1 text-sm text-center text-slab sm:text-xl">Mr. (+) Muliadi Susanto</p>
+        <p class="mb-1 text-sm text-center text-slab sm:text-xl">&amp;</p>
+        <p class="mb-5 md:mb-1 text-sm text-center text-slab sm:text-xl">Mrs. Koe Lie Hoa</p>
       </div>
     </div>
   </section>
@@ -107,46 +107,47 @@
               <div style="border-bottom: solid 2px black">
                 <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Holy Matrimony</h2>
               </div>
-              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sunday, 28 August 2022</p>
+              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sunday, 18 September 2022</p>
                 <div class="flex justify-center">
-                  <div>
+                  <div class="flex-contents">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mb-2 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <p class="mr-3">10.00 - End</p>
+                    <p class="mr-3">12.00 - 13.00 WIB</p>
                   </div>
-                  <div>
+                  <div class="flex-contents">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mb-2 mx-auto">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                       <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                     </svg>
-                    <a target="_blank" href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="ml-3" style="color: #0000EE;">Summer at The Pool, Lt. 8</a>
+                    <a target="_blank" href="https://www.google.com/maps/dir//ndc+greenville/@-6.171528,106.7091575,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x2e69f65121e68943:0x99db85cf1165c8b2!2m2!1d106.7791981!2d-6.1715326" class="ml-3" style="color: #0000EE;">NDC GREEN VILLE MAISONETTE 3rd FLOOR</a>
                   </div>
                 </div>
-              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Jl. Pantai Indah Utara 1, RT.6/RW.2, Kapuk Muara, Kec. Penjaringan, Jakarta, Daerah Khusu Ibu Kota Jakarta 14460</p>
+              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Blok FA No. 4-7 Jl. Tanjung Duren Barat Duri Kepa, West Jakarta</p>
             </div>
             <div class="p-4 md:w-full lg:w-10/12">
               <img src="~assets/resepsi.png" width="80" height="auto" class="mx-auto">
               <div style="border-bottom: solid 2px black">
-                <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Reception</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1000" class="relative text-center text-2xl md:text-3xl pb-3 pt-6">Wedding Reception</h2>
               </div>
-              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Saturday, 6 Agustus 2022</p>
+              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Sunday, 18 September 2022</p>
               <div class="flex justify-center">
-                  <div>
+                  <div class="flex-contents">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mb-2 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <p class="mr-3">18.00 - End</p>
+                    <p class="mr-2">18.30 - 21.00 WIB</p>
                   </div>
-                  <div>
+                  <div class="flex-contents">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mb-2 mx-auto">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                       <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                     </svg>
-                    <a target="_blank" href="https://www.google.com/maps/place/Felfest+UI+Faculty+Club+Universitas+Indonesia/@-6.3508732,106.8290213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ec3a9517d101:0x895775594e85e9ac!8m2!3d-6.3508732!4d106.83121?hl=en" class="ml-3" style="color: #0000EE;">Summer at The Pool, Lt. 8</a>
+                    <a target="_blank" href="https://www.google.com/maps/dir//fortune+star+function+hall/@-6.1328447,106.74539,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x2e6a1dafaef74bcf:0x82c19e71b63f4356!2m2!1d106.8154306!2d-6.1328492" class="ml-2" style="color: #0000EE;">FORTUNE STAR FUNCTION HALL RUBY BALLROOM</a>
                   </div>
                 </div>
-              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Jl. Pantai Indah Utara 1, RT.6/RW.2, Kapuk Muara, Kec. Penjaringan, Jakarta, Daerah Khusu Ibu Kota Jakarta 14460</p>
+              <p class="mb-4 pt-3 text-sm text-center sm:text-xl">Jl. Kunir No. 2 Pinangsia, West Jakarta</p>
+              <br />
             </div>
           </div>
           <!-- <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900">
@@ -162,7 +163,7 @@
         </div>
       </div>
   </section>
-  <section id="main7" class="hidden main-1 h-full relative w-full bg-center">
+  <section id="main7" class="hidden bg-protocol main-1 h-full relative bg-cover w-full bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
     <h1 data-aos="fade-up" data-aos-duration="1000" class="text-center pt-20 text-4xl px-6 text-dancing relative">Health Protocol</h1>
     <div data-aos="fade-left" data-aos-duration="1000" class="container relative px-5 py-12 mx-auto">
@@ -185,9 +186,30 @@
         </div>
       </div>
     </div>
+
+    <div class="container px-5 py-12 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-2 md:p-4 w-full md:w-1/2 relative">
+          <div data-aos="flip-down" data-aos-duration="1000" class="relative text-center items-center justify-center flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+              <img src="~assets/aside.png" style="position: absolute; left: 0;  top:20px; height:92%; width:37%; " />
+              <h2 class="text-2xl pb-5 md:text-3xl">RSVP</h2>
+              <p class="mb-8 text-center md:mb-15">Please help us to prepare for the event better by confirming your attendance at our wedding on the following form:</p>
+              <nuxt-link style="font-size: 20px;" :to="partner ? `/rsvp?invitee=${name}&partner=${partner}` : name ? `/rsvp?invitee=${name}` : `/rsvp` " class="flex w-8/12 justify-center items-center py-2 px-4 bg-gray-500 text-white text-center rounded hover:bg-gray-700 my-auto shadow-md">Reservation</nuxt-link>
+          </div>
+        </div>
+        <div class="p-2 md:p-4 w-full md:w-1/2 relative">
+          <div data-aos="fade-right" data-aos-duration="1000" class="text-center items-center justify-center  flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+              <img src="~assets/aside.png" style="position: absolute;  top:20px; right: 0px; height:92%; width:37%; transform: scaleX(-1);" />
+              <h2 class="text-2xl pb-5 md:text-3xl">WEDDING GIFT</h2>
+              <p class="text-center mb-8 md:mb-15">To minimize Covid transmission through physical contact, we facilitate Invited Guests to be able to give a token of love through the following online transactions: </p>
+              <button style="font-size: 20px;" @click="onModalQR" class="py-2 w-8/12 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 my-auto shadow-md">Send Gift</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>  
 
-  <section id="main4" class="hidden main-1 h-full relative w-full bg-center">
+  <!-- <section id="main4" class="hidden main-1 h-full relative w-full bg-center">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-white opacity-75"></div>
     <div class="container px-5 py-12 mx-auto">
       <div class="flex flex-wrap -m-4">
@@ -209,11 +231,11 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section id="main-slider" class="hidden main-1 h-full relative w-full bg-center">
-    <!-- <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-700 opacity-75"></div>
-    <no-ssr>
+  <section id="main-slider" class="hidden main-1 h-full relative w-full bg-center bg-cover">
+    <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-700 opacity-75"></div>
+    <!-- <no-ssr>
         <carousel-3d :width="500" :height="400" data-aos="fade-right" data-aos-duration="1000" id="main5" class="hidden" :display="6" :autoplay="true" :autoplay-timeout="3000">    
           <slide  :index="0">
             <img  src="~assets/el_portrait1.jpeg" style="object-fit: cover; min-width: 362px; height: 100%;">
@@ -252,29 +274,20 @@
         </carousel-3d>
       </no-ssr> -->
 
-      <div class="container--img">
+      <img src="../assets/el_portrait5.jpeg" alt="Eric & Listi Wedding" class="img--img-a mb-2 relative">
+
+
+      <div class="container--img relative">
         <div>
-            <img src="../assets/el_landscape.jpeg" alt="Eric & Listi Wedding" class="img--img">
+            <img src="../assets/el_portrait2.jpeg" alt="Eric & Listi Wedding" class="img--img">
         </div>
 
         <div>
-            <img src="../assets/el_portrait1.jpeg" alt="Eric & Listi Wedding" class="img--img">
+            <img src="../assets/el_portrait3.jpeg" alt="Eric & Listi Wedding" class="img--img">
         </div>
 
         <div>
-            <img src="https://images.unsplash.com/photo-1580769154185-abdda4691da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Eric & Listi Wedding" class="img--img">
-        </div>
-
-        <div>
-            <img src="https://images.unsplash.com/photo-1580732055671-e64dde2eb75b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Eric & Listi Wedding" class="img--img">
-        </div>
-
-        <div>
-            <img src="https://images.unsplash.com/photo-1580785422463-c88da52a2922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Eric & Listi Wedding" class="img--img">
-        </div>
-
-        <div>
-            <img src="https://images.unsplash.com/photo-1558666831-d43129d768b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Eric & Listi Wedding" class="img--img">
+            <img src="../assets/el_portrait4.jpeg" alt="Eric & Listi Wedding" class="img--img">
         </div>
         </div>
   </section>
@@ -344,7 +357,8 @@
             <div class="flex items-center justify-center pb-4 mb-8">
               <a target="_blank" href="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 text-center px-4 bg-gray-500 text-white rounded hover:bg-gray-700">Kirim hadiah fisik</a>
             </div> -->
-            <div class="items-center text-center mb-8 justify-center">
+            <div class="items-center flex text-center mb-8 justify-around">
+              <div>
               <h1 class="font-bold">BCA</h1>
               <h1>Eric Ivan</h1>
               <div class="flex mb-4 items-center justify-center">
@@ -353,8 +367,20 @@
                     <svg class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"/></svg>
                   </button>
                 </div>
-              <img src="~assets/er_bca.png" width="100%" height="auto" />  
+              </div>
+              <div>
+              <h1 class="font-bold">Permata</h1>
+              <h1>Eric Ivan</h1>
+              <div class="flex mb-4 items-center justify-center">
+                  <p>9809125499</p>
+                  <button class="items-center justify-center ml-3" @click="copyPermata">
+                    <svg class="items-center justify-center w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 96L384 0h-112c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48H464c26.51 0 48-21.49 48-48V128h-95.1C398.4 128 384 113.6 384 96zM416 0v96h96L416 0zM192 352V128h-144c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h192c26.51 0 48-21.49 48-48L288 416h-32C220.7 416 192 387.3 192 352z"/></svg>
+                  </button>
+                </div>
+              </div>
             </div>
+            <img src="~assets/er_bca.png" width="100%" height="auto" />  
+
           </div>
         </div>
       </div>
@@ -438,7 +464,7 @@ export default {
       document.getElementById("main").style.display="flex";
       document.getElementById("main2").style.display="block";
       document.getElementById("main3").style.display="block";
-      document.getElementById("main4").style.display="inherit";
+      // document.getElementById("main4").style.display="inherit";
       // document.getElementById("main5").style.display="block";
       document.getElementById("main6").style.display="block";
       document.getElementById("main7").style.display="block";
@@ -467,6 +493,9 @@ export default {
     },
     copyBCA(){
         navigator.clipboard.writeText('3970113206')
+    },
+    copyPermata(){
+      navigator.clipboard.writeText('9809125499')
     },
     copyMandiri(){
         navigator.clipboard.writeText('6043983046')
@@ -518,6 +547,8 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Sahitya&subset=devanagari');
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
 
 body {
   overflow-x: hidden;
@@ -531,6 +562,14 @@ body {
 
 .text-dancing{
   font-family: 'Dancing Script';
+}
+
+.text-jose {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-slab {
+  font-family: 'Josefin Slab', serif;
 }
 
 .text-lato{
@@ -693,17 +732,29 @@ body {
    /* background-image: linear-gradient(180deg, #E6E6FA, #B3DEEF ); */
   /* animation: imageAnimation 36s linear 2s;  */
     /* background-image: url('~assets/venue-1.jpeg'); */
-  background-image: url('~assets/venue-3.jpeg');
+  background-image: url('~assets/bg-time.jpg');
+
+  @media (max-width: 767px) {
+    background-size: contain;
+  }
 }
 #main2{
   /* background-image: linear-gradient(180deg, #B3DEEF, #E6E6FA); */
-  background-image: url('~assets/el_landscape.jpeg');
+  background-image: url('~assets/bg-wed1.jpg');
+
+  @media (max-width: 767px) {
+    background-size: contain;
+  }
 
 }
 
 #main-slider{
   /* background-image: linear-gradient(180deg, #B3DEEF, #E6E6FA); */
-  background-image: url('~assets/venue-5.jpeg');
+  background-image: url('~assets/bg-foto.jpg');
+
+  @media (max-width: 767px) {
+    background-size: contain;
+  }
 
 }
 
@@ -714,20 +765,28 @@ body {
     /* background-image: url('~assets/venue-3.jpeg'); */
 /* } */
 
-#main4{
-  /* background-color: #B3DEEF; */
+/* #main4{
   background-image: url('~assets/el_portrait2.jpeg');
+} */
 
+/* #main7{
+  background-image: url('~assets/bg-protocol.jpg');
+} */
+.bg-protocol {
+  background-image: url('~assets/bg-protocol.jpg');
+
+  @media (max-width: 767px) {
+    background-size: contain;
+  }
 }
-
-#main7{
-  background-image: url('~assets/venue-3.jpeg');
-}
-
 #main6{
   /* background-color: #B3DEEF; */
-  background-image: url('~assets/bg-thanks2.jpeg');
+  background-image: url('~assets/bg-thanks.jpg');
   background-size: cover;
+
+  @media (max-width: 767px) {
+    background-size: contain;
+  }
 
 }
 
@@ -1034,7 +1093,7 @@ body {
 .img--img {
   background-position: top;
   background-size: cover;
-  height: 200px;
+  height: auto;
   width: 290px;
   box-shadow: 0 2px 10px #000;
   cursor: pointer;
@@ -1043,5 +1102,25 @@ body {
 .img--img:hover {
   box-shadow: none;
   transform: scale(1.1);
+}
+
+.img--img-a {
+  background-position: top;
+  background-size: cover;
+  height: auto;
+  width: 690px;
+  box-shadow: 0 2px 10px #000;
+  cursor: pointer;
+  margin: 0 auto;
+  transition: all 0.2s;
+}
+.img--img-a:hover {
+  box-shadow: none;
+  transform: scale(1.1);
+}
+.flex-contents{
+  @media (max-width: 767px) {
+   width: 50%;
+  }
 }
 </style>
