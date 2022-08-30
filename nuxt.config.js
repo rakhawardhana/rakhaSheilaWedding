@@ -4,8 +4,8 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: "static",
   head: {
-    title: 'Rakha & Sheila',
-    titleTemplate: 'Rakha & Sheila',
+    title: 'Eric & Listi',
+    titleTemplate: 'Eric & Listi',
     htmlAttrs: {
       lang: 'en'
     },
@@ -14,22 +14,22 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'Rakha & Sheila'
+        content: 'Eric & Listi'
       },
       { name: 'viewport', content:"width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=0" },
-      { hid: 'description', name: 'description', content: 'Sampai jumpa di hari bahagia Rakha & Sheila' },
+      { hid: 'description', name: 'description', content: 'Sampai jumpa di hari bahagia Eric & Listi' },
       { name: 'format-detection', content: 'telephone=no' },
-      { property: "og:image",  content: 'https://rakhasheila.com/opengraph.jpg' },
-      { property:"og:image:secure_url", content:'https://rakhasheila.com/opengraph.jpg' },
+      { property: "og:image",  content: 'https://ericlisti.com/opengraphlisti.jpeg' },
+      { property:"og:image:secure_url", content:'https://ericlisti.com/opengraphlisti.jpeg' },
       { property:"og:image:type", content:"image/jpg" },
       { property:"og:image:width", content:"400" },
       { property:"og:image:height", content:"300" },
-      { property:"og:image:alt", content:"Sampai jumpa di hari bahagia Rakha & Sheila" },
-      { property:"og:title", content:"Rakha & Sheila" },
-      { property:"og:url", content:"https://rakhasheila.com" }
+      { property:"og:image:alt", content:"Sampai jumpa di hari bahagia Eric & Listi" },
+      { property:"og:title", content:"Eric & Listi" },
+      { property:"og:url", content:"https://ericlisti.com" }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/ogimagenew.jpg' }
+      { rel: 'icon', type: 'image/x-icon', href: '/opengraphlisti.jpeg' }
     ]
   },
 

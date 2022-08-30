@@ -25,11 +25,15 @@
             <div class="accept-form">
             <label for="box-of-regrets" class="top-label">Jumlah orang yang akan hadir:</label><br>
 				<div class="flex justify-center items-center flex-col">
-					<input id="plus-one" v-model="amount" type="radio" name="plus1" value="1" />
+					<input @change="plus3 = false" id="plus-one" v-model="amount" type="radio" name="plus1" value="1" />
 					<label for="plus-one" class="side-label">1 orang</label>
 
-					<input type="radio" v-model="amount"  id="just-me" name="plus1" value="2" />
-					<label for="just-me" class="side-label">2 orang</label><br>
+					<input @change="plus3 = false" type="radio" v-model="amount"  id="just-me" name="plus1" value="2" />
+					<label for="just-me" class="side-label">2 orang</label>
+
+					<input @change="plus3 = true" v-model="amount" type="radio" id="just-me-3" name="plus1" :value="amount > 2 ? amount : 3" />
+					<label for="just-me-3" style="margin-left: 10px;" class="side-label">> 2 orang</label><br>
+					<input v-model="amount" type="number" style="width: 90px; height:30px;" v-show="plus3" id="plus3" class="plus3" name="plus3"  />
 				</div>
             </div>
 
@@ -55,6 +59,8 @@
 </section>
 </template>
 <script>
+import swal from 'sweetalert';
+
 import { createClient } from '@supabase/supabase-js'
 
 const supabase = createClient('https://jqwivvqrhmtsljegbvud.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impxd2l2dnFyaG10c2xqZWdidnVkIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTYxNTY4NzgsImV4cCI6MTk3MTczMjg3OH0.qUsLVd3odMnUWzhrZHayTBJxjEVHPmFA3wXQGc63tXc')
@@ -68,7 +74,7 @@ export default {
 	methods: {
 		async data(){
 			const { data, error } = await supabase
-				.from('invitee')
+				.from('inviteeListi')
 				.select('invitee')
 				.in('invitee', [this.name])
 			this.ada = data.length
@@ -76,18 +82,20 @@ export default {
 		async create(){
 			if(this.name.length != 0 && this.amount && this.rsvp === true){
 				const { data, error } = await supabase
-					.from('invitee')
+					.from('inviteeListi')
 					.insert([
 						{ invitee: this.name, answer: this.rsvp, amount: this.rsvp === true ?  Number(this.amount) : 0},
 				])
+				swal("Thank You!", "Thank You for RSVP!", "success");
 
 				window.location.reload()
 			} else if(this.rsvp === false && this.name.length != 0) {
 				const { data, error } = await supabase
-					.from('invitee')
+					.from('inviteeListi')
 					.insert([
 						{ invitee: this.name, answer: false, amount:  0},
 				])
+				swal("Thank You!", "Thank You for RSVP!", "success");
 
 				window.location.reload()
 			}
@@ -115,7 +123,8 @@ export default {
 			name : this.$route.query.invitee ?  this.$route.query.partner  ? this.$route.query.invitee + ' & '  + this.$route.query.partner : this.$route.query.invitee : '',
 			rsvp: true,
 			amount: null,
-			ada: 0
+			ada: 0,
+			plus3: false
 		}
 	},
 	created(){
@@ -139,7 +148,7 @@ export default {
 	font-family: 'Lato';
 }
 #modal{
-  background-image: url('~assets/_Self_Photo_Studio_Jakarta_-_Depok-2.webp');
+  background-image: url('~assets/el_portrait4.jpeg');
 }
 #main{
   background-image: linear-gradient(180deg, #B3DEEF, #E6E6FA);
@@ -300,6 +309,17 @@ input:checked + .side-label:after {
 	opacity: 0;
 	height: 0;
 }
+
+#just-me-3:checked ~ #plus-one-name {
+	opacity: 1;
+	height: auto;
+}
+
+/* ~ .plus3 {
+	opacity: 0;
+	height: 0;
+
+} */
 
 #plus-one:checked ~ #plus-one-name {
 	opacity: 1;
