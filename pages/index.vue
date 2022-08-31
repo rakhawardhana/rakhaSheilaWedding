@@ -43,10 +43,10 @@
           <span class="text-bottom text-5xl text-dancing md:text-6xl">Listi</span>
         </div>
         <no-ssr>
-          <flip-countdown deadline="2022-09-06 00:00:00"></flip-countdown>
+          <flip-countdown deadline="2022-09-18 00:00:00"></flip-countdown>
         </no-ssr>
         <div class="mt-8 sm:mt-8 sm:flex justify-center">
-          <a target="_blank" href="https://calendar.google.com/calendar/u/0/r/eventedit/MzRrOTU2amhpODZqYXJuZnZ2aGJ0MnN1Zm8gc3Vrcm9ubjI0QG0?trp=true&pli=1" class="rounded-md shadow">
+          <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NGtwNDRrOHQ0bXFtcmJuOWowcDVoYzdidHAgc3Vrcm9ubjI0QG0&tmsrc=sukronn24%40gmail.com" class="rounded-md shadow">
             <button
               class="border-2 focus:bg-black bg-second hover:text-white text-black border-white px-8 md:px-10 py-3 rounded-md"
             >
@@ -91,7 +91,7 @@
         <p class="mb-1 text-sm text-center text-slab sm:text-xl">The daughter of</p>
         <p class="mb-1 text-sm text-center text-slab sm:text-xl">Mr. (+) Muliadi Susanto</p>
         <p class="mb-1 text-sm text-center text-slab sm:text-xl">&amp;</p>
-        <p class="mb-5 md:mb-1 text-sm text-center text-slab sm:text-xl">Mrs. Koe Lie Hoa</p>
+        <p class="mb-1 md:mb-1 text-sm text-center text-slab sm:text-xl">Mrs. Koe Lie Hoa</p>
       </div>
     </div>
   </section>
@@ -283,7 +283,8 @@
         </div>
 
         <div>
-            <img src="../assets/el_portrait3.jpeg" alt="Eric & Listi Wedding" class="img--img">
+            <img src="../assets/el_lands2.jpeg" alt="Eric & Listi Wedding" class="img--img mb-3 md:mb-11">
+            <img src="../assets/el_landscape.jpeg" alt="Eric & Listi Wedding" class="img--img ">
         </div>
 
         <div>
@@ -357,7 +358,7 @@
             <div class="flex items-center justify-center pb-4 mb-8">
               <a target="_blank" href="https://www.myregistry.com/wedding-registry/sheila-jasmine-and-rakha-wardhana-jakarta-selatan-dki-jakarta/3227912/giftlist" class="py-2 text-center px-4 bg-gray-500 text-white rounded hover:bg-gray-700">Kirim hadiah fisik</a>
             </div> -->
-            <div class="items-center flex text-center mb-8 justify-around">
+            <div class="items-center text-center mb-8">
               <div>
               <h1 class="font-bold">BCA</h1>
               <h1>Eric Ivan</h1>
@@ -368,7 +369,17 @@
                   </button>
                 </div>
               </div>
-              <div>
+              
+            </div>
+            <img src="~assets/er_bca.png" width="100%" height="auto" />  
+
+            <div class="flex items-center justify-center pb-4 pt-8">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+              </svg>
+            </div>
+
+            <div class="items-center text-center mb-8">
               <h1 class="font-bold">Permata</h1>
               <h1>Eric Ivan</h1>
               <div class="flex mb-4 items-center justify-center">
@@ -378,8 +389,6 @@
                   </button>
                 </div>
               </div>
-            </div>
-            <img src="~assets/er_bca.png" width="100%" height="auto" />  
 
           </div>
         </div>
@@ -1060,8 +1069,8 @@ body {
   background-position: center;
 
   @media (max-width: 767px) {
-    height: 110px;
-    width: 110px;
+    height: 110px !important;
+    width: 110px !important;
   }
 }
 
@@ -1076,8 +1085,8 @@ body {
   background-position: center;
 
   @media (max-width: 767px) {
-    height: 110px;
-    width: 110px;
+    height: 110px !important;
+    width: 110px !important;
   }
 }
 
