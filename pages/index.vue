@@ -408,7 +408,7 @@
       </div>
       <p data-aos="fade-left" data-aos-duration="1000" class="italic my-4 mt-6 relative text-xl text-gray-600">
         <!-- “Everyone Comes With Baggage. Find Someone Who Loves You Enough To Help You Unpack." <br/>-<br/>Ted Mosby -->
-                “There are two big days in any love story: the day you meet the girl of your dreams and the day you marry her.” <br/>- Ted Mosby
+                “The secret of a happy marriage is finding the right person. You know they're right if you love to be with them all the time.” <br/>- Julia Child
 
       </p>
     </div>

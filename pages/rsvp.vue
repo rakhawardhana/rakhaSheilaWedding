@@ -86,18 +86,32 @@ export default {
 					.insert([
 						{ invitee: this.name, answer: this.rsvp, amount: this.rsvp === true ?  Number(this.amount) : 0},
 				])
-				swal("Thank You!", "Thank You for RSVP!", "success");
 
-				window.location.reload()
+				
+
+				await swal("Thank You!", "Thank You for RSVP!", "success");
+
+
+				await setTimeout(() => {
+					window.location.reload()
+
+				}, 1000)
+
+
 			} else if(this.rsvp === false && this.name.length != 0) {
 				const { data, error } = await supabase
 					.from('inviteeListi')
 					.insert([
 						{ invitee: this.name, answer: false, amount:  0},
 				])
-				swal("Thank You!", "Thank You for RSVP!", "success");
 
-				window.location.reload()
+				await swal("Thank You!", "Thank You for RSVP!", "success");
+
+
+				await setTimeout(() => {
+					window.location.reload()
+
+				}, 1000)
 			}
 			else if(this.name.length === 0 || (this.rsvp === true && !this.amount)) {
 				document.querySelector('.warning').style.display='block'
